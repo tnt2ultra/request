@@ -1,0 +1,5 @@
+; for the datafields
+SalSetWindowText(frmMain,'This is for customer1')
+SalColorSet(frmMain, COLOR_IndexWindow,SalColorFromRGB(255,255,235) )
+SalFontSet(frmMain,'Arial',10,FONT_EnhNormal )
+

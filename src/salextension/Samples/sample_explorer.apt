@@ -1,0 +1,747 @@
+.head 0 +  Application Description:
+.head 1 -  Outline Version - 4.0.27
+.head 1 +  Design-time Settings
+.data VIEWINFO
+0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400010000
+0020: 0000000000B20000 002C000000020000 0003000000FFFFFF FFFFFFFFFFFCFFFF
+0040: FFE9FFFFFF6E0000 006E000000020300 00AB010000010000 0000000000010000
+0060: 000F4170706C6963 6174696F6E497465 6D02000000075769 6E646F777309646C
+0080: 674D7367426F78
+.enddata
+.head 2 -  Outline Window State: Normal
+.head 2 +  Outline Window Location and Size
+.head 3 -  Left: 0.0"
+.head 3 -  Top:    0.008"
+.head 3 -  Width:  7.15"
+.head 3 -  Height: 4.342"
+.head 2 +  Options Box Location
+.head 3 -  Visible? Yes
+.head 3 -  Left: 3.62"
+.head 3 -  Top:    3.917"
+.head 3 -  Width:  3.8"
+.head 3 -  Height: 2.075"
+.head 2 +  Class Editor Location
+.head 3 -  Visible? No
+.head 3 -  Left: Default
+.head 3 -  Top:    Default
+.head 3 -  Width:  Default
+.head 3 -  Height: Default
+.head 2 +  Tool Palette Location
+.head 3 -  Visible? No
+.head 3 -  Left: 7.27"
+.head 3 -  Top:    1.658"
+.head 2 -  Fully Qualified External References? Yes
+.head 2 -  Reject Multiple Window Instances? Yes
+.head 2 -  Enable Runtime Checks Of External References? No
+.head 2 -  Use Release 4.0 Scope Rules? No
+.head 2 +  ! Outline Browser Location
+.head 3 -  Visible? No
+.head 3 -  Left:   Default
+.head 3 -  Top:    Default
+.head 3 -  Width:  Default
+.head 3 -  Height: Default
+.head 1 +  Libraries
+.head 2 -  File Include: SalExtension.apl
+.head 1 +  Global Declarations
+.head 2 +  Window Defaults
+.head 3 +  Tool Bar
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Form Window
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Dialog Box
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: Bold
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Top Level Table Window
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: Bold
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Data Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Multiline Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Spin Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Background Text
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Pushbutton
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 3 +  Radio Button
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Check Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Option Button
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 3 +  Group Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Child Table Window
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  List Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Combo Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Line
+.head 4 -  Line Color: Use Parent
+.head 3 +  Frame
+.head 4 -  Border Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Picture
+.head 4 -  Border Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 2 +  Formats
+.head 3 -  Number: 0'%'
+.head 3 -  Number: #0
+.head 3 -  Number: ###000
+.head 3 -  Number: ###000;'($'###000')'
+.head 3 -  Date/Time: hh:mm:ss AMPM
+.head 3 -  Date/Time: M/d/yy
+.head 3 -  Date/Time: MM-dd-yy
+.head 3 -  Date/Time: dd-MMM-yyyy
+.head 3 -  Date/Time: MMM d, yyyy
+.head 3 -  Date/Time: MMM d, yyyy hh:mm AMPM
+.head 3 -  Date/Time: MMMM d, yyyy hh:mm AMPM
+.head 2 +  External Functions
+.head 2 +  Constants
+.data CCDATA
+0000: 3000000000000000 0000000000000000 00000000
+.enddata
+.data CCSIZE
+0000: 1400
+.enddata
+.head 3 +  System
+.head 3 +  User
+.head 2 +  Resources
+.head 2 +  Variables
+.data RESOURCE 0 0 1 2837333210
+0000: BC010000B5000000 0000000000000000 02000010000000A3 010000E0010D0000
+0020: 00FF3FB001BA0001 00FFFFE8BD010001 FE00FFA3CA010001 FB00FF8FD70100EE
+0040: 0100FF3FE401BA00 0100FFFFE8F10100 01FE00FFA3FE0100 01A3000100000601
+0060: 000C000000660100 0100060C00020200 00EC010D00FF3F0F 02BA000100FFFFE8
+0080: 1C020001FE00FFA3 29020001A3000100 007F80F001000000 8F2D02008C010D00
+00A0: 0100FE00C9800100 003F3102B200010D 00FFFFE83E020001 FE00FF234B020002
+00C0: 04F8000000FF0F
+.enddata
+.head 2 +  Internal Functions
+.head 2 -  Named Menus
+.head 2 +  Class Definitions
+.data RESOURCE 0 0 1 1677048831
+0000: 4606000094020000 0000000000000000 0200000700FFFF01 00160000436C6173
+0020: 73566172004F7574 6C696E6552006567 496E666F19003C00 000D630046696C65
+0040: 4C69737400566965 7784000000F00400 000000010D000000 010000FE00C18001
+0060: 000000BF04310001 0D0001FA00002780 010000FFC0080000 00010DFE00FF0315
+0080: 0000000204A20000 0100007F80F20100 000F0180DD001000 0001000010630045
+00A0: 78706C6F7265720C 4C69426F78BE8401 001100000067010D 00FFFFC90D000001
+00C0: FD00FF071A000000 01F700FF1F270000 DC000100FF7F3470 0000000100FFFFC1
+00E0: 4100000001FD00FF 074E00000001F700 FF1F5B0000DC0001 00FF7F6870000000
+0100: 0100FFFFC1750000 0001FD00FF078200 000001F700FF1F8F 0000DC000100FF7F
+0120: 9C700000000100FF FFC1A900000001FD 00FF07B600000001 F700FF1FC30000DC
+0140: 000100FF7FD07000 00000100FFFF2101 808F000002000000 000F63446573C06B
+0160: 746F704C69472201 000B7800000001F6 0D00FFDF0DDC0001 00FF7F1A73000100
+0180: FFFFCD270001FD00 FF37340001F700FF DF41DC000100FF7F 4E73000100FFFFCD
+01A0: 5B0001FD00FF3768 0001F700FFDF75DC 000100FF7F827300 0100FFFF21018034
+01C0: 000003000000000B 634469727E4C6CB0 000000040067010D 00FFFFCD0D0001FD
+01E0: 00FF371A0001F700 FFDF27DC000100FF 7F01C88027000004 3C000F5472F86565
+0200: 4CC152000000039E 00010DFD00FF370D 0001F700FFDF1ADC 000100FF7F010880
+0220: 5B0000050000F000 0C63463FBA00C800 00070000B3010D00 FFFFE60D0001FE00
+0240: FF9B1A0001FB00FF 6F2700EE0100FFBF 34B9000100FFFFE6 410001FE00FF9B4E
+0260: 0001FB00FF0F0180 4100010006000000 0D6380526164696F 4C690F86000000F6
+0280: 0500EC010D00FF3F 0D00B9000100FFFF E61A0001FE00FF9B 270001FB00FF6F34
+02A0: 00EE0100FF3F
+.enddata
+.head 3 +  Custom Control Class: cFileListView
+.head 4 -  DLL Name:
+.head 4 -  Display Settings
+.head 5 -  DLL Name:
+.head 5 -  MS Windows Class Name:
+.head 5 -  Style:  Class Default
+.head 5 -  ExStyle:  Class Default
+.head 5 -  Title:
+.head 5 -  Window Location and Size
+.head 6 -  Left:
+.head 6 -  Top:   
+.head 6 -  Width:  Class Default
+.head 6 -  Width Editable? Class Default
+.head 6 -  Height: Class Default
+.head 6 -  Height Editable? Class Default
+.head 5 -  Visible? Class Default
+.head 5 -  Border? Class Default
+.head 5 -  Etched Border? Class Default
+.head 5 -  Hollow? Class Default
+.head 5 -  Vertical Scroll? Class Default
+.head 5 -  Horizontal Scroll? Class Default
+.head 5 -  Tab Stop? Class Default
+.head 5 -  Tile To Parent? Class Default
+.head 5 -  Font Name: Class Default
+.head 5 -  Font Size: Class Default
+.head 5 -  Font Enhancement: Class Default
+.head 5 -  Text Color: Class Default
+.head 5 -  Background Color: Class Default
+.head 5 -  DLL Settings
+.head 4 -  List in Tool Palette? Yes
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Description: ListView for displaying directory contents
+.head 4 +  Derived From
+.head 5 -  Class: cListView
+.head 4 +  Class Variables
+.head 5 -  Number: m_naAlignments[*]
+.head 5 -  Number: m_naWidths[*]
+.head 5 -  Number: m_nLoadCount
+.head 5 -  !
+.head 5 -  String: m_saTitles[*]
+.head 4 +  Instance Variables
+.head 5 -  Number: m_nResult
+.head 5 -  Number: m_hFolderIconBig
+.head 5 -  Number: m_hFolderIconSmall
+.head 4 +  Functions
+.head 5 +  Function: Populate
+.head 6 -  Description: Fills listview with file information.
+.head 6 +  Returns
+.head 7 -  Number:
+.head 6 +  Parameters
+.head 7 -  String: sPath
+.head 6 -  Static Variables
+.head 6 +  Local variables
+.head 7 -  Date/Time: dtDateTimes[*]
+.head 7 -  !
+.head 7 -  Number: nNumFiles
+.head 7 -  Number: nNumDirs
+.head 7 -  Number: nIndex
+.head 7 -  Number: nItemIndex
+.head 7 -  Number: nImageIndex
+.head 7 -  Number: nFileType
+.head 7 -  Number: nFileSizes[*]
+.head 7 -  Number: nAttribs[*]
+.head 7 -  !
+.head 7 -  String: sFileList[*]
+.head 7 -  String: sDirList[*]
+.head 7 -  String: sAttribs
+.head 7 -  Number: lhFileIconSmall
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 7 -  Number: lhFileIconBig
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 7 -  String: lsDesc
+.head 6 +  Actions
+.head 7 -  ! Listview reinit
+.head 7 -  Set m_saTitles[0]     = "Name"
+.head 7 -  Set m_saTitles[1]     = "Size"
+.head 7 -  Set m_saTitles[2]     = "Type"
+.head 7 -  Set m_saTitles[3]     = "Modified"
+.head 7 -  !
+.head 7 -  Set m_naAlignments[0] = LVCFMT_Left
+.head 7 -  Set m_naAlignments[1] = LVCFMT_Right
+.head 7 -  Set m_naAlignments[2] = LVCFMT_Left
+.head 7 -  Set m_naAlignments[3] = LVCFMT_Left
+.head 7 -  !
+.head 7 -  Set m_naWidths[0]     = 2
+.head 7 -  Set m_naWidths[1]     = 1
+.head 7 -  Set m_naWidths[2]     = 0.75
+.head 7 -  Set m_naWidths[3]     = 1.75
+.head 7 -  Call cListView.AssignColumns(m_saTitles, m_naAlignments, m_naWidths, 4)
+.head 7 -  Call cListView.RemoveAllImages(  )
+.head 7 -  Call cListView.DeleteAllItems(  )
+.head 7 -  ! Call cListView.ViewLargeIcons(  )
+.head 7 -  !
+.head 7 +  If sPath != STRING_Null
+.head 8 -  Call SalWaitCursor(TRUE)
+.head 8 -  !
+.head 8 -  ! ***** Get file information and loop for each file
+.head 8 -  Set nNumFiles = VisDosEnumFileInfo( sPath || '*.*', FA_Standard, sFileList, nFileSizes, dtDateTimes, nAttribs )
+.head 8 -  Set nIndex = 0
+.head 8 +  While (nIndex < nNumFiles)
+.head 9 -  !
+.head 9 -  !
+.head 9 -  Call SalFileGetIcon(sFileList[nIndex] , SHGFI_SMALLICON ,lsDesc, lhFileIconSmall)
+.head 9 -  Call SalFileGetIcon(sFileList[nIndex] , SHGFI_LARGEICON ,lsDesc, lhFileIconBig)
+.head 9 -  ! add file pic
+.head 9 -  Set nImageIndex = VisLVImageAddHandle(hWndItem,lhFileIconBig, lhFileIconSmall )
+.head 9 -  ! ***** Add lines to file list
+.head 9 -  Set nItemIndex = cListView.InsertItem(nIndex, sFileList[nIndex], nImageIndex)
+.head 9 -  Call cListView.SetItemText(nItemIndex, 1, SalFmtFormatNumber(nFileSizes[nIndex], '#,##0'))
+.head 9 -  Call cListView.SetItemText(nItemIndex, 2, lsDesc )
+.head 9 -  Call cListView.SetItemText(nItemIndex, 3, SalFmtFormatDateTime(dtDateTimes[nIndex], 'S') || ' ' || SalFmtFormatDateTime(dtDateTimes[nIndex], 'T') )
+.head 9 -  !
+.head 9 -  Set nIndex = nIndex + 1
+.head 8 -  !
+.head 8 -  ! ***** Get directory information and loop for each directory
+.head 8 -  Set nNumDirs = VisDosEnumDirInfo( sPath || '*.*', sDirList, dtDateTimes, nAttribs )
+.head 8 -  Set nIndex = 0
+.head 8 +  While (nIndex < nNumDirs)
+.head 9 -  !
+.head 9 -  Set sAttribs = 'Folder'
+.head 9 -  ! add folder pic
+.head 9 -  Set nImageIndex =  cListView.AddImage(m_hFolderIconBig, m_hFolderIconSmall)
+.head 9 -  ! ***** Add directory to file list
+.head 9 -  Set nItemIndex = cListView.InsertItem(nIndex, sDirList[nIndex], nImageIndex)
+.head 9 -  Call cListView.SetItemText(nItemIndex, 2, sAttribs)
+.head 9 -  Call cListView.SetItemText(nItemIndex, 3, SalFmtFormatDateTime(dtDateTimes[nIndex], 'S') || ' ' || SalFmtFormatDateTime(dtDateTimes[nIndex], 'T') )
+.head 9 -  !
+.head 9 -  Set nIndex = nIndex + 1
+.head 8 -  !
+.head 8 -  Call SalWaitCursor(FALSE)
+.head 7 -  Return nNumDirs + nNumFiles + 1
+.head 4 +  Message Actions
+.head 5 +  On SAM_Create
+.head 6 -  Set m_hFolderIconSmall        = VisPicLoad( PIC_LoadResource | PIC_FormatBitmap, VT_DLLName, VTPIC_Folder2 )
+.head 6 -  Set m_hFolderIconBig        = VisPicLoad( PIC_LoadResource | PIC_FormatIcon | PIC_LoadLargeIcon, VT_DLLName, 'vt' )
+.head 6 -  !
+.head 6 -  Call cListView.SetStyle(LVS_Report | LVS_AutoArrange | LVS_NoSortHeader, TRUE)
+.head 5 +  On SAM_Destroy
+.head 6 -  Call VisPicFree(m_hFolderIconSmall)
+.head 6 -  Call VisPicFree(m_hFolderIconBig)
+.head 3 -  !
+.head 2 +  Default Classes
+.head 3 -  MDI Window:
+.head 3 -  Form Window:
+.head 3 -  Dialog Box:
+.head 3 -  Table Window:
+.head 3 -  Quest Window:
+.head 3 -  Data Field:
+.head 3 -  Spin Field:
+.head 3 -  Multiline Field:
+.head 3 -  Pushbutton:
+.head 3 -  Radio Button:
+.head 3 -  Option Button:
+.head 3 -  ActiveX:
+.head 3 -  Check Box:
+.head 3 -  Child Table:
+.head 3 -  Quest Child Window:
+.head 3 -  List Box:
+.head 3 -  Combo Box:
+.head 3 -  Picture:
+.head 3 -  Vertical Scroll Bar:
+.head 3 -  Horizontal Scroll Bar:
+.head 3 -  Column:
+.head 3 -  Background Text:
+.head 3 -  Group Box:
+.head 3 -  Line:
+.head 3 -  Frame:
+.head 3 -  Custom Control: cListView
+.head 2 -  Application Actions
+.head 1 +  Form Window: frmExplorer
+.data CLASSPROPSSIZE
+0000: 3C00
+.enddata
+.data CLASSPROPS
+0000: 56543A53706C6974 746572002B000100 000000000000D8D0 B800E8E8E000A28D
+0020: 6800020000000000 0000010000000100 0000010000000001 00000000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 2 -  Class: cSplitterWindow
+.head 2 -  Property Template:
+.head 2 -  Class DLL Name:
+.head 2 -  Title: cSplitterWindow
+.head 2 -  Icon File:
+.head 2 -  Accesories Enabled? Yes
+.head 2 -  Visible? Class Default
+.head 2 -  Display Settings
+.head 3 -  Display Style? Class Default
+.head 3 -  Visible at Design time? No
+.head 3 -  Automatically Created at Runtime? No
+.head 3 -  Initial State: Class Default
+.head 3 -  Maximizable? Class Default
+.head 3 -  Minimizable? Class Default
+.head 3 -  System Menu? Class Default
+.head 3 -  Resizable? Class Default
+.head 3 -  Window Location and Size
+.head 4 -  Left: Default
+.head 4 -  Top:    Default
+.head 4 -  Width:  10.971"
+.head 4 -  Width Editable? Class Default
+.head 4 -  Height: 6.393"
+.head 4 -  Height Editable? Class Default
+.head 3 -  Form Size
+.head 4 -  Width:  Class Default
+.head 4 -  Height: Class Default
+.head 4 -  Number of Pages: Class Default
+.head 3 -  Font Name: Class Default
+.head 3 -  Font Size: Class Default
+.head 3 -  Font Enhancement: Class Default
+.head 3 -  Text Color: Class Default
+.head 3 -  Background Color: Class Default
+.head 2 -  Description:
+.head 2 -  Named Menus
+.head 2 -  Menu
+.head 2 +  Tool Bar
+.head 3 -  Display Settings
+.head 4 -  Display Style? Default
+.head 4 -  Location? Class Default
+.head 4 -  Visible? Yes
+.head 4 -  Size: 0.607"
+.head 4 -  Size Editable? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Contents
+.head 4 -  Background Text: Adress
+.head 5 -  Resource Id: 60276
+.head 5 -  Class Child Ref Key: 0
+.head 5 -  Class ChildKey: 0
+.head 5 -  Class:
+.head 5 -  Window Location and Size
+.head 6 -  Left: 0.1"
+.head 6 -  Top:    0.365"
+.head 6 -  Width:  0.829"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.167"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Justify: Left
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 4 +  Data Field: dfAddress
+.head 5 -  Class Child Ref Key: 0
+.head 5 -  Class ChildKey: 0
+.head 5 -  Class:
+.head 5 -  Property Template:
+.head 5 -  Class DLL Name:
+.head 5 -  Data
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: String
+.head 6 -  Editable? Yes
+.head 5 -  Display Settings
+.head 6 -  Window Location and Size
+.head 7 -  Left: 0.843"
+.head 7 -  Top:    0.333"
+.head 7 -  Width:  8.35"
+.head 7 -  Width Editable? Yes
+.head 7 -  Height: 0.25"
+.head 7 -  Height Editable? Yes
+.head 6 -  Visible? Yes
+.head 6 -  Border? Yes
+.head 6 -  Justify: Left
+.head 6 -  Format: Unformatted
+.head 6 -  Country: Default
+.head 6 -  Font Name: Default
+.head 6 -  Font Size: Default
+.head 6 -  Font Enhancement: Default
+.head 6 -  Text Color: Default
+.head 6 -  Background Color: Default
+.head 6 -  Input Mask: Unformatted
+.head 5 +  Message Actions
+.head 6 +  On VTM_KeyUp
+.head 7 +  Select Case wParam
+.head 8 +  Case VK_Enter
+.head 9 -  Call lbExplorer.SelectDirectory( MyValue )
+.head 9 -  Call SalSendMsg( lbExplorer, VTM_Click,0,0)
+.head 2 +  Contents
+.head 3 +  Custom Control: ccSplitter
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Class Child Ref Key: 1
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class: cSplitterWindow
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Display Settings
+.head 5 -  DLL Name:
+.head 5 -  MS Windows Class Name:
+.head 5 -  Style:  Class Default
+.head 5 -  ExStyle:  Class Default
+.head 5 -  Title:
+.head 5 -  Window Location and Size
+.head 6 -  Left: 2.571"
+.head 6 -  Top:    Class Default
+.head 6 -  Width:  Class Default
+.head 6 -  Width Editable? Class Default
+.head 6 -  Height: Class Default
+.head 6 -  Height Editable? Class Default
+.head 5 -  Visible? Class Default
+.head 5 -  Border? Class Default
+.head 5 -  Etched Border? Class Default
+.head 5 -  Hollow? Class Default
+.head 5 -  Vertical Scroll? Class Default
+.head 5 -  Horizontal Scroll? Class Default
+.head 5 -  Tab Stop? Class Default
+.head 5 -  Tile To Parent? Class Default
+.head 5 -  Font Name: Class Default
+.head 5 -  Font Size: Class Default
+.head 5 -  Font Enhancement: Class Default
+.head 5 -  Text Color: Class Default
+.head 5 -  Background Color: Class Default
+.head 5 -  DLL Settings
+.head 4 -  Message Actions
+.head 3 +  List Box: lbExplorer
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class: cExplorerListBox
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Window Location and Size
+.head 5 -  Left: Default
+.head 5 -  Top:    Default
+.head 5 -  Width:  Class Default
+.head 5 -  Width Editable? Class Default
+.head 5 -  Height: Class Default
+.head 5 -  Height Editable? Class Default
+.head 4 -  Visible? Class Default
+.head 4 -  Multiple selection? Class Default
+.head 4 -  Sorted? Class Default
+.head 4 -  Vertical Scroll? Class Default
+.head 4 -  Font Name: Class Default
+.head 4 -  Font Size: Class Default
+.head 4 -  Font Enhancement: Class Default
+.head 4 -  Text Color: Class Default
+.head 4 -  Background Color: Class Default
+.head 4 -  Horizontal Scroll? Class Default
+.head 4 -  List Initialization
+.head 4 +  Message Actions
+.head 5 +  On VTM_Click
+.head 6 -  Set sClickedDir = cExplorerListBox.GetSelectedDir()
+.head 6 +  If (sClickedDir != sSelectedDir)
+.head 7 -  Set sSelectedDir = sClickedDir
+.head 7 -  Call lvFileInfo.Populate(sSelectedDir)
+.head 6 +  If VisListGetValue( hWndItem, SalListQuerySelection( hWndItem ) )
+.head 7 -  Call SalStatusSetText( hWndForm, GetRemoteName( VisListGetValue( hWndItem, SalListQuerySelection( hWndItem ) ) ) )
+.head 6 -  Call SalSetWindowText( hWndForm, sSelectedDir )
+.head 6 -  Set dfAddress = sSelectedDir
+.head 3 +  Custom Control: lvFileInfo
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class: cFileListView
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Display Settings
+.head 5 -  DLL Name:
+.head 5 -  MS Windows Class Name:
+.head 5 -  Style:  Class Default
+.head 5 -  ExStyle:  Class Default
+.head 5 -  Title:
+.head 5 -  Window Location and Size
+.head 6 -  Left: Default
+.head 6 -  Top:    Default
+.head 6 -  Width:  Class Default
+.head 6 -  Width Editable? Class Default
+.head 6 -  Height: Class Default
+.head 6 -  Height Editable? Class Default
+.head 5 -  Visible? Class Default
+.head 5 -  Border? Class Default
+.head 5 -  Etched Border? Class Default
+.head 5 -  Hollow? Class Default
+.head 5 -  Vertical Scroll? Class Default
+.head 5 -  Horizontal Scroll? Class Default
+.head 5 -  Tab Stop? Class Default
+.head 5 -  Tile To Parent? Class Default
+.head 5 -  Font Name: Class Default
+.head 5 -  Font Size: Class Default
+.head 5 -  Font Enhancement: Class Default
+.head 5 -  Text Color: Class Default
+.head 5 -  Background Color: Class Default
+.head 5 -  DLL Settings
+.head 4 +  Message Actions
+.head 5 +  On SAM_DoubleClick
+.head 6 +  If VisLVGetCurrentItemText(hWndItem,3) = 'Folder'
+.head 7 -  Set sFileObject = VisLVGetCurrentItemText(hWndItem,1)
+.head 7 -  Call lbExplorer.SelectDirectory(sSelectedDir || sFileObject)
+.head 7 -  Call SalSendMsg( lbExplorer,VTM_Click,0,0)
+.head 6 +  Else
+.head 7 -  Set sFileObject = VisLVGetCurrentItemText(hWndItem,1)
+.head 7 -  Call ShellExecuteA( hWndNULL, "open",sSelectedDir || sFileObject , '', "", SW_SHOWNORMAL)
+.head 2 -  Functions
+.head 2 -  Window Parameters
+.head 2 +  Window Variables
+.head 3 -  String: sClickedDir
+.head 3 -  String: sSelectedDir
+.head 3 -  String: sFileObject
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 3 -  Number: lnPic
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 2 +  Message Actions
+.head 3 +  On SAM_Create
+.head 4 -  Call SalSendClassMessage(SAM_Create, wParam, lParam)
+.head 4 -  Call SalCenterWindow(hWndForm)
+.head 3 +  On SAM_CreateComplete
+.head 4 -  Call SalSendClassMessage( SAM_CreateComplete, wParam, lParam )
+.head 4 -  Call SalFileGetCurrentDirectory( sSelectedDir )
+.head 4 -  Call lbExplorer.SelectDirectory( sSelectedDir )
+.head 4 -  Call SalSendMsg( lbExplorer,VTM_Click,0,0)
+.head 4 +  If SalStrRightX( sSelectedDir, 1 ) != '\\'
+.head 5 -  Set sSelectedDir = sSelectedDir || '\\'
+.head 4 -  Call lvFileInfo.Populate( sSelectedDir )
+.head 4 -  Call SalWaitCursor( FALSE )
+.head 4 -  !
+.head 1 +  Form Window: frmContainer
+.data INHERITPROPS
+0000: 0100
+.enddata
+.data CLASSPROPSSIZE
+0000: 3C00
+.enddata
+.data CLASSPROPS
+0000: 56543A53706C6974 746572002B000100 000000000000D4D0 C800FFFFFF008080
+0020: 8000020000000000 0000010000000100 0000000000000001 00000000
+.enddata
+.head 2 -  Class: cSplitterWindow
+.head 2 -  Property Template:
+.head 2 -  Class DLL Name:
+.head 2 -  Title:
+.head 2 -  Icon File:
+.head 2 -  Accesories Enabled? Class Default
+.head 2 -  Visible? Class Default
+.head 2 -  Display Settings
+.head 3 -  Display Style? Class Default
+.head 3 -  Visible at Design time? Yes
+.head 3 -  Automatically Created at Runtime? Class Default
+.head 3 -  Initial State: Class Default
+.head 3 -  Maximizable? Class Default
+.head 3 -  Minimizable? Class Default
+.head 3 -  System Menu? Class Default
+.head 3 -  Resizable? Class Default
+.head 3 -  Window Location and Size
+.head 4 -  Left: Default
+.head 4 -  Top:    Default
+.head 4 -  Width:  12.8"
+.head 4 -  Width Editable? Class Default
+.head 4 -  Height: 6.393"
+.head 4 -  Height Editable? Class Default
+.head 3 -  Form Size
+.head 4 -  Width:  Class Default
+.head 4 -  Height: Class Default
+.head 4 -  Number of Pages: Class Default
+.head 3 -  Font Name: Class Default
+.head 3 -  Font Size: Class Default
+.head 3 -  Font Enhancement: Class Default
+.head 3 -  Text Color: Class Default
+.head 3 -  Background Color: Class Default
+.head 2 -  Description:
+.head 2 -  Named Menus
+.head 2 -  Menu
+.head 2 +  Tool Bar
+.head 3 -  Display Settings
+.head 4 -  Display Style? Class Default
+.head 4 -  Location? Class Default
+.head 4 -  Visible? Class Default
+.head 4 -  Size: Class Default
+.head 4 -  Size Editable? Class Default
+.head 4 -  Font Name: Class Default
+.head 4 -  Font Size: Class Default
+.head 4 -  Font Enhancement: Class Default
+.head 4 -  Text Color: Class Default
+.head 4 -  Background Color: Class Default
+.head 3 -  Contents
+.head 2 +  Contents
+.head 3 +  Custom Control: ccSplitter
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Class Child Ref Key: 1
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class: cSplitterWindow
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Display Settings
+.head 5 -  DLL Name:
+.head 5 -  MS Windows Class Name:
+.head 5 -  Style:  Class Default
+.head 5 -  ExStyle:  Class Default
+.head 5 -  Title:
+.head 5 -  Window Location and Size
+.head 6 -  Left: 0.0"
+.head 6 -  Top:    0.0"
+.head 6 -  Width:  Class Default
+.head 6 -  Width Editable? Class Default
+.head 6 -  Height: Class Default
+.head 6 -  Height Editable? Class Default
+.head 5 -  Visible? Class Default
+.head 5 -  Border? Class Default
+.head 5 -  Etched Border? Class Default
+.head 5 -  Hollow? Class Default
+.head 5 -  Vertical Scroll? Class Default
+.head 5 -  Horizontal Scroll? Class Default
+.head 5 -  Tab Stop? Class Default
+.head 5 -  Tile To Parent? Class Default
+.head 5 -  Font Name: Class Default
+.head 5 -  Font Size: Class Default
+.head 5 -  Font Enhancement: Class Default
+.head 5 -  Text Color: Class Default
+.head 5 -  Background Color: Class Default
+.head 5 -  DLL Settings
+.head 4 -  Message Actions
+.head 2 -  Functions
+.head 2 -  Window Parameters
+.head 2 +  Window Variables
+.head 3 -  Window Handle: whWnd
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 2 +  Message Actions
+.head 3 +  On SAM_Create
+.head 4 -  Set whWnd = SalCreateWindowEx( frmExplorer,hWndForm,0,0,0,0,CREATE_AsChild)
+.head 4 -  Call ccSplitter.SetChild( TRUE, whWnd )
+.head 4 -  Set whWnd = SalCreateWindowEx( frmExplorer,hWndForm,0,0,0,0,CREATE_AsChild)
+.head 4 -  Call ccSplitter.SetChild( TRUE, whWnd )

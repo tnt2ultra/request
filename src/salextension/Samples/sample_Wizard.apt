@@ -1,0 +1,1428 @@
+.head 0 +  Application Description: Centura SQLWindows/32 Standard Application Template
+.head 1 -  Outline Version - 4.0.27
+.head 1 +  Design-time Settings
+.data VIEWINFO
+0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400010000
+0020: 0000000000AA0000 002C000000020000 0003000000FFFFFF FFFFFFFFFFFCFFFF
+0040: FFE9FFFFFFFFFFFF FF000000007C0200 004D010000010000 0000000000010000
+0060: 000F4170706C6963 6174696F6E497465 6D02000000075769 6E646F777312646C
+0080: 6757697A6172645F 4861726477617265
+.enddata
+.head 2 -  Outline Window State: Normal
+.head 2 +  Outline Window Location and Size
+.data VIEWINFO
+0000: 6600040003002D00 0000000000000000 0000B71E5D0E0500 1D00FFFF4D61696E
+0020: 0000000000000000 0000000000000000 0000003B00010000 00000000000000E9
+0040: 1E800A00008600FF FF496E7465726E61 6C2046756E637469 6F6E730000000000
+0060: 0000000000000000 0000000000003200 0100000000000000 0000E91E800A0000
+0080: DF00FFFF56617269 61626C6573000000 0000000000000000 0000000000000000
+00A0: 3000010000000000 00000000F51E100D 0000F400FFFF436C 6173736573000000
+00C0: 0000000000000000 0000000000000000
+.enddata
+.data VIEWSIZE
+0000: D000
+.enddata
+.head 3 -  Left: -0.013"
+.head 3 -  Top:    0.0"
+.head 3 -  Width:  8.013"
+.head 3 -  Height: 4.969"
+.head 2 +  Options Box Location
+.data VIEWINFO
+0000: D4180909B80B1A00
+.enddata
+.data VIEWSIZE
+0000: 0800
+.enddata
+.head 3 -  Visible? No
+.head 3 -  Left: 4.15"
+.head 3 -  Top:    1.885"
+.head 3 -  Width:  3.8"
+.head 3 -  Height: 2.073"
+.head 2 +  Class Editor Location
+.head 3 -  Visible? No
+.head 3 -  Left: 0.575"
+.head 3 -  Top:    0.094"
+.head 3 -  Width:  5.063"
+.head 3 -  Height: 2.719"
+.head 2 +  Tool Palette Location
+.head 3 -  Visible? No
+.head 3 -  Left: 6.388"
+.head 3 -  Top:    0.729"
+.head 2 -  Fully Qualified External References? Yes
+.head 2 -  Reject Multiple Window Instances? No
+.head 2 -  Enable Runtime Checks Of External References? Yes
+.head 2 -  Use Release 4.0 Scope Rules? No
+.head 1 +  Libraries
+.head 2 -  File Include: WizardDialog.apl
+.head 2 -  File Include: qcktabs.apl
+.head 1 +  Global Declarations
+.head 2 +  Window Defaults
+.head 3 +  Tool Bar
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Form Window
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Dialog Box
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Top Level Table Window
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Data Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Multiline Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Spin Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Background Text
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Pushbutton
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 3 +  Radio Button
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Check Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Option Button
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 3 +  Group Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Child Table Window
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  List Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Combo Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Line
+.head 4 -  Line Color: Use Parent
+.head 3 +  Frame
+.head 4 -  Border Color: Use Parent
+.head 4 -  Background Color: 3D Face Color
+.head 3 +  Picture
+.head 4 -  Border Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 2 +  Formats
+.head 3 -  Number: 0'%'
+.head 3 -  Number: #0
+.head 3 -  Number: ###000
+.head 3 -  Number: ###000;'($'###000')'
+.head 3 -  Date/Time: hh:mm:ss AMPM
+.head 3 -  Date/Time: M/d/yy
+.head 3 -  Date/Time: MM-dd-yy
+.head 3 -  Date/Time: dd-MMM-yyyy
+.head 3 -  Date/Time: MMM d, yyyy
+.head 3 -  Date/Time: MMM d, yyyy hh:mm AMPM
+.head 3 -  Date/Time: MMMM d, yyyy hh:mm AMPM
+.head 2 +  External Functions
+.head 2 +  Constants
+.data CCDATA
+0000: 3000000000000000 0000000000000000 00000000
+.enddata
+.data CCSIZE
+0000: 1400
+.enddata
+.head 3 +  System
+.head 3 -  User
+.head 2 -  Resources
+.head 2 -  Variables
+.head 2 -  Internal Functions
+.head 2 -  Named Menus
+.head 2 +  Class Definitions
+.head 2 +  Default Classes
+.head 3 -  MDI Window: cBaseMDI
+.head 3 -  Form Window:
+.head 3 -  Dialog Box:
+.head 3 -  Table Window:
+.head 3 -  Quest Window:
+.head 3 -  Data Field:
+.head 3 -  Spin Field:
+.head 3 -  Multiline Field:
+.head 3 -  Pushbutton:
+.head 3 -  Radio Button:
+.head 3 -  Option Button:
+.head 3 -  Check Box:
+.head 3 -  Child Table:
+.head 3 -  Quest Child Window: cQuickDatabase
+.head 3 -  List Box:
+.head 3 -  Combo Box:
+.head 3 -  Picture:
+.head 3 -  Vertical Scroll Bar:
+.head 3 -  Horizontal Scroll Bar:
+.head 3 -  Column:
+.head 3 -  Background Text:
+.head 3 -  Group Box:
+.head 3 -  Line:
+.head 3 -  Frame:
+.head 3 -  Custom Control:
+.head 3 -  ActiveX:
+.head 2 +  Application Actions
+.head 3 +  On SAM_AppStartup
+.head 4 -  Call SalModalDialog( dlgWizard_Hardware,hWndNULL )
+.head 4 -  Call SalModalDialog( dlgWizard_OldStyle,hWndNULL )
+.head 1 +  Dialog Box: dlgWizard_Hardware
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 2 -  Class: cWizardDialog
+.head 2 -  Property Template:
+.head 2 -  Class DLL Name:
+.head 2 -  Title: Hardware assistent
+.head 2 -  Accesories Enabled? Class Default
+.head 2 -  Visible? Class Default
+.head 2 -  Display Settings
+.head 3 -  Display Style? Class Default
+.head 3 -  Visible at Design time? Yes
+.head 3 -  Type of Dialog: Class Default
+.head 3 -  Window Location and Size
+.head 4 -  Left: Default
+.head 4 -  Top:    Default
+.head 4 -  Width:  8.517"
+.head 4 -  Width Editable? Class Default
+.head 4 -  Height: 4.905"
+.head 4 -  Height Editable? Class Default
+.head 3 -  Absolute Screen Location? Class Default
+.head 3 -  Font Name: Class Default
+.head 3 -  Font Size: Class Default
+.head 3 -  Font Enhancement: Class Default
+.head 3 -  Text Color: Class Default
+.head 3 -  Background Color: Class Default
+.head 2 -  Description:
+.head 2 +  Tool Bar
+.head 3 -  Display Settings
+.head 4 -  Display Style? Class Default
+.head 4 -  Location? Class Default
+.head 4 -  Visible? Class Default
+.head 4 -  Size: Class Default
+.head 4 -  Size Editable? Class Default
+.head 4 -  Font Name: Class Default
+.head 4 -  Font Size: Class Default
+.head 4 -  Font Enhancement: Class Default
+.head 4 -  Text Color: Class Default
+.head 4 -  Background Color: Class Default
+.head 3 -  Contents
+.head 2 +  Contents
+.head 3 +  Picture: ptWizard
+.data CLASSPROPS
+0000: 5461624F7269656E 746174696F6E000D 00546162734F6E42 6F74746F6D000054
+0020: 6162546F704D6172 67696E0002003000 00546162466F726D 5061676573000300
+0040: 0909000054616244 7261775374796C65 000B0057696E3935 5374796C65000054
+0060: 6162426F74746F6D 4D617267696E0005 00302E3435000054 616250616765436F
+0080: 756E740002003100 005461624C616265 6C730015004C6162 656C30094C616265
+00A0: 6C31094C6162656C 3200005461624E61 6D65730012004E61 6D6530094E616D65
+00C0: 31094E616D653200 0054616252696768 744D617267696E00 0200300000546162
+00E0: 43757272656E7400 06004E616D653000 005461624C656674 4D617267696E0002
+0100: 0030000000000000 0000000000000000 0000000000000000 0000
+.enddata
+.data CLASSPROPSSIZE
+0000: 1A01
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Class Child Ref Key: 1
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class: cWizardDialog
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Window Location and Size
+.head 5 -  Left: Class Default
+.head 5 -  Top:    0.012"
+.head 5 -  Width:  8.183"
+.head 5 -  Width Editable? Class Default
+.head 5 -  Height: 4.143"
+.head 5 -  Height Editable? Class Default
+.head 4 -  Visible? No
+.head 4 -  Editable? Class Default
+.head 4 -  File Name:
+.head 4 -  Storage: Class Default
+.head 4 -  Picture Transparent Color: Class Default
+.head 4 -  Fit: Class Default
+.head 4 -  Scaling
+.head 5 -  Width:  Class Default
+.head 5 -  Height:  Class Default
+.head 4 -  Corners: Class Default
+.head 4 -  Border Style: Class Default
+.head 4 -  Border Thickness: Class Default
+.head 4 -  Tile To Parent? Class Default
+.head 4 -  Border Color: Class Default
+.head 4 -  Background Color: Class Default
+.head 4 +  Message Actions
+.head 5 +  On TABSM_TabActivateFinish
+.head 6 -  Call SalSetWindowText( hWndForm,'Step ' || SalNumberToStrX(ptWizard.GetTop ()+1,0) || ' - ' || SalNumberToStrX(ptWizard.GetCount (),0) )
+.head 5 +  On TABSM_Create
+.head 6 -  Call SalSetWindowText( hWndForm,'Step ' || SalNumberToStrX(ptWizard.GetTop ()+1,0) || ' - ' || SalNumberToStrX(ptWizard.GetCount (),0) )
+.head 3 +  Pushbutton: pbCancel
+.head 4 -  Class Child Ref Key: 4
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class: cWizardDialog
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Cancel
+.head 4 -  Window Location and Size
+.head 5 -  Left: 7.15"
+.head 5 -  Top:    4.262"
+.head 5 -  Width:  Class Default
+.head 5 -  Width Editable? Class Default
+.head 5 -  Height: Class Default
+.head 5 -  Height Editable? Class Default
+.head 4 -  Visible? Class Default
+.head 4 -  Keyboard Accelerator: Class Default
+.head 4 -  Font Name: Class Default
+.head 4 -  Font Size: Class Default
+.head 4 -  Font Enhancement: Class Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: Class Default
+.head 4 -  Image Style: Class Default
+.head 4 -  Text Color: Class Default
+.head 4 -  Background Color: Class Default
+.head 4 -  Message Actions
+.head 3 +  Pushbutton: pbFinish
+.head 4 -  Class Child Ref Key: 19
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class: cWizardDialog
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Finish
+.head 4 -  Window Location and Size
+.head 5 -  Left: 5.717"
+.head 5 -  Top:    4.262"
+.head 5 -  Width:  Class Default
+.head 5 -  Width Editable? Class Default
+.head 5 -  Height: Class Default
+.head 5 -  Height Editable? Class Default
+.head 4 -  Visible? Class Default
+.head 4 -  Keyboard Accelerator: Class Default
+.head 4 -  Font Name: Class Default
+.head 4 -  Font Size: Class Default
+.head 4 -  Font Enhancement: Class Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: Class Default
+.head 4 -  Image Style: Class Default
+.head 4 -  Text Color: Class Default
+.head 4 -  Background Color: Class Default
+.head 4 -  Message Actions
+.head 3 +  Pushbutton: pbNext
+.head 4 -  Class Child Ref Key: 2
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class: cWizardDialog
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Next>>
+.head 4 -  Window Location and Size
+.head 5 -  Left: 5.717"
+.head 5 -  Top:    4.262"
+.head 5 -  Width:  Class Default
+.head 5 -  Width Editable? Class Default
+.head 5 -  Height: Class Default
+.head 5 -  Height Editable? Class Default
+.head 4 -  Visible? Class Default
+.head 4 -  Keyboard Accelerator: Class Default
+.head 4 -  Font Name: Class Default
+.head 4 -  Font Size: Class Default
+.head 4 -  Font Enhancement: Class Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: Class Default
+.head 4 -  Image Style: Class Default
+.head 4 -  Text Color: Class Default
+.head 4 -  Background Color: Class Default
+.head 4 -  Message Actions
+.head 3 +  Pushbutton: pbPrevious
+.head 4 -  Class Child Ref Key: 3
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class: cWizardDialog
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: <<Previous
+.head 4 -  Window Location and Size
+.head 5 -  Left: 4.35"
+.head 5 -  Top:    4.262"
+.head 5 -  Width:  Class Default
+.head 5 -  Width Editable? Class Default
+.head 5 -  Height: Class Default
+.head 5 -  Height Editable? Class Default
+.head 4 -  Visible? Class Default
+.head 4 -  Keyboard Accelerator: Class Default
+.head 4 -  Font Name: Class Default
+.head 4 -  Font Size: Class Default
+.head 4 -  Font Enhancement: Class Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: Class Default
+.head 4 -  Image Style: Class Default
+.head 4 -  Text Color: Class Default
+.head 4 -  Background Color: Class Default
+.head 4 -  Message Actions
+.head 3 -  Frame
+.data CLASSPROPSSIZE
+0000: 1F00
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000C00 4E616D6531094E61 6D653200000000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Resource Id: 60948
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: -0.2"
+.head 5 -  Top:    -0.083"
+.head 5 -  Width:  10.083"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.833"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? No
+.head 4 -  Corners: Square
+.head 4 -  Border Style: Solid
+.head 4 -  Border Thickness: 1
+.head 4 -  Border Color: Dark Gray
+.head 4 -  Background Color: White
+.head 3 -  Background Text: Choose you hardware options
+.data CLASSPROPSSIZE
+0000: 1700
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D65310000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Resource Id: 60949
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.35"
+.head 5 -  Top:    0.095"
+.head 5 -  Width:  3.65"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? No
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Bold
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: White
+.head 3 -  Line
+.head 4 -  Resource Id: 60950
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Coordinates
+.head 5 -  Begin X:  0.1"
+.head 5 -  Begin Y:  4.179"
+.head 5 -  End X:  8.333"
+.head 5 -  End Y:  4.179"
+.head 4 -  Visible? Yes
+.head 4 -  Line Style: Etched
+.head 4 -  Line Thickness: 1
+.head 4 -  Line Color: Dark Gray
+.head 3 -  Background Text: Which harware option should be executed?
+.data CLASSPROPSSIZE
+0000: 1700
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D65310000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Resource Id: 60951
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.633"
+.head 5 -  Top:    0.31"
+.head 5 -  Width:  6.533"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.393"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? No
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: White
+.head 3 +  Picture: pic2
+.data CLASSPROPSSIZE
+0000: 1700
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D65300000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.0"
+.head 5 -  Top:    0.0"
+.head 5 -  Width:  2.833"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 3.869"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Editable? No
+.head 4 -  File Name: Hardware.bmp
+.head 4 -  Storage: Internal
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Fit: Size to Fit
+.head 4 -  Scaling
+.head 5 -  Width:  100
+.head 5 -  Height:  100
+.head 4 -  Corners: Square
+.head 4 -  Border Style: No Border
+.head 4 -  Border Thickness: 1
+.head 4 -  Tile To Parent? No
+.head 4 -  Border Color: Default
+.head 4 -  Background Color: Default
+.head 4 -  Message Actions
+.head 3 -  Frame
+.data CLASSPROPSSIZE
+0000: 1700
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D65300000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Resource Id: 38655
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.817"
+.head 5 -  Top:    -0.048"
+.head 5 -  Width:  6.05"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 3.92"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Corners: Square
+.head 4 -  Border Style: Solid
+.head 4 -  Border Thickness: 1
+.head 4 -  Border Color: Default
+.head 4 -  Background Color: White
+.head 3 -  Background Text: Welcome
+.data CLASSPROPSSIZE
+0000: 1700
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D65300000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Resource Id: 38656
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 3.05"
+.head 5 -  Top:    0.19"
+.head 5 -  Width:  2.15"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.345"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: 14
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: White
+.head 3 -  Background Text: With this assistent you can search for hardware on your computer
+.data CLASSPROPSSIZE
+0000: 1700
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D65300000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Resource Id: 38657
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 3.133"
+.head 5 -  Top:    0.667"
+.head 5 -  Width:  4.967"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.786"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: White
+.head 3 -  Background Text: Press "Next" to continue
+.data CLASSPROPSSIZE
+0000: 1700
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D65300000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Resource Id: 38658
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 3.133"
+.head 5 -  Top:    3.536"
+.head 5 -  Width:  4.2"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: White
+.head 3 +  Radio Button: rb1
+.data CLASSPROPSSIZE
+0000: 1700
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D65310000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Do nothing
+.head 4 -  Window Location and Size
+.head 5 -  Left: 1.333"
+.head 5 -  Top:    1.44"
+.head 5 -  Width:  1.4"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.25"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? No
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 -  Message Actions
+.head 3 +  Radio Button: rb2
+.data CLASSPROPSSIZE
+0000: 1900
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D6531000000 00
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Do all
+.head 4 -  Window Location and Size
+.head 5 -  Left: 1.35"
+.head 5 -  Top:    1.929"
+.head 5 -  Width:  1.4"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.25"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? No
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 -  Message Actions
+.head 3 -  Background Text: Choose one of the options and click "Next"
+.data CLASSPROPSSIZE
+0000: 1700
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D65310000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Resource Id: 38659
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 1.033"
+.head 5 -  Top:    1.131"
+.head 5 -  Width:  4.15"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? No
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Picture: pic3
+.data CLASSPROPSSIZE
+0000: 1F00
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000C00 4E616D6531094E61 6D653200000000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 7.217"
+.head 5 -  Top:    0.06"
+.head 5 -  Width:  0.867"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.595"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? No
+.head 4 -  Editable? No
+.head 4 -  File Name: HardwareLogo.bmp
+.head 4 -  Storage: Internal
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Fit: Scale
+.head 4 -  Scaling
+.head 5 -  Width:  100
+.head 5 -  Height:  100
+.head 4 -  Corners: Square
+.head 4 -  Border Style: No Border
+.head 4 -  Border Thickness: 1
+.head 4 -  Tile To Parent? No
+.head 4 -  Border Color: Default
+.head 4 -  Background Color: Default
+.head 4 -  Message Actions
+.head 3 -  Background Text: Hahah searching and destroying the hardware....
+.data CLASSPROPSSIZE
+0000: 1700
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D65320000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Resource Id: 38660
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.967"
+.head 5 -  Top:    1.286"
+.head 5 -  Width:  4.733"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.19"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? No
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 -  Background Text: Working...
+.data CLASSPROPSSIZE
+0000: 1900
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D6532000000 00
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Resource Id: 38661
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.367"
+.head 5 -  Top:    0.167"
+.head 5 -  Width:  3.65"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? No
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Bold
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: White
+.head 2 -  Functions
+.head 2 -  Window Parameters
+.head 2 -  Window Variables
+.head 2 -  Message Actions
+.head 1 +  Dialog Box: dlgWizard_OldStyle
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 2 -  Class: cWizardDialog
+.head 2 -  Property Template:
+.head 2 -  Class DLL Name:
+.head 2 -  Title:
+.head 2 -  Accesories Enabled? Class Default
+.head 2 -  Visible? Class Default
+.head 2 -  Display Settings
+.head 3 -  Display Style? Class Default
+.head 3 -  Visible at Design time? Yes
+.head 3 -  Type of Dialog: Class Default
+.head 3 -  Window Location and Size
+.head 4 -  Left: Default
+.head 4 -  Top:    Default
+.head 4 -  Width:  7.883"
+.head 4 -  Width Editable? Class Default
+.head 4 -  Height: 4.583"
+.head 4 -  Height Editable? Class Default
+.head 3 -  Absolute Screen Location? Class Default
+.head 3 -  Font Name: Class Default
+.head 3 -  Font Size: Class Default
+.head 3 -  Font Enhancement: Class Default
+.head 3 -  Text Color: Class Default
+.head 3 -  Background Color: Class Default
+.head 2 -  Description:
+.head 2 +  Tool Bar
+.head 3 -  Display Settings
+.head 4 -  Display Style? Class Default
+.head 4 -  Location? Class Default
+.head 4 -  Visible? Class Default
+.head 4 -  Size: Class Default
+.head 4 -  Size Editable? Class Default
+.head 4 -  Font Name: Class Default
+.head 4 -  Font Size: Class Default
+.head 4 -  Font Enhancement: Class Default
+.head 4 -  Text Color: Class Default
+.head 4 -  Background Color: Class Default
+.head 3 -  Contents
+.head 2 +  Contents
+.head 3 +  Picture: ptWizard
+.data CLASSPROPS
+0000: 5461624C6566744D 617267696E000200 3000005461624375 7272656E74000600
+0020: 4E616D6530000054 616252696768744D 617267696E000200 3000005461624E61
+0040: 6D6573001E004E61 6D6530094E616D65 31094E616D653209 4E616D6533094E61
+0060: 6D65340000546162 4C6162656C730023 004C6162656C3009 4C6162656C31094C
+0080: 6162656C32094C61 62656C33094C6162 656C340000546162 50616765436F756E
+00A0: 7400020031000054 6162426F74746F6D 4D617267696E0005 00302E3435000054
+00C0: 6162447261775374 796C65000B005769 6E39355374796C65 0000546162466F72
+00E0: 6D50616765730005 0009090909000054 6162546F704D6172 67696E0002003000
+0100: 005461624F726965 6E746174696F6E00 0D00546162734F6E 426F74746F6D0000
+0120: 0000000000000000 0000000000000000 000000000000
+.enddata
+.data CLASSPROPSSIZE
+0000: 3601
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Class Child Ref Key: 1
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class: cWizardDialog
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.217"
+.head 5 -  Top:    0.726"
+.head 5 -  Width:  5.367"
+.head 5 -  Width Editable? Class Default
+.head 5 -  Height: 3.024"
+.head 5 -  Height Editable? Class Default
+.head 4 -  Visible? No
+.head 4 -  Editable? Class Default
+.head 4 -  File Name:
+.head 4 -  Storage: Class Default
+.head 4 -  Picture Transparent Color: Class Default
+.head 4 -  Fit: Class Default
+.head 4 -  Scaling
+.head 5 -  Width:  Class Default
+.head 5 -  Height:  Class Default
+.head 4 -  Corners: Class Default
+.head 4 -  Border Style: Class Default
+.head 4 -  Border Thickness: Class Default
+.head 4 -  Tile To Parent? Class Default
+.head 4 -  Border Color: Class Default
+.head 4 -  Background Color: Class Default
+.head 4 -  Message Actions
+.head 3 -  Background Text: Here the page goes on
+.data CLASSPROPSSIZE
+0000: 1900
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D6533000000 00
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Resource Id: 2755
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.55"
+.head 5 -  Top:    1.012"
+.head 5 -  Width:  3.667"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.274"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? No
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Pushbutton: pbCancel
+.head 4 -  Class Child Ref Key: 4
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class: cWizardDialog
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Cancel
+.head 4 -  Window Location and Size
+.head 5 -  Left: 6.433"
+.head 5 -  Top:    3.893"
+.head 5 -  Width:  Class Default
+.head 5 -  Width Editable? Class Default
+.head 5 -  Height: Class Default
+.head 5 -  Height Editable? Class Default
+.head 4 -  Visible? Class Default
+.head 4 -  Keyboard Accelerator: Class Default
+.head 4 -  Font Name: Class Default
+.head 4 -  Font Size: Class Default
+.head 4 -  Font Enhancement: Class Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: Class Default
+.head 4 -  Image Style: Class Default
+.head 4 -  Text Color: Class Default
+.head 4 -  Background Color: Class Default
+.head 4 -  Message Actions
+.head 3 +  Pushbutton: pbFinish
+.head 4 -  Class Child Ref Key: 19
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class: cWizardDialog
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Finish
+.head 4 -  Window Location and Size
+.head 5 -  Left: 5.0"
+.head 5 -  Top:    3.893"
+.head 5 -  Width:  Class Default
+.head 5 -  Width Editable? Class Default
+.head 5 -  Height: Class Default
+.head 5 -  Height Editable? Class Default
+.head 4 -  Visible? Class Default
+.head 4 -  Keyboard Accelerator: Class Default
+.head 4 -  Font Name: Class Default
+.head 4 -  Font Size: Class Default
+.head 4 -  Font Enhancement: Class Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: Class Default
+.head 4 -  Image Style: Class Default
+.head 4 -  Text Color: Class Default
+.head 4 -  Background Color: Class Default
+.head 4 -  Message Actions
+.head 3 +  Pushbutton: pbNext
+.head 4 -  Class Child Ref Key: 2
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class: cWizardDialog
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Next>>
+.head 4 -  Window Location and Size
+.head 5 -  Left: 3.633"
+.head 5 -  Top:    3.893"
+.head 5 -  Width:  Class Default
+.head 5 -  Width Editable? Class Default
+.head 5 -  Height: Class Default
+.head 5 -  Height Editable? Class Default
+.head 4 -  Visible? Class Default
+.head 4 -  Keyboard Accelerator: Class Default
+.head 4 -  Font Name: Class Default
+.head 4 -  Font Size: Class Default
+.head 4 -  Font Enhancement: Class Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: Class Default
+.head 4 -  Image Style: Class Default
+.head 4 -  Text Color: Class Default
+.head 4 -  Background Color: Class Default
+.head 4 -  Message Actions
+.head 3 +  Pushbutton: pbPrevious
+.head 4 -  Class Child Ref Key: 3
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class: cWizardDialog
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: <<Previos
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.267"
+.head 5 -  Top:    3.893"
+.head 5 -  Width:  Class Default
+.head 5 -  Width Editable? Class Default
+.head 5 -  Height: Class Default
+.head 5 -  Height Editable? Class Default
+.head 4 -  Visible? Class Default
+.head 4 -  Keyboard Accelerator: Class Default
+.head 4 -  Font Name: Class Default
+.head 4 -  Font Size: Class Default
+.head 4 -  Font Enhancement: Class Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: Class Default
+.head 4 -  Image Style: Class Default
+.head 4 -  Text Color: Class Default
+.head 4 -  Background Color: Class Default
+.head 4 -  Message Actions
+.head 3 +  Picture: picInfo
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.083"
+.head 5 -  Top:    0.774"
+.head 5 -  Width:  2.017"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 2.667"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Editable? No
+.head 4 -  File Name: wizard_Logofrm.bmp
+.head 4 -  Storage: Internal
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Fit: Scale
+.head 4 -  Scaling
+.head 5 -  Width:  100
+.head 5 -  Height:  100
+.head 4 -  Corners: Square
+.head 4 -  Border Style: Solid
+.head 4 -  Border Thickness: 1
+.head 4 -  Tile To Parent? No
+.head 4 -  Border Color: Default
+.head 4 -  Background Color: Default
+.head 4 -  Message Actions
+.head 3 -  Frame
+.head 4 -  Resource Id: 14972
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.083"
+.head 5 -  Top:    0.06"
+.head 5 -  Width:  7.517"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.631"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Corners: Square
+.head 4 -  Border Style: Solid
+.head 4 -  Border Thickness: 1
+.head 4 -  Border Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Multiline Field: mlTip
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  String Type: String
+.head 5 -  Editable? No
+.head 4 -  Display Settings
+.head 5 -  Border? No
+.head 5 -  Word Wrap? Yes
+.head 5 -  Vertical Scroll? No
+.head 5 -  Window Location and Size
+.head 6 -  Left: 0.1"
+.head 6 -  Top:    0.071"
+.head 6 -  Width:  7.467"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.607"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 4 -  Message Actions
+.head 3 -  Line
+.head 4 -  Resource Id: 14973
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Coordinates
+.head 5 -  Begin X:  0.083"
+.head 5 -  Begin Y:  3.762"
+.head 5 -  End X:  7.633"
+.head 5 -  End Y:  3.762"
+.head 4 -  Visible? Yes
+.head 4 -  Line Style: Etched
+.head 4 -  Line Thickness: 1
+.head 4 -  Line Color: Default
+.head 3 +  Radio Button: rbJump1
+.data CLASSPROPSSIZE
+0000: 1700
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D65300000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Don´t jump
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.733"
+.head 5 -  Top:    1.107"
+.head 5 -  Width:  3.017"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.25"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 -  Message Actions
+.head 3 +  Radio Button: rbJump3
+.data CLASSPROPSSIZE
+0000: 1900
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D6530000000 00
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Jump to page3
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.75"
+.head 5 -  Top:    1.464"
+.head 5 -  Width:  3.017"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.25"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 -  Message Actions
+.head 3 -  Background Text: and finally ends here
+.data CLASSPROPSSIZE
+0000: 1900
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D6534000000 00
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Resource Id: 2752
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.633"
+.head 5 -  Top:    1.119"
+.head 5 -  Width:  3.667"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.274"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? No
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 -  Background Text: and end here!!
+.data CLASSPROPSSIZE
+0000: 1700
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D65320000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Resource Id: 2756
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.55"
+.head 5 -  Top:    0.988"
+.head 5 -  Width:  3.0"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.452"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? No
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 -  Background Text: make something
+.data CLASSPROPSSIZE
+0000: 1700
+.enddata
+.data CLASSPROPS
+0000: 5461624368696C64 4E616D6573000600 4E616D65310000
+.enddata
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Resource Id: 2757
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.55"
+.head 5 -  Top:    1.036"
+.head 5 -  Width:  3.333"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.429"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? No
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 2 +  Functions
+.head 3 +  Function: OnCreate
+.head 4 -  Description: !! Could be overridden !!
+Is called on creation of the dialog
+
+example for overridden code:
+
+Call SetStep(0,FALSE)
+
+
+.head 4 -  Returns
+.head 4 -  Parameters
+.head 4 -  Static Variables
+.head 4 -  Local variables
+.head 4 +  Actions
+.head 5 -  Call SalColorSet( mlTip, COLOR_IndexWindow, SalColorFromRGB(255,255,243) )
+.head 5 -  Return cWizardDialog.OnCreate ()
+.head 3 +  Function: OnActivate
+.head 4 -  Description: !! Could be overridden !!
+Is called on entering a new page
+
+example for overridden code:
+
+Select Case pnActiveStep
+   Case 0
+      Break
+   Case 1
+      Set ....
+      Break
+   Case 2
+      Cal ....
+      Break
+
+
+
+
+.head 4 -  Returns
+.head 4 +  Parameters
+.head 5 -  Number: pnActiveStep
+.head 4 -  Static Variables
+.head 4 -  Local variables
+.head 4 +  Actions
+.head 5 +  Select Case pnActiveStep
+.head 6 +  Case 0
+.head 7 -  Set mlTip = 'This is the first page of the wizard'
+.head 7 -  Break
+.head 6 +  Case 1
+.head 7 -  Set mlTip = 'And the second...'
+.head 7 -  Break
+.head 6 +  Case 2
+.head 7 -  Set mlTip = '... mmmhhhmmh.......'
+.head 7 -  Break
+.head 6 +  Case 3
+.head 7 -  Set mlTip = ''
+.head 7 -  Break
+.head 6 +  Case 4
+.head 7 -  Set mlTip = 'Here it ends!!'
+.head 7 -  Break
+.head 3 +  Function: OnNextStep
+.head 4 -  Description: !! Could be overridden !!
+Is called when the next page should be entered
+
+
+example for overridden code:
+
+Select Case pnActiveStep
+   Case 0
+      If rbNew
+	Return SetStep(1,TRUE)
+      If rbDelete
+	Return SetStep(2,TRUE)
+      Break
+   Case 1
+      Set ....
+      Break
+   Case 2
+      Cal ....
+      Break
+
+
+
+
+.head 4 +  Returns
+.head 5 -  Boolean:
+.head 4 +  Parameters
+.head 5 -  Number: pnActiveStep
+.head 4 -  Static Variables
+.head 4 -  Local variables
+.head 4 +  Actions
+.head 5 +  Select Case pnActiveStep
+.head 6 +  Case 0
+.head 7 +  If rbJump1
+.head 8 -  Return SetStep(1,FALSE )
+.head 7 +  If rbJump3
+.head 8 -  Return SetStep(3,FALSE )
+.head 7 -  Break
+.head 6 +  Case 1
+.head 7 -  ! Set to TRUE, so it ends in step 2
+.head 7 -  Return SetStep(2,TRUE )
+.head 6 +  Default
+.head 7 -  Return cWizardDialog.OnNextStep( GetActiveStep () )
+.head 3 +  Function: OnFinish
+.head 4 -  Description: !! Could be overridden !!
+Is called on finish.
+
+example for overridden code:
+
+Select Case pnActiveStep
+   Case 0
+      Break
+   Case 1
+      Call AddNewEntry()
+      Break
+   Case 2
+      Call DeleteEntry().
+      Break
+.head 4 -  Returns
+.head 4 +  Parameters
+.head 5 -  Number: pnActiveStep
+.head 4 -  Static Variables
+.head 4 -  Local variables
+.head 4 +  Actions
+.head 5 +  Select Case pnActiveStep
+.head 6 +  Case 2
+.head 7 -  Call SalMessageBox('Here ended the first','',0)
+.head 7 -  Break
+.head 6 +  Case 4
+.head 7 -  Call SalMessageBox('Here ended the second','',0)
+.head 7 -  Break
+.head 6 +  Default
+.head 7 -  Break
+.head 2 -  Window Parameters
+.head 2 -  Window Variables
+.head 2 -  Message Actions

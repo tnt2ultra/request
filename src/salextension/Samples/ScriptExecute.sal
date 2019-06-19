@@ -1,0 +1,65 @@
+; comment
+
+    ! comment too
+
+Set asTemp [ 0 ] = ''
+Set asTemp [ 1 ] = 'Runs a script. (Like the expressiondialog of CTD in debugmode)'
+Set asTemp [ 2 ] = '- comments start with a semicolon ";" or "!"'
+Set asTemp [ 3 ] = '- no "Call" in front of function calls (like in the expressions dialog)'
+Set asTemp [ 4 ] = '- as variables for each datatype there are 3 variables and one array predefined'
+Set asTemp [ 5 ] = '- you can also use normal variables which are accessible in the context'
+Set asTemp [ 6 ] = '  (when not, full qualification should help)'
+Set asTemp [ 7 ] = '- an "If-Else" construct must end with an "EndIf"'
+Set asTemp [ 8 ] = '- an "Loop" construct must end with an "EndLoop"'
+Set asTemp [ 9 ] = '- an "While" construct must end with an "EndWhile"'
+
+;----------------------------
+
+Set sTemp1 = ''
+Set nTemp1 = 0
+Loop
+  Set sTemp1 = sTemp1 || asTemp [ nTemp1 ]  || CRLF
+  Set nTemp1 = nTemp1 + 1
+  If nTemp1 > 9
+    Break
+  EndIf
+EndLoop
+
+SalMessageBox ( sTemp1, 'ScriptExecute: LOOP', 0 )
+
+;----------------------------
+
+Set nTemp1 = 1
+Set sTemp2 = 'IF -> '
+If nTemp1 != 1
+  	Set sTemp2 = sTemp2 || 'THEN'
+Else
+  	Set sTemp2 = sTemp2 || 'ELSE'
+EndIf
+
+SalMessageBox ( sTemp2, 'ScriptExecute: If-Then-Else', 0 )
+
+;----------------------------
+
+Set asTemp [ 0 ] = 'sTemp1,	sTemp2,		sTemp3,		asTemp[*]'
+Set asTemp [ 1 ] = 'strTemp1,	strTemp2,	strTemp3,	astrTemp[*]'
+Set asTemp [ 2 ] = 'nTemp1,	nTemp2,		nTemp3,		anTemp[*]'
+Set asTemp [ 3 ] = 'intTemp1,	intTemp2,	intTemp3,	aintTemp[*]'
+Set asTemp [ 4 ] = 'dTemp1,	dTemp2,		dTemp3,		adTemp[*]'
+Set asTemp [ 5 ] = 'dtTemp1,	dtTemp2,	dtTemp3,	adtTemp[*]'
+Set asTemp [ 6 ] = 'hWndTemp1,	hWndTemp2,	hWndTemp3,	ahWndTemp[*]'
+Set asTemp [ 7 ] = 'bTemp1,	bTemp2,		bTemp3,		abTemp[*]'
+Set asTemp [ 8 ] = 'SqlTemp1,	SqlTemp2,	SqlTemp3,	aSqlTemp[*]'
+Set asTemp [ 9 ] = 'lsTemp1,	lsTemp2,	lsTemp3,	alsTemp[*]'
+Set asTemp [ 10 ] = 'fTemp1,	fTemp2,		fTemp3,		afTemp[*]'
+
+;----------------------------
+
+Set sTemp1 = ''
+Set nTemp1 = 0
+While nTemp1 <= 10
+	Set sTemp1 = sTemp1 || asTemp [ nTemp1 ]  || CRLF
+	Set nTemp1 = nTemp1 + 1
+EndWhile
+
+Call SalMessageBox ( sTemp1, 'ScriptExecute: WHILE + GLOBAL STATIC VARIABLES', 0 )

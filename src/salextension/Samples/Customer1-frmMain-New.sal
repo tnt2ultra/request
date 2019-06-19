@@ -1,0 +1,16 @@
+; for the datafields
+
+Set frmMain.df1 = 'Predefined Value for customer1'
+Set frmMain.df2 = 12.12
+
+; For the combobx
+SalListClear(frmMain.cmb1)
+SalListAdd(frmMain.cmb1,'ValueXXX')
+SalListAdd(frmMain.cmb1,'Value123')
+
+; select the first entry
+SalListSetSelect(frmMain.cmb1,0)
+;
+SalSetFocus(frmMain.df1)
+
+

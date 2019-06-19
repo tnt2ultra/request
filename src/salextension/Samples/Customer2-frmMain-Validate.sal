@@ -1,0 +1,18 @@
+
+if frmMain.df1 = 'Value1'
+SalMessageBox('This Value is not allowed here','Validation-Error', MB_Ok)
+endif
+
+Set hWndTemp1 = frmMain.df2
+SalGetWindowLabelText(hWndTemp1,strTemp2,50)
+if SalIsNull(hWndTemp1)
+   SalMessageBox("The field '" || strTemp2 || "' must must be filled",'Validation-Error', MB_Ok)
+   SalSetFocus( hWndTemp1)
+endif
+
+Set hWndTemp1 = frmMain.df1
+SalGetWindowLabelText(hWndTemp1,strTemp2,50)
+if SalIsNull(hWndTemp1) 
+   SalMessageBox("The field '" || strTemp2 || "' must must be filled",'Validation-Error', MB_Ok)
+   SalSetFocus( hWndTemp1)
+endif

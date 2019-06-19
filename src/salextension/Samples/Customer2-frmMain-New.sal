@@ -1,0 +1,18 @@
+; for the datafields
+
+Set frmMain.df1 = 'New Value'
+Set frmMain.df2 = 10
+
+; For the combobx
+SalListClear(frmMain.cmb1)
+SalListAdd(frmMain.cmb1,'Frank')
+SalListAdd(frmMain.cmb1,'Peter')
+SalListAdd(frmMain.cmb1,'Thomas')
+
+
+; select the first entry
+SalListSetSelect(frmMain.cmb1,0)
+;
+SalSetFocus(frmMain.df2)
+
+

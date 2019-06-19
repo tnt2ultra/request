@@ -1,0 +1,732 @@
+Application Description: Centura SQLWindows/32 Standard Application Template
+	Outline Version - 4.0.28
+	Design-time Settings
+.data VIEWINFO
+0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400010000
+0020: 0000000000DA0000 002C000000020000 0003000000FFFFFF FFFFFFFFFFFCFFFF
+0040: FFE9FFFFFFFFFFFF FF000000007C0200 004D010000010000 0001000000010000
+0060: 000F4170706C6963 6174696F6E497465 6D00000000
+.enddata
+		Outline Window State: Normal
+		Outline Window Location and Size
+.data VIEWINFO
+0000: 6600040003002D00 0000000000000000 0000B71E5D0E0500 1D00FFFF4D61696E
+0020: 0000000000000000 0000000000000000 0000003B00010000 00000000000000E9
+0040: 1E800A00008600FF FF496E7465726E61 6C2046756E637469 6F6E730000000000
+0060: 0000000000000000 0000000000003200 0100000000000000 0000E91E800A0000
+0080: DF00FFFF56617269 61626C6573000000 0000000000000000 0000000000000000
+00A0: 3000010000000000 00000000F51E100D 0000F400FFFF436C 6173736573000000
+00C0: 0000000000000000 0000000000000000
+.enddata
+.data VIEWSIZE
+0000: D000
+.enddata
+			Left: -0.013"
+			Top: 0.0"
+			Width:  8.013"
+			Height: 4.969"
+		Options Box Location
+.data VIEWINFO
+0000: D4180909B80B1A00
+.enddata
+.data VIEWSIZE
+0000: 0800
+.enddata
+			Visible? Yes
+			Left: 4.15"
+			Top: 1.885"
+			Width:  3.8"
+			Height: 2.073"
+		Class Editor Location
+			Visible? No
+			Left: 0.575"
+			Top: 0.094"
+			Width:  5.063"
+			Height: 2.719"
+		Tool Palette Location
+			Visible? No
+			Left: 6.388"
+			Top: 0.729"
+		Fully Qualified External References? Yes
+		Reject Multiple Window Instances? No
+		Enable Runtime Checks Of External References? Yes
+		Use Release 4.0 Scope Rules? No
+	Libraries
+		File Include: SalExtension.apl
+	Global Declarations
+		Window Defaults
+			Tool Bar
+				Display Style? Etched
+				Font Name: MS Sans Serif
+				Font Size: 8
+				Font Enhancement: System Default
+				Text Color: System Default
+				Background Color: System Default
+			Form Window
+				Display Style? Etched
+				Font Name: MS Sans Serif
+				Font Size: 8
+				Font Enhancement: System Default
+				Text Color: System Default
+				Background Color: System Default
+			Dialog Box
+				Display Style? Etched
+				Font Name: MS Sans Serif
+				Font Size: 8
+				Font Enhancement: System Default
+				Text Color: System Default
+				Background Color: System Default
+			Top Level Table Window
+				Font Name: MS Sans Serif
+				Font Size: 8
+				Font Enhancement: System Default
+				Text Color: System Default
+				Background Color: System Default
+			Data Field
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Multiline Field
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Spin Field
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Background Text
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Pushbutton
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+			Radio Button
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Check Box
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Option Button
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+			Group Box
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Child Table Window
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			List Box
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Combo Box
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Line
+				Line Color: Use Parent
+			Frame
+				Border Color: Use Parent
+				Background Color: 3D Face Color
+			Picture
+				Border Color: Use Parent
+				Background Color: Use Parent
+		Formats
+			Number: 0'%'
+			Number: #0
+			Number: ###000
+			Number: ###000;'($'###000')'
+			Date/Time: hh:mm:ss AMPM
+			Date/Time: M/d/yy
+			Date/Time: MM-dd-yy
+			Date/Time: dd-MMM-yyyy
+			Date/Time: MMM d, yyyy
+			Date/Time: MMM d, yyyy hh:mm AMPM
+			Date/Time: MMMM d, yyyy hh:mm AMPM
+		External Functions
+		Constants
+.data CCDATA
+0000: 3000000000000000 0000000000000000 00000000
+.enddata
+.data CCSIZE
+0000: 1400
+.enddata
+			System
+			User
+			Enumerations
+		Resources
+			Bitmap: bmpDelRec
+				File Name: DelRec.bmp
+			Bitmap: bmpNewRec
+				File Name: NewRec.bmp
+			Bitmap: bmpSave
+				File Name: Save.bmp
+			Bitmap: bmpApply
+				File Name: Apply.bmp
+			Bitmap: bmpDiscard
+				File Name: Discard.bmp
+		Variables
+.data RESOURCE 0 0 1 2759005305
+0000: 02020000D2000000 0000000000000000 0200001100000044 0000001019000000
+0020: 010000FE00FF035D 0000000400840000 02000000FFFF6061 0000001900ED0100
+0040: FF3F7A0058000004 0002FB00FF0F7E00 0000D6190001FE00 FF839700000019B5
+0060: 000100FFFF60B000 00000400ED0200FF 3FB4005800001900 01FB00FF0FCD0000
+0080: 00D6190001FE00FF 83E600000019B500 0100FFFF60FF0000 001900ED0100FF3F
+00A0: 18015A00190001FB 00FF8F310100D619 0001FE00FFA34A01 0019B5000100FFFF
+00C0: 686301001900ED01 00FF3F7C015A0004 0003F8000000FF0F 80010000D6190001
+00E0: FE00FF03
+.enddata
+		Internal Functions
+		Named Menus
+		Class Definitions
+.data RESOURCE 0 0 1 2210575970
+0000: 0A060000C7020000 0000000000000000 0200000900FFFF01 00160000436C6173
+0020: 73566172004F7574 6C696E6552006567 496E666F36003C00 000B630045786563
+0040: 5363726900707466 00000003003C0000 0400800000010200 0000FF0780010000
+0060: 00FF060400190000 00E9010000FF3F1D 00580000190001FB 00FF0F0180190011
+0080: 000100000973C050 6F7274496E602200 000001006F1900ED 0100FF3F01804081
+00A0: 0000000200000008 63416E696D617400 65B8000000060000 DE0019D200010000
+00C0: FF7F19B3000400F6 0300FFDF1DAC0019 0001FD00FF273600 00196B000100FFFF
+00E0: C14F00000019DA00 0100FF7F68B00000 001900F60100FF1F 018019330003000F
+0100: 106344617454696D 00655069636B6572 22A20000010000B7 1900F60100FF1F01
+0120: 801334010004000F 0365736B746F7000 4C697374426F784E 8401000B000000B7
+0140: 1900F4010000FFDF 19AC00190001FD00 FF0732000000196B 000100FFFFC14B00
+0160: 000019DA000100FF 7F64B00000001900 F60100FF1F7D0000 AC00190001FD00FF
+0180: 0796000000196B00 0100FFFFC1AF0000 0019DA000100FF7F C8B00000001900F6
+01A0: 0100FF1FE10000AC 00190001FD00FF07 FA000000196B0001 00FFFF2101806400
+01C0: 0005000000000B63 4469727C4C697CB0 0000000400B71900 F4010000FFDF19AC
+01E0: 00190001FD00FF37 3200196B000100FF FFCD4B0019DA0001 00FF7F01C8804B00
+0200: 00063C000F5472F0 65654C69C15E0000 0003DE0019D20001 0000FF7F19B30019
+0220: 00F60100FFDF32AC 00190001FD00FF87 0180AF0000000700 00000C6346F0696C
+0240: 654C83D600000007 BD0019A500010000 FFFF6619001900ED 0100FFBF32590019
+0260: 0001FB00FF6F4B00 D6190001FE00FF9B 640019B5000100FF FF667D001900ED01
+0280: 00FFBF9659001900 01FB00FF0F01807D 000100080000000D 6380526164696F4C
+02A0: 690F9A000000F605 009619000100FE00 FF9B190019B50001 00FFFF6632001900
+02C0: ED0100FFBF4B5900 190001FB00FF6F64 00D6190001FE00FF 03
+.enddata
+		Default Classes
+			MDI Window: cBaseMDI
+			Form Window:
+			Dialog Box:
+			Table Window:
+			Quest Window:
+			Data Field:
+			Spin Field:
+			Multiline Field:
+			Pushbutton:
+			Radio Button:
+			Option Button:
+			Check Box:
+			Child Table:
+			Quest Child Window: cQuickDatabase
+			List Box:
+			Combo Box:
+			Picture:
+			Vertical Scroll Bar:
+			Horizontal Scroll Bar:
+			Column:
+			Background Text:
+			Group Box:
+			Line:
+			Frame:
+			Custom Control: cTransparentText
+			ActiveX:
+		Application Actions
+			On SAM_AppStartup
+				Set bStaticsAsWindows = TRUE
+	Form Window: frmTest
+.data INHERITPROPS
+0000: 0100
+.enddata
+		Class:
+		Property Template:
+		Class DLL Name:
+		Title:
+		Icon File:
+		Accessories Enabled? Yes
+		Visible? Yes
+		Display Settings
+			Display Style? Default
+			Visible at Design time? Yes
+			Automatically Created at Runtime? Yes
+			Initial State: Normal
+			Maximizable? Yes
+			Minimizable? Yes
+			System Menu? Yes
+			Resizable? Yes
+			Window Location and Size
+				Left: Default
+				Top: Default
+				Width:  9.033"
+				Width Editable? Yes
+				Height: 5.631"
+				Height Editable? Yes
+			Form Size
+				Width:  Default
+				Height: Default
+				Number of Pages: Dynamic
+			Font Name: Default
+			Font Size: Default
+			Font Enhancement: Default
+			Text Color: Default
+			Background Color: Default
+		Description:
+		Named Menus
+		Menu
+		Tool Bar
+			Display Settings
+				Display Style? Default
+				Location? Top
+				Visible? Yes
+				Size: Default
+				Size Editable? Yes
+				Font Name: Default
+				Font Size: Default
+				Font Enhancement: Default
+				Text Color: Default
+				Background Color: Default
+			Contents
+				Pushbutton: pb2
+					Class Child Ref Key: 0
+					Class ChildKey: 0
+					Class:
+					Property Template:
+					Class DLL Name:
+					Title: New
+					Window Location and Size
+						Left: 0.383"
+						Top: 0.19"
+						Width:  1.2"
+						Width Editable? Yes
+						Height: 0.298"
+						Height Editable? Yes
+					Visible? Yes
+					Keyboard Accelerator: (none)
+					Font Name: Default
+					Font Size: Default
+					Font Enhancement: Default
+					Picture File Name:
+					Picture Transparent Color: None
+					Image Style: Single
+					Text Color: Default
+					Background Color: White
+					Message Actions
+				Pushbutton: pb3
+					Class Child Ref Key: 0
+					Class ChildKey: 0
+					Class:
+					Property Template:
+					Class DLL Name:
+					Title: Save
+					Window Location and Size
+						Left: 1.817"
+						Top: 0.19"
+						Width:  1.2"
+						Width Editable? Yes
+						Height: 0.298"
+						Height Editable? Yes
+					Visible? Yes
+					Keyboard Accelerator: (none)
+					Font Name: Default
+					Font Size: Default
+					Font Enhancement: Default
+					Picture File Name:
+					Picture Transparent Color: None
+					Image Style: Single
+					Text Color: Default
+					Background Color: White
+					Message Actions
+				Pushbutton: pb4
+					Class Child Ref Key: 0
+					Class ChildKey: 0
+					Class:
+					Property Template:
+					Class DLL Name:
+					Title: Delete
+					Window Location and Size
+						Left: 3.217"
+						Top: 0.19"
+						Width:  1.2"
+						Width Editable? Yes
+						Height: 0.298"
+						Height Editable? Yes
+					Visible? Yes
+					Keyboard Accelerator: (none)
+					Font Name: Default
+					Font Size: Default
+					Font Enhancement: Default
+					Picture File Name:
+					Picture Transparent Color: None
+					Image Style: Single
+					Text Color: Default
+					Background Color: White
+					Message Actions
+		Contents
+			Data Field: df1
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Property Template:
+				Class DLL Name:
+				Data
+					Maximum Data Length: Default
+					Data Type: String
+					Editable? Yes
+				Display Settings
+					Window Location and Size
+						Left: 3.5"
+						Top: 0.595"
+						Width:  3.95"
+						Width Editable? Yes
+						Height: 0.25"
+						Height Editable? Yes
+					Visible? Yes
+					Border? Yes
+					Justify: Left
+					Format: Unformatted
+					Country: Default
+					Font Name: Default
+					Font Size: Default
+					Font Enhancement: Default
+					Text Color: Default
+					Background Color: Default
+					Input Mask: Unformatted
+				Message Actions
+			Custom Control: cc1
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class: cTransparentText
+				Property Template:
+				Class DLL Name:
+				Display Settings
+					DLL Name:
+					MS Windows Class Name:
+					Style:  Class Default
+					ExStyle:  Class Default
+					Title:
+					Window Location and Size
+						Left: 0.583"
+						Top: 0.607"
+						Width:  2.7"
+						Width Editable? Class Default
+						Height: Class Default
+						Height Editable? Class Default
+					Visible? Class Default
+					Border? Class Default
+					Etched Border? Class Default
+					Hollow? Class Default
+					Vertical Scroll? Class Default
+					Horizontal Scroll? Class Default
+					Tab Stop? Class Default
+					Tile To Parent? Class Default
+					Font Name: Class Default
+					Font Size: 12
+					Font Enhancement: Class Default
+					Text Color: White
+					Background Color: Class Default
+					DLL Settings
+				Message Actions
+					On SAM_Create
+						Call SalSetWindowText(hWndItem,'This is a test')
+			Pushbutton: pb1
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Property Template:
+				Class DLL Name:
+				Title: New
+				Window Location and Size
+					Left: 0.617"
+					Top: 1.119"
+					Width:  1.2"
+					Width Editable? Yes
+					Height: 0.298"
+					Height Editable? Yes
+				Visible? Yes
+				Keyboard Accelerator: (none)
+				Font Name: Default
+				Font Size: Default
+				Font Enhancement: Default
+				Picture File Name:
+				Picture Transparent Color: None
+				Image Style: Single
+				Text Color: Default
+				Background Color: Sky
+				Message Actions
+			Frame
+				Resource Id: 20119
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Window Location and Size
+					Left: 0.4"
+					Top: 0.417"
+					Width:  7.383"
+					Width Editable? Yes
+					Height: 0.012"
+					Height Editable? Yes
+				Visible? Yes
+				Corners: Square
+				Border Style: Solid
+				Border Thickness: 1
+				Border Color: Default
+				Background Color: Default
+			Frame
+				Resource Id: 20120
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Window Location and Size
+					Left: 0.4"
+					Top: 1.655"
+					Width:  7.383"
+					Width Editable? Yes
+					Height: 0.012"
+					Height Editable? Yes
+				Visible? Yes
+				Corners: Square
+				Border Style: Solid
+				Border Thickness: 1
+				Border Color: Default
+				Background Color: Default
+			Combo Box: cmb1
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Property Template:
+				Class DLL Name:
+				Window Location and Size
+					Left: 3.55"
+					Top: 1.071"
+					Width:  3.833"
+					Width Editable? Yes
+					Height: 2.107"
+					Height Editable? Yes
+				Visible? Yes
+				Editable? Yes
+				String Type: String
+				Maximum Data Length: Default
+				Sorted? Yes
+				Always Show List? No
+				Vertical Scroll? Yes
+				Font Name: Default
+				Font Size: Default
+				Font Enhancement: Default
+				Text Color: Default
+				Background Color: Default
+				Input Mask: Unformatted
+				List Initialization
+				Message Actions
+			List Box: lb1
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Property Template:
+				Class DLL Name:
+				Window Location and Size
+					Left: 3.55"
+					Top: 1.833"
+					Width:  3.817"
+					Width Editable? Yes
+					Height: 2.226"
+					Height Editable? Yes
+				Visible? Yes
+				Multiple selection? No
+				Sorted? Yes
+				Vertical Scroll? Yes
+				Font Name: Default
+				Font Size: Default
+				Font Enhancement: Default
+				Text Color: Default
+				Background Color: Default
+				Horizontal Scroll? No
+				List Initialization
+				Message Actions
+			Check Box: cb1
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Property Template:
+				Class DLL Name:
+				Title:
+				Window Location and Size
+					Left: 0.783"
+					Top: 1.857"
+					Width:  0.2"
+					Width Editable? Yes
+					Height: 0.17"
+					Height Editable? Yes
+				Visible? Yes
+				Font Name: Default
+				Font Size: Default
+				Font Enhancement: Default
+				Text Color: Default
+				Background Color: Default
+				Message Actions
+			Custom Control: cc2
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class: cTransparentText
+				Property Template:
+				Class DLL Name:
+				Display Settings
+					DLL Name:
+					MS Windows Class Name:
+					Style:  Class Default
+					ExStyle:  Class Default
+					Title:
+					Window Location and Size
+						Left: 1.067"
+						Top: 1.845"
+						Width:  2.2"
+						Width Editable? Class Default
+						Height: 0.19"
+						Height Editable? Class Default
+					Visible? Class Default
+					Border? Class Default
+					Etched Border? Class Default
+					Hollow? Class Default
+					Vertical Scroll? Class Default
+					Horizontal Scroll? Class Default
+					Tab Stop? Class Default
+					Tile To Parent? Class Default
+					Font Name: Class Default
+					Font Size: Class Default
+					Font Enhancement: Class Default
+					Text Color: Red
+					Background Color: Class Default
+					DLL Settings
+				Message Actions
+					On SAM_Create
+						Call SalSetWindowText(hWndItem,'Checkme when you can')
+		Functions
+			Function: SalWinFillBgkGradient
+				Description: author: 	???
+						date:	???
+						version:	???
+						
+						Füllt einen Windowhintergrund mit einem Farbübergang von Oben nach Unten
+						 nColorBegin: 	Farbe oben
+						 nColorEnd:	Fabe unten
+						
+				Returns
+				Parameters
+					Window Handle: phWnd
+					Number: nColorBegin
+					Number: nColorEnd
+				Static Variables
+				Local variables
+					Number: hDC
+					Number: nLeft
+					Number: nTop
+					Number: nRight
+					Number: nBottom
+					Number: hBrush
+					Number: hDCMem
+					Number: nBitmap
+					Number: nBitmapOld
+					Number: nRed
+					Number: nGreen
+					Number: nBlue
+					Number: nRed2
+					Number: nGreen2
+					Number: nBlue2
+					Number: nStepRed
+					Number: nStepGreen
+					Number: nStepBlue
+					Number: nCpt
+					Number: nColorBits
+					Number: nNbRgn
+					Number: nStep
+					String: sPaint
+				Actions
+					Call SalStrSetBufferLength( sPaint, 64 )
+					Call BeginPaint( phWnd, sPaint )
+					Set hDC=GetDC(phWnd)
+					! - Récupération dimensions client
+					Call GetClientRect( phWnd, nLeft, nTop, nRight, nBottom )
+					! - Création DC compatible avec DC client
+					Set hDCMem=CreateCompatibleDC(hDC)
+					! - Création Bitmap compatible avec Bitmap client
+					Set nBitmap=CreateCompatibleBitmap(hDC,nRight,nBottom)
+					Set nBitmapOld = SelectObject(hDCMem,nBitmap)
+					! - Calcul de bits par couleur et nombre de regions
+					Set nColorBits = GetDeviceCaps( hDC, BITSPIXEL ) * GetDeviceCaps( hDC, PLANES )
+					Select Case nColorBits
+						Case 32
+						Case 24
+						Case 16
+							Set nNbRgn = 256
+							Break
+						Case 15
+							Set nNbRgn = 32
+							Break
+						Default
+							Set nNbRgn = 64
+					! - Initialisations
+					Set nStep = nBottom / nNbRgn
+					Call SalColorToRGB( nColorBegin, nRed, nGreen, nBlue )
+					Call SalColorToRGB( nColorEnd, nRed2, nGreen2, nBlue2 )
+					Set nStepRed = (nRed2 - nRed ) / (nNbRgn - 1)
+					Set nStepGreen = (nGreen2 - nGreen ) / (nNbRgn - 1)
+					Set nStepBlue = (nBlue2 - nBlue ) / (nNbRgn - 1)
+					Set nCpt = 0
+					! - Gradient
+					While nCpt < nNbRgn
+						Set hBrush = CreateSolidBrush( SalColorFromRGB(nRed, nGreen, nBlue) )
+						Set nBottom =  nTop + nStep
+						Call FillRect( hDCMem, nLeft, nTop , nRight, nBottom, hBrush )
+						Set nTop = nBottom
+						Call DeleteObject( hBrush )
+						Set nRed = nRed + nStepRed
+						Set nGreen = nGreen + nStepGreen
+						Set nBlue = nBlue + nStepBlue
+						Set nCpt = nCpt + 1
+					Call GetClientRect( phWnd, nLeft, nTop, nRight, nBottom )
+					Call BitBlt(hDC, 0, 0, nRight, nBottom, hDCMem,0,0,SRCCOPY)
+					! - Empêche la fenêtre d'être repeinte
+					! - Restaure la mémoire
+					Call SelectObject(hDCMem,nBitmapOld)
+					Call DeleteObject( nBitmap )
+					Call DeleteDC( hDCMem )
+					Call ReleaseDC( phWnd, hDC )
+					Call EndPaint( phWnd, sPaint )
+		Window Parameters
+		Window Variables
+		Message Actions
+			On WM_PAINT
+				! fill gradient
+				Call SalWinFillBgkGradient(hWndForm, 0xffefaa,0x000000 )
+				Call SalWinFillBgkGradient(SalTBarGetHandle (hWndForm), 0xffefaa,0x000000 )
+				Call SalWinFillBgkGradient(SalStatusGetHandle (hWndForm), 0xffefaa,0x000000 )
+				! redraw
+				Call SalInvalidateChildren(hWndForm)
+				Call SalInvalidateChildren(SalTBarGetHandle(hWndForm))
+				Call SalInvalidateChildren(SalStatusGetHandle (hWndForm) )

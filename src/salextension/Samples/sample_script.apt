@@ -1,0 +1,1052 @@
+Application Description: Centura SQLWindows/32 Standard Application Template
+	Outline Version - 4.0.27
+	Design-time Settings
+.data VIEWINFO
+0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400010000
+0020: 0000000000C20000 002C000000020000 0003000000FFFFFF FFFFFFFFFFFCFFFF
+0040: FFE9FFFFFFFFFFFF FF000000007C0200 004D010000010000 0000000000010000
+0060: 000F4170706C6963 6174696F6E497465 6D01000000075769 6E646F7773
+.enddata
+		Outline Window State: Normal
+		Outline Window Location and Size
+.data VIEWINFO
+0000: 6600040003002D00 0000000000000000 0000B71E5D0E0500 1D00FFFF4D61696E
+0020: 0000000000000000 0000000000000000 0000003B00010000 00000000000000E9
+0040: 1E800A00008600FF FF496E7465726E61 6C2046756E637469 6F6E730000000000
+0060: 0000000000000000 0000000000003200 0100000000000000 0000E91E800A0000
+0080: DF00FFFF56617269 61626C6573000000 0000000000000000 0000000000000000
+00A0: 3000010000000000 00000000F51E100D 0000F400FFFF436C 6173736573000000
+00C0: 0000000000000000 0000000000000000
+.enddata
+.data VIEWSIZE
+0000: D000
+.enddata
+			Left: -0.013"
+			Top:    0.0"
+			Width:  8.013"
+			Height: 4.969"
+		Options Box Location
+.data VIEWINFO
+0000: D4180909B80B1A00
+.enddata
+.data VIEWSIZE
+0000: 0800
+.enddata
+			Visible? No
+			Left: 4.15"
+			Top:    1.885"
+			Width:  3.8"
+			Height: 2.073"
+		Class Editor Location
+			Visible? No
+			Left: 0.575"
+			Top:    0.094"
+			Width:  5.063"
+			Height: 2.719"
+		Tool Palette Location
+			Visible? No
+			Left: 6.388"
+			Top:    0.729"
+		Fully Qualified External References? Yes
+		Reject Multiple Window Instances? No
+		Enable Runtime Checks Of External References? Yes
+		Use Release 4.0 Scope Rules? No
+	Libraries
+		File Include: SalExtension.apl
+	Global Declarations
+		Window Defaults
+			Tool Bar
+				Display Style? Etched
+				Font Name: MS Sans Serif
+				Font Size: 8
+				Font Enhancement: System Default
+				Text Color: System Default
+				Background Color: System Default
+			Form Window
+				Display Style? Etched
+				Font Name: MS Sans Serif
+				Font Size: 8
+				Font Enhancement: System Default
+				Text Color: System Default
+				Background Color: System Default
+			Dialog Box
+				Display Style? Etched
+				Font Name: MS Sans Serif
+				Font Size: 8
+				Font Enhancement: System Default
+				Text Color: System Default
+				Background Color: System Default
+			Top Level Table Window
+				Font Name: MS Sans Serif
+				Font Size: 8
+				Font Enhancement: System Default
+				Text Color: System Default
+				Background Color: System Default
+			Data Field
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Multiline Field
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Spin Field
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Background Text
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Pushbutton
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+			Radio Button
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Check Box
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Option Button
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+			Group Box
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Child Table Window
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			List Box
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Combo Box
+				Font Name: Use Parent
+				Font Size: Use Parent
+				Font Enhancement: Use Parent
+				Text Color: Use Parent
+				Background Color: Use Parent
+			Line
+				Line Color: Use Parent
+			Frame
+				Border Color: Use Parent
+				Background Color: 3D Face Color
+			Picture
+				Border Color: Use Parent
+				Background Color: Use Parent
+		Formats
+			Number: 0'%'
+			Number: #0
+			Number: ###000
+			Number: ###000;'($'###000')'
+			Date/Time: hh:mm:ss AMPM
+			Date/Time: M/d/yy
+			Date/Time: MM-dd-yy
+			Date/Time: dd-MMM-yyyy
+			Date/Time: MMM d, yyyy
+			Date/Time: MMM d, yyyy hh:mm AMPM
+			Date/Time: MMMM d, yyyy hh:mm AMPM
+		External Functions
+		Constants
+.data CCDATA
+0000: 3000000000000000 0000000000000000 00000000
+.enddata
+.data CCSIZE
+0000: 1400
+.enddata
+			System
+			User
+		Resources
+		Variables
+.data RESOURCE 0 0 1 2837333210
+0000: BC010000B5000000 0000000000000000 02000010000000A3 010000E0010D0000
+0020: 00FF3FB001BA0001 00FFFFE8BD010001 FE00FFA3CA010001 FB00FF8FD70100EE
+0040: 0100FF3FE401BA00 0100FFFFE8F10100 01FE00FFA3FE0100 01A3000100000601
+0060: 000C000000660100 0100060C00020200 00EC010D00FF3F0F 02BA000100FFFFE8
+0080: 1C020001FE00FFA3 29020001A3000100 007F80F001000000 8F2D02008C010D00
+00A0: 0100FE00C9800100 003F3102B200010D 00FFFFE83E020001 FE00FF234B020002
+00C0: 04F8000000FF0F
+.enddata
+		Internal Functions
+			! Function: SalMenuFromFile
+				Description: Eingabedatei einlesen
+				Returns 
+					String: 
+				Parameters 
+					String: psFileName
+.data INHERITPROPS
+0000: 0100
+.enddata
+				Static Variables 
+				Local variables 
+					File Handle: lhFile
+					Long String: lsText
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Number: lnSelected
+.data INHERITPROPS
+0000: 0100
+.enddata
+					String: lsValues[*]
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Number: lnCount
+.data INHERITPROPS
+0000: 0100
+.enddata
+				Actions 
+					Call SalWaitCursor(TRUE)
+					If NOT SalFileOpen(lhFile, psFileName, OF_Read)
+						Call SalWaitCursor(FALSE)
+						Return ''
+					Loop 
+						If not SalFileGetStr( lhFile, lsText, 254 )
+							Break 
+						Set lsValues[lnCount] = lsText
+						Set lnCount = lnCount + 1
+					Call SalFileClose(lhFile)
+					Call SalWaitCursor(FALSE)
+					Set lnSelected = SalPopupMenu(lsValues)
+					If lnSelected > -1
+						Return lsValues[lnSelected]
+					Return ''
+			! Function: SalExecScriptX
+				Description: description:
+						Runs a script. (Like the expressiondialog of CTd in debugmode)
+						- comments start with a semicolon ';'
+						- no 'Call' in front of function calls (like in the expressions dialog)
+						- as variables for each datatype there are 3  variables and one array predefined (see down)
+						- you can also use normal variables which are accessible in the context (when not, full qualification should help)
+						- No 'While' or 'Loop' supported until now !!!
+						-an 'If' construct must end with an 'Endif'
+						
+						strTemp1 ,      strTemp2,      strTemp3,        astrTemp[*]
+						nTemp1, 	       nTemp2,        nTemp3,         anTemp[*]
+						dtTemp1,        dtTemp2,       dtTemp3,        adtTemp[*]
+						hWndTemp1, hWndTemp2, hWndTemp3, ahWndTemp[*]
+						bTemp1,	      bTemp2,         bTemp3,         bTemp[*]
+						SqlTemp1,     SqlTemp2,      SqlTemp3,      SqlTemp[*]
+						
+						
+						
+						example:  Test.sal
+						
+						Set df1 = 'Test'
+						if strTemp1 = df1 then Set df1 = 'GehtXX !!!'
+						;Set df2 = df3
+						Set df1 = df1 || ' geht doch'
+						Set hWndTemp1 = df2
+						Set strTemp1 = 'Joh'
+						SalSetWindowText(hWndTemp1 ,strTemp1)
+						SalSetFocus(df1)
+						Set ahWndTemp[1] = df1
+						SalMessageBeep(-1)
+						SalSetFocus(df1)
+						; -------------Sql-Test-----------------
+						SqlConnect(SqlTemp1)
+						SqlPrepareAndExecute(SqlTemp1,"SELECT count(*) into :strTemp1 From mis.TB_objects where rownum < 20")
+						SqlFetchNext(SqlTemp1,nTemp1)
+						SalMessageBox(strTemp1,'Test',0)
+						SqlDisconnect(SqlTemp1)
+						
+						
+						
+						Call SalScriptExecute('Test.sal')
+						
+						
+				Returns 
+				Parameters 
+					String: fpsFileName
+					Boolean: pbQuietMode
+.data INHERITPROPS
+0000: 0100
+.enddata
+				Static Variables 
+					Number: lnIFLevel
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Boolean: lbIFLevelValue[*]
+				Local variables 
+					Boolean: lbResult
+					Long String: lsScript
+					Long String: lsLine
+					Long String: lsLine2
+					File Handle: lfhScript
+					!
+					Number: lnTokenNr
+					Number: lnIdx
+					Number: lnPos
+.data INHERITPROPS
+0000: 0100
+.enddata
+					!
+					Number: nError
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Number: nType
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Number: nErrorPos
+.data INHERITPROPS
+0000: 0100
+.enddata
+					!
+					Number: nTemp1
+.data INHERITPROPS
+0000: 0100
+.enddata
+					String: strTemp1
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Date/Time: dtTemp1
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Window Handle: hWndTemp1
+.data INHERITPROPS
+0000: 0100
+.enddata
+					File Handle: fTemp1
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Sql Handle: SqlTemp1
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Boolean: bTemp1
+.data INHERITPROPS
+0000: 0100
+.enddata
+					!
+					Number: nTemp2
+.data INHERITPROPS
+0000: 0100
+.enddata
+					String: strTemp2
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Date/Time: dtTemp2
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Window Handle: hWndTemp2
+.data INHERITPROPS
+0000: 0100
+.enddata
+					File Handle: fTemp2
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Sql Handle: SqlTemp2
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Boolean: bTemp2
+.data INHERITPROPS
+0000: 0100
+.enddata
+					!
+					Number: nTemp3
+.data INHERITPROPS
+0000: 0100
+.enddata
+					String: strTemp3
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Date/Time: dtTemp3
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Window Handle: hWndTemp3
+.data INHERITPROPS
+0000: 0100
+.enddata
+					File Handle: fTemp3
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Sql Handle: SqlTemp3
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Boolean: bTemp3
+.data INHERITPROPS
+0000: 0100
+.enddata
+					!
+					Number: anTemp[*]
+.data INHERITPROPS
+0000: 0100
+.enddata
+					String: astrTemp[*]
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Date/Time: adtTemp[*]
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Window Handle: ahWndTemp[*]
+.data INHERITPROPS
+0000: 0100
+.enddata
+					File Handle: afTemp[*]
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Sql Handle: SqlTemp[*]
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Boolean: bTemp[*]
+.data INHERITPROPS
+0000: 0100
+.enddata
+					!
+					!
+					Number: nReturn
+.data INHERITPROPS
+0000: 0100
+.enddata
+					String: strReturn
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Date/Time: dtReturn
+.data INHERITPROPS
+0000: 0100
+.enddata
+					Window Handle: hWndReturn
+.data INHERITPROPS
+0000: 0100
+.enddata
+				Actions 
+					Set lbResult = FALSE
+					Set lsScript = ''
+					Set lbIFLevelValue[0] = TRUE
+					!
+					If fpsFileName != STRING_Null And SalFileOpen(lfhScript, fpsFileName, OF_Read)
+						Call SalWaitCursor( TRUE )
+						Set lbResult = TRUE
+						! Script Einlesen
+						While SalFileGetStr(lfhScript, lsLine, 2000)
+							! when comment, or nothing -> ignore
+							If SalStrTrimX(SalStrLeftX(lsLine,1)) != ';' and SalStrTrimX(lsLine) != STRING_Null
+								!
+								! security Check
+								If SalStrScan(lsLine,'SqlPassword') > -1
+									Set lsLine =  VisStrSubstitute(lsLine, 'SqlPassword', '')
+									If not pbQuietMode
+										Call SalMessageBox("Script '" || fpsFileName || "' Security Alert !", "Warning", MB_Ok | MB_IconExclamation)
+								!
+								! ok Execute line
+								Else 
+									! Only execute this level, when if it is  allowed ( needed for sub-IF´s)
+									If SalStrLeftX(SalStrLowerX(lsLine),5) = 'endif'
+										If lnIFLevel > 0
+											Set lnIFLevel = lnIFLevel - 1
+									Else If lbIFLevelValue[ lnIFLevel] = TRUE
+										!
+										! 'If' ??
+										If SalStrLeftX(SalStrLowerX(lsLine),3) = 'if '
+											Set nType =  SalCompileAndEvaluate(lsLine ,nError, nErrorPos, nReturn, strReturn, dtReturn, hWndReturn, pbQuietMode, SalContextCurrent() )
+											! when 'if' was true
+											Set lnIFLevel = lnIFLevel + 1
+											If nReturn = 1
+												Set lbIFLevelValue[ lnIFLevel] = TRUE
+											Else 
+												Set lbIFLevelValue[ lnIFLevel] = FALSE
+										! 'While' is not implemented yet (if needed, will be done here
+										!
+										! 'normal' expression
+										Else 
+											Call SalCompileAndEvaluate(lsLine ,nError, nErrorPos, nReturn, strReturn, dtReturn, hWndReturn, pbQuietMode, SalContextCurrent() )
+						Call SalWaitCursor( FALSE )
+						Call SalFileClose(lfhScript)
+					Else 
+						If not pbQuietMode
+							Call SalMessageBox("Script '" || fpsFileName ||  "' not found !", "Error", MB_Ok | MB_IconExclamation)
+					Return lbResult
+		Named Menus
+		Class Definitions
+.data RESOURCE 0 0 1 3326025301
+0000: A60500003D020000 0000000000000000 0200000600FFFF01 00160000436C6173
+0020: 73566172004F7574 6C696E6552006567 496E666FDD003C00 001063004578706C
+0040: 6F726572004C6973 74426F78BE800100 001100000007010D 000000FFFFC90D00
+0060: 0001FD00FF071A00 000001F700FF1F27 0000DC000100FF7F 34700000000100FF
+0080: FFC14100000001FD 00FF074E00000001 F700FF1F5B0000DC 000100FF7F687000
+00A0: 00000100FFFFC175 00000001FD00FF07 8200000001F700FF 1F8F0000DC000100
+00C0: FF7F9C7000000001 00FFFFC1A9000000 01FD00FF07B60000 0001F700FF1FC300
+00E0: 00DC000100FF7FD0 700000000100FFFF 2101808F00000102 00000F63446573C0
+0100: 6B746F704C694722 01000B7800000001 F60D00FFDF0DDC00 0100FF7F1A730001
+0120: 00FFFFCD270001FD 00FF37340001F700 FFDF41DC000100FF 7F4E73000100FFFF
+0140: CD5B0001FD00FF37 680001F700FFDF75 DC000100FF7F8273 000100FFFF210180
+0160: 3400000200000000 0B634469727E4C6C 8000000004000000 67010D00FFFFCD0D
+0180: 0001FD00FF371A00 01F700FFDF27DC00 0100FF7F01088027 00000300003C000F
+01A0: 5472F065654C69C1 52000000039E0001 0DFD00FF370D0001 F700FFDF1ADC0001
+01C0: 00FF7F01C8805B00 000400000C634669 6C654C3FBA00C000 0007000000B3010D
+01E0: 00FFFFE60D0001FE 00FF9B1A0001FB00 FF6F2700EE0100FF BF34B9000100FFFF
+0200: E6410001FE00FF9B 4E0001FB00FF0F01 8041000100050000 000D638052616469
+0220: 6F4C690F86000000 F60500EC010D00FF 3F0D00B9000100FF FFE61A0001FE00FF
+0240: 9B270001FB00FF6F 3400EE0100FF3F
+.enddata
+			Functional Class: cfScript
+.data INHERITPROPS
+0000: 0100
+.enddata
+				Description:
+				Derived From
+				Class Variables
+				Instance Variables
+					String: isCustomer
+				Functions
+					Function: MenuLookup
+						Description:
+						Returns
+							Boolean:
+						Parameters
+						Static Variables
+						Local variables
+							String: lsText
+						Actions
+							Set lsText = __MenuFromFile(isCustomer || '-' || SalGetItemNameX(hWndForm) || '-' || 
+														SalGetItemNameX(hWndItem) || '-Lookup' || '.menu')
+							If lsText = ''
+								Return FALSE
+							Call SalSetWindowText( hWndItem, lsText)
+							Return TRUE
+					Function: Validate
+						Description:
+						Returns
+						Parameters
+						Static Variables
+						Local variables
+						Actions
+							Call SalExecScript( isCustomer || '-' || SalGetItemNameX(hWndForm) || '-' || 'Validate' || '.sal' , SalContextCurrent () )
+					Function: New
+						Description:
+						Returns
+						Parameters
+						Static Variables
+						Local variables
+						Actions
+							Call SalExecScript( isCustomer || '-' || SalGetItemNameX(hWndForm) || '-' || 'New' ||'.sal', SalContextCurrent() )
+					Function: Create
+						Description:
+						Returns
+						Parameters
+						Static Variables
+						Local variables
+						Actions
+							Call SalExecScript( isCustomer || '-' || SalGetItemNameX(hWndForm) || '-' || 'Create' ||'.sal', SalContextCurrent() )
+					Function: OnEdit
+						Description:
+						Returns
+						Parameters
+						Static Variables
+						Local variables
+						Actions
+							Call SalExecScript( isCustomer || '-' || SalGetItemNameX(hWndForm) || '-' || SalGetItemNameX(hWndItem) || 'OnEdit' ||'.sal', SalContextCurrent() )
+					Function: SetCustomer
+						Description:
+						Returns
+						Parameters
+							String: psCustomer
+.data INHERITPROPS
+0000: 0100
+.enddata
+						Static Variables
+						Local variables
+						Actions
+							Set isCustomer = psCustomer
+					Function: __MenuFromFile
+						Description: Eingabedatei einlesen
+						Returns
+							String:
+						Parameters
+							String: psFileName
+.data INHERITPROPS
+0000: 0100
+.enddata
+						Static Variables
+						Local variables
+							File Handle: lhFile
+							Long String: lsText
+.data INHERITPROPS
+0000: 0100
+.enddata
+							Number: lnSelected
+.data INHERITPROPS
+0000: 0100
+.enddata
+							String: lsValues[*]
+.data INHERITPROPS
+0000: 0100
+.enddata
+							Number: lnCount
+.data INHERITPROPS
+0000: 0100
+.enddata
+						Actions
+							Call SalWaitCursor(TRUE)
+							If NOT SalFileOpen(lhFile, psFileName, OF_Read)
+								Call SalWaitCursor(FALSE)
+								Return ''
+							Loop
+								If not SalFileGetStr( lhFile, lsText, 254 )
+									Break
+								Set lsValues[lnCount] = lsText
+								Set lnCount = lnCount + 1
+							Call SalFileClose(lhFile)
+							Call SalWaitCursor(FALSE)
+							Set lnSelected = SalMenuPopup(lsValues)
+							If lnSelected > -1
+								Return lsValues[lnSelected]
+							Return ''
+		Default Classes
+			MDI Window: cBaseMDI
+			Form Window:
+			Dialog Box:
+			Table Window:
+			Quest Window:
+			Data Field:
+			Spin Field:
+			Multiline Field:
+			Pushbutton:
+			Radio Button:
+			Option Button:
+			Check Box:
+			Child Table:
+			Quest Child Window: cQuickDatabase
+			List Box:
+			Combo Box:
+			Picture:
+			Vertical Scroll Bar:
+			Horizontal Scroll Bar:
+			Column:
+			Background Text:
+			Group Box:
+			Line:
+			Frame:
+			Custom Control:
+			ActiveX:
+		Application Actions
+	Form Window: frmMain
+.data INHERITPROPS
+0000: 0100
+.enddata
+		Class:
+		Property Template:
+		Class DLL Name:
+		Title: sample script
+		Icon File:
+		Accesories Enabled? Yes
+		Visible? Yes
+		Display Settings
+			Display Style? Default
+			Visible at Design time? Yes
+			Automatically Created at Runtime? Yes
+			Initial State: Normal
+			Maximizable? Yes
+			Minimizable? Yes
+			System Menu? Yes
+			Resizable? Yes
+			Window Location and Size
+				Left: Default
+				Top:    Default
+				Width:  8.2"
+				Width Editable? Yes
+				Height: 4.488"
+				Height Editable? Yes
+			Form Size
+				Width:  Default
+				Height: Default
+				Number of Pages: Dynamic
+			Font Name: Default
+			Font Size: Default
+			Font Enhancement: Default
+			Text Color: Default
+			Background Color: Default
+		Description:
+		Named Menus
+		Menu
+			Popup Menu: Switch Script
+				Resource Id: 65527
+				Enabled when:
+				Status Text:
+				Menu Item Name:
+				Menu Item: Customer1
+					Resource Id: 65528
+					Keyboard Accelerator: (none)
+					Status Text:
+					Menu Settings
+						Enabled when:
+						Checked when:
+					Menu Actions
+						Call wScript.SetCustomer('Customer1')
+						Call wScript.Create()
+					Menu Item Name:
+				Menu Item: Customer2
+					Resource Id: 65529
+					Keyboard Accelerator: (none)
+					Status Text:
+					Menu Settings
+						Enabled when:
+						Checked when:
+					Menu Actions
+						Call wScript.SetCustomer('Customer2')
+						Call wScript.Create()
+					Menu Item Name:
+		Tool Bar
+			Display Settings
+				Display Style? Default
+				Location? Top
+				Visible? Yes
+				Size: 0.476"
+				Size Editable? Yes
+				Font Name: Default
+				Font Size: Default
+				Font Enhancement: Default
+				Text Color: Default
+				Background Color: Default
+			Contents
+				Pushbutton: pbNew
+					Class Child Ref Key: 0
+					Class ChildKey: 0
+					Class:
+					Property Template:
+					Class DLL Name:
+					Title: New
+					Window Location and Size
+						Left: 0.083"
+						Top:    0.095"
+						Width:  1.2"
+						Width Editable? Yes
+						Height: 0.298"
+						Height Editable? Yes
+					Visible? Yes
+					Keyboard Accelerator: (none)
+					Font Name: Default
+					Font Size: Default
+					Font Enhancement: Default
+					Picture File Name:
+					Picture Transparent Color: None
+					Image Style: Single
+					Text Color: Default
+					Background Color: Default
+					Message Actions
+						On SAM_Click
+							Call VisWinClearAllFields(hWndForm )
+							Call wScript.New()
+				Pushbutton: pbSave
+					Class Child Ref Key: 0
+					Class ChildKey: 0
+					Class:
+					Property Template:
+					Class DLL Name:
+					Title: Save
+					Window Location and Size
+						Left: 1.367"
+						Top:    0.083"
+						Width:  1.2"
+						Width Editable? Yes
+						Height: 0.298"
+						Height Editable? Yes
+					Visible? Yes
+					Keyboard Accelerator: (none)
+					Font Name: Default
+					Font Size: Default
+					Font Enhancement: Default
+					Picture File Name:
+					Picture Transparent Color: None
+					Image Style: Single
+					Text Color: Default
+					Background Color: Default
+					Message Actions
+						On SAM_Click
+							Call wScript.Validate()
+								! must be done to prevent the system menu from coming up
+		Contents
+			Background Text: Most customer want there own handlings (predefinded values, validation,...)
+					. You can´t hardcode this!!! So you must use individual scripting for each customer. So you can code
+					a core framework and add individual scripts for each customer.
+					(Right click the controls for menus,...)
+				Resource Id: 65523
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Window Location and Size
+					Left: 0.4"
+					Top:    0.143"
+					Width:  6.583"
+					Width Editable? Yes
+					Height: 0.81"
+					Height Editable? Yes
+				Visible? Yes
+				Justify: Left
+				Font Name: Default
+				Font Size: Default
+				Font Enhancement: Default
+				Text Color: Default
+				Background Color: White
+			Background Text: Text1
+				Resource Id: 65521
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Window Location and Size
+					Left: 0.333"
+					Top:    1.214"
+					Width:  0.833"
+					Width Editable? Yes
+					Height: 0.167"
+					Height Editable? Yes
+				Visible? Yes
+				Justify: Left
+				Font Name: Default
+				Font Size: Default
+				Font Enhancement: Default
+				Text Color: Default
+				Background Color: Default
+			Data Field: df1
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Property Template:
+				Class DLL Name:
+				Data
+					Maximum Data Length: Default
+					Data Type: String
+					Editable? Yes
+				Display Settings
+					Window Location and Size
+						Left: 1.467"
+						Top:    1.19"
+						Width:  1.783"
+						Width Editable? Yes
+						Height: 0.25"
+						Height Editable? Yes
+					Visible? Yes
+					Border? Yes
+					Justify: Left
+					Format: Unformatted
+					Country: Default
+					Font Name: Default
+					Font Size: Default
+					Font Enhancement: Default
+					Text Color: Default
+					Background Color: Default
+					Input Mask: Unformatted
+				Message Actions
+					On VTM_RightClick
+						If wScript.MenuLookup()
+							! must be done to prevent the system menu from coming up
+							Return FALSE
+			Background Text: Text3
+				Resource Id: 65525
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Window Location and Size
+					Left: 4.0"
+					Top:    1.19"
+					Width:  0.833"
+					Width Editable? Yes
+					Height: 0.167"
+					Height Editable? Yes
+				Visible? Yes
+				Justify: Left
+				Font Name: Default
+				Font Size: Default
+				Font Enhancement: Default
+				Text Color: Default
+				Background Color: Default
+			Data Field: df2
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Property Template:
+				Class DLL Name:
+				Data
+					Maximum Data Length: Default
+					Data Type: Number
+					Editable? Yes
+				Display Settings
+					Window Location and Size
+						Left: 5.133"
+						Top:    1.167"
+						Width:  1.9"
+						Width Editable? Yes
+						Height: 0.25"
+						Height Editable? Yes
+					Visible? Yes
+					Border? Yes
+					Justify: Left
+					Format: Unformatted
+					Country: Default
+					Font Name: Default
+					Font Size: Default
+					Font Enhancement: Default
+					Text Color: Default
+					Background Color: Default
+					Input Mask: Unformatted
+				Message Actions
+					On VTM_RightClick
+						If wScript.MenuLookup()
+							! must be done to prevent the system menu from coming up
+							Return FALSE
+			Background Text: Text2
+				Resource Id: 65522
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Window Location and Size
+					Left: 0.383"
+					Top:    1.667"
+					Width:  0.833"
+					Width Editable? Yes
+					Height: 0.167"
+					Height Editable? Yes
+				Visible? Yes
+				Justify: Left
+				Font Name: Default
+				Font Size: Default
+				Font Enhancement: Default
+				Text Color: Default
+				Background Color: Default
+			List Box: lb1
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Property Template:
+				Class DLL Name:
+				Window Location and Size
+					Left: 1.5"
+					Top:    1.607"
+					Width:  1.733"
+					Width Editable? Yes
+					Height: 0.69"
+					Height Editable? Yes
+				Visible? Yes
+				Multiple selection? No
+				Sorted? Yes
+				Vertical Scroll? Yes
+				Font Name: Default
+				Font Size: Default
+				Font Enhancement: Default
+				Text Color: Default
+				Background Color: Default
+				Horizontal Scroll? No
+				List Initialization
+				Message Actions
+			Background Text: Text4
+				Resource Id: 65526
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Window Location and Size
+					Left: 4.017"
+					Top:    1.631"
+					Width:  0.833"
+					Width Editable? Yes
+					Height: 0.167"
+					Height Editable? Yes
+				Visible? Yes
+				Justify: Left
+				Font Name: Default
+				Font Size: Default
+				Font Enhancement: Default
+				Text Color: Default
+				Background Color: Default
+			Combo Box: cmb1
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Property Template:
+				Class DLL Name:
+				Window Location and Size
+					Left: 5.2"
+					Top:    1.595"
+					Width:  1.817"
+					Width Editable? Yes
+					Height: 1.25"
+					Height Editable? Yes
+				Visible? Yes
+				Editable? Yes
+				String Type: String
+				Maximum Data Length: Default
+				Sorted? Yes
+				Always Show List? No
+				Vertical Scroll? Yes
+				Font Name: Default
+				Font Size: Default
+				Font Enhancement: Default
+				Text Color: Default
+				Background Color: Default
+				Input Mask: Unformatted
+				List Initialization
+				Message Actions
+					On VTM_RightClick
+						If wScript.MenuLookup()
+							! must be done to prevent the system menu from coming up
+							Return FALSE
+			Frame
+				Resource Id: 65524
+				Class Child Ref Key: 0
+				Class ChildKey: 0
+				Class:
+				Window Location and Size
+					Left: 0.383"
+					Top:    0.131"
+					Width:  6.617"
+					Width Editable? Yes
+					Height: 0.833"
+					Height Editable? Yes
+				Visible? Yes
+				Corners: Square
+				Border Style: Solid
+				Border Thickness: 1
+				Border Color: Default
+				Background Color: Default
+		Functions
+		Window Parameters
+		Window Variables
+			: wScript
+				Class: cfScript
+		Message Actions
+			On SAM_Create
+				Call wScript.SetCustomer('Customer1')
+				Call wScript.Create()

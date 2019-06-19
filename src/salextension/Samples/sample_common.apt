@@ -1,0 +1,2311 @@
+.head 0 +  Application Description: author: 	Phil Gibone
+date:	
+Version:	1.00
+
+
+.head 1 -  Outline Version - 4.0.28
+.head 1 +  Design-time Settings
+.data VIEWINFO
+0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400010000
+0020: 0000000000E90000 002C000000020000 0003000000FFFFFF FFFFFFFFFFFCFFFF
+0040: FFE9FFFFFFFFFFFF FF000000007C0200 004D010000010000 0001000000010000
+0060: 000F4170706C6963 6174696F6E497465 6D00000000
+.enddata
+.head 2 -  Outline Window State: Normal
+.head 2 +  Outline Window Location and Size
+.data VIEWINFO
+0000: 6600040003002D00 0000000000000000 0000B71E5D0E0500 1D00FFFF4D61696E
+0020: 0000000000000000 0000000000000000 0000003B00010000 00000000000000E9
+0040: 1E800A00008600FF FF496E7465726E61 6C2046756E637469 6F6E730000000000
+0060: 0000000000000000 0000000000003200 0100000000000000 0000E91E800A0000
+0080: DF00FFFF56617269 61626C6573000000 0000000000000000 0000000000000000
+00A0: 3000010000000000 00000000F51E100D 0000F400FFFF436C 6173736573000000
+00C0: 0000000000000000 0000000000000000
+.enddata
+.data VIEWSIZE
+0000: D000
+.enddata
+.head 3 -  Left: -0.013"
+.head 3 -  Top: 0.0"
+.head 3 -  Width:  8.013"
+.head 3 -  Height: 4.969"
+.head 2 +  Options Box Location
+.data VIEWINFO
+0000: D4180909B80B1A00
+.enddata
+.data VIEWSIZE
+0000: 0800
+.enddata
+.head 3 -  Visible? Yes
+.head 3 -  Left: 4.15"
+.head 3 -  Top: 1.885"
+.head 3 -  Width:  3.8"
+.head 3 -  Height: 2.073"
+.head 2 +  Class Editor Location
+.head 3 -  Visible? No
+.head 3 -  Left: 0.575"
+.head 3 -  Top: 0.094"
+.head 3 -  Width:  5.063"
+.head 3 -  Height: 2.719"
+.head 2 +  Tool Palette Location
+.head 3 -  Visible? No
+.head 3 -  Left: 6.388"
+.head 3 -  Top: 0.729"
+.head 2 -  Fully Qualified External References? Yes
+.head 2 -  Reject Multiple Window Instances? No
+.head 2 -  Enable Runtime Checks Of External References? Yes
+.head 2 -  Use Release 4.0 Scope Rules? No
+.head 1 +  Libraries
+.head 2 -  ! File Include: vt.apl
+.head 2 -  ! File Include: cstructl.apl
+.head 2 -  File Include: SalExtension.apl
+.head 1 +  Global Declarations
+.head 2 +  Window Defaults
+.head 3 +  Tool Bar
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Form Window
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Dialog Box
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Top Level Table Window
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Data Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Multiline Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Spin Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Background Text
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Pushbutton
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 3 +  Radio Button
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Check Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Option Button
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 3 +  Group Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Child Table Window
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  List Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Combo Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Line
+.head 4 -  Line Color: Use Parent
+.head 3 +  Frame
+.head 4 -  Border Color: Use Parent
+.head 4 -  Background Color: 3D Face Color
+.head 3 +  Picture
+.head 4 -  Border Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 2 +  Formats
+.head 3 -  Number: 0'%'
+.head 3 -  Number: #0
+.head 3 -  Number: ###000
+.head 3 -  Number: ###000;'($'###000')'
+.head 3 -  Date/Time: hh:mm:ss AMPM
+.head 3 -  Date/Time: M/d/yy
+.head 3 -  Date/Time: MM-dd-yy
+.head 3 -  Date/Time: dd-MMM-yyyy
+.head 3 -  Date/Time: MMM d, yyyy
+.head 3 -  Date/Time: MMM d, yyyy hh:mm AMPM
+.head 3 -  Date/Time: MMMM d, yyyy hh:mm AMPM
+.head 3 -  Date/Time: dddd : dd/MM/yyyy
+.head 3 -  Number: #0
+.head 2 +  External Functions
+.head 2 +  Constants
+.data CCDATA
+0000: 3000000000000000 0000000000000000 00000000
+.enddata
+.data CCSIZE
+0000: 1400
+.enddata
+.head 3 +  System
+.head 4 -  ! SalExtension
+.head 4 -  ! Number: SC_CLOSE			= 0xF060
+.head 4 -  ! Number: SC_MOVE				= 0xF010
+.head 4 -  ! Number: SC_MINIMIZE			= 0xF020
+.head 4 -  ! Number: SC_MAXIMIZE			= 0xF030
+.head 4 -  ! Number: MF_BYCOMMAND			= 0x0000
+.head 4 -  ! Number: MF_DISABLED			= 0x0002
+.head 4 -  ! Number: MF_ENABLED			= 0x0000
+.head 4 -  ! Number: MF_GRAYED			= 0x0001
+.head 4 +  ! Number: WM_TIMECHANGE			= 0x001E
+.head 5 -  ! Description:	Sent to all top windows in the system when the system time has been changed
+.head 4 -  ! Number: HORZRES =		8
+.head 4 -  ! Number: VERTRES =		10
+.head 4 -  ! Number: BITSPIXEL =		12
+.head 3 +  User
+.head 3 -  Enumerations
+.head 2 +  Resources
+.head 2 +  Variables
+.data RESOURCE 0 0 1 2759005305
+0000: 02020000D2000000 0000000000000000 0200001100000044 0000001019000000
+0020: 010000FE00FF035D 0000000400840000 02000000FFFF6061 0000001900ED0100
+0040: FF3F7A0058000004 0002FB00FF0F7E00 0000D6190001FE00 FF839700000019B5
+0060: 000100FFFF60B000 00000400ED0200FF 3FB4005800001900 01FB00FF0FCD0000
+0080: 00D6190001FE00FF 83E600000019B500 0100FFFF60FF0000 001900ED0100FF3F
+00A0: 18015A00190001FB 00FF8F310100D619 0001FE00FFA34A01 0019B5000100FFFF
+00C0: 686301001900ED01 00FF3F7C015A0004 0003F8000000FF0F 80010000D6190001
+00E0: FE00FF03
+.enddata
+.head 2 +  Internal Functions
+.head 2 -  Named Menus
+.head 2 +  Class Definitions
+.data RESOURCE 0 0 1 4242622805
+0000: 2B0800008F030000 0000000000000000 0200000A00FFFF01 00160000436C6173
+0020: 73566172004F7574 6C696E6552006567 496E666F36003C00 000B630045786563
+0040: 5363726900707466 00000003003C0000 0400800000010200 0000FF0780010000
+0060: 00FF060400190000 00E9010000FF3F1D 00580000190001FB 00FF0F0180190011
+0080: 000100000973C050 6F7274496E602200 000001006F1900ED 0100FF3F018048A9
+00A0: 0100020000081063 45706C6F72006572 4C697374426F1078 020200110000DE00
+00C0: 19D200010000FF7F 19B3001900F60100 FF1F320000AC0019 0001FD00FF074B00
+00E0: 0000196B000100FF FFC16400000019DA 000100FF7F7DB000 00001900F60100FF
+0100: 1F960000AC001900 01FD00FF07AF0000 00196B000100FFFF C1C800000019DA00
+0120: 0100FF7FE1B00000 001900F60100FF1F FA0000AC00190001 FD00FF4713010019
+0140: 6B000100FFFFD12C 010019DA000100FF 7F45B401001900F6 0100FF1F5E0100AD
+0160: 190001FD00FF4777 0100196B000100FF FFD190010019DA00 0100FF7F01C08081
+0180: 0000000300000863 416E696D61007465 B80000000600BC00 0019A500010000FF
+01A0: FF6619000400ED03 00FFBF1D59001900 01FB00FF4F360000 D6190001FE00FF83
+01C0: 4F00000019B50001 00FFFF6068000000 1900ED0100FF3F01 806619000400200F
+01E0: 634461745469006D 655069636B657244 2200000100006F19 00ED0100FF3F0180
+0200: 0C13010500000006 0F65736B746FF870 4C69084E01000B00 00006F1900E90100
+0220: 00FFBF1959001900 01FB00FF6F3200D6 190001FE00FF9B4B 0019B5000100FFFF
+0240: 6664001900ED0100 FFBF7D5900190001 FB00FF6F9600D619 0001FE00FF9BAF00
+0260: 19B5000100FFFF66 C8001900ED0100FF BFE15900190001FB 00FF6FFA00D61900
+0280: 01FE00FF43018064 00000606000B6344 69FC724C607C0000 0004006F1900E901
+02A0: 0000FFBF19590019 0001FB00FF6F3200 D6190001FE00FF9B 4B0019B5000100FF
+02C0: FF1001804B000007 007800000F54E072 65654C69835E0000 0003BD0019A50001
+02E0: 0000FFFF66190019 00ED0100FFBF3259 00190001FB00FF0F 0180AF0001000800
+0300: 00000C63E046696C 654C07D600000007 7B00194B00010000 FFFFCD190019DA00
+0320: 0100FF7F32B30019 00F60100FFDF4BAC 00190001FD00FF37 6400196B000100FF
+0340: FFCD7D0019DA0001 00FF7F96B3001900 F60100FF1F01807D 020000090000000D
+0360: 0063526164696F4C 691F9A0000EC0005 002D19000100FD00 FF371900196B0001
+0380: 00FFFFCD320019DA 000100FF7F4BB300 1900F60100FFDF64 AC00190001FD00FF
+03A0: 07
+.enddata
+.head 2 +  Default Classes
+.head 3 -  MDI Window: cBaseMDI
+.head 3 -  Form Window:
+.head 3 -  Dialog Box:
+.head 3 -  Table Window:
+.head 3 -  Quest Window:
+.head 3 -  Data Field:
+.head 3 -  Spin Field:
+.head 3 -  Multiline Field:
+.head 3 -  Pushbutton:
+.head 3 -  Radio Button:
+.head 3 -  Option Button:
+.head 3 -  Check Box:
+.head 3 -  Child Table:
+.head 3 -  Quest Child Window: cQuickDatabase
+.head 3 -  List Box:
+.head 3 -  Combo Box:
+.head 3 -  Picture:
+.head 3 -  Vertical Scroll Bar:
+.head 3 -  Horizontal Scroll Bar:
+.head 3 -  Column:
+.head 3 -  Background Text:
+.head 3 -  Group Box:
+.head 3 -  Line:
+.head 3 -  Frame:
+.head 3 -  Custom Control:
+.head 3 -  ActiveX:
+.head 2 -  Application Actions
+.head 1 +  Form Window: frmMain
+.head 2 -  Class:
+.head 2 -  Property Template:
+.head 2 -  Class DLL Name:
+.head 2 -  Title:
+.head 2 -  Icon File:
+.head 2 -  Accessories Enabled? No
+.head 2 -  Visible? Yes
+.head 2 -  Display Settings
+.head 3 -  Display Style? Default
+.head 3 -  Visible at Design time? Yes
+.head 3 -  Automatically Created at Runtime? Yes
+.head 3 -  Initial State: Normal
+.head 3 -  Maximizable? Yes
+.head 3 -  Minimizable? Yes
+.head 3 -  System Menu? Yes
+.head 3 -  Resizable? Yes
+.head 3 -  Window Location and Size
+.head 4 -  Left: 1.825"
+.head 4 -  Top: 1.031"
+.head 4 -  Width:  9.133"
+.head 4 -  Width Editable? Yes
+.head 4 -  Height: 5.452"
+.head 4 -  Height Editable? Yes
+.head 3 -  Form Size
+.head 4 -  Width:  Default
+.head 4 -  Height: Default
+.head 4 -  Number of Pages: Dynamic
+.head 3 -  Font Name: Default
+.head 3 -  Font Size: Default
+.head 3 -  Font Enhancement: Default
+.head 3 -  Text Color: Default
+.head 3 -  Background Color: Default
+.head 2 -  Description:
+.head 2 -  Named Menus
+.head 2 -  Menu
+.head 2 +  Tool Bar
+.head 3 -  Display Settings
+.head 4 -  Display Style? Default
+.head 4 -  Location? Top
+.head 4 -  Visible? Yes
+.head 4 -  Size: Default
+.head 4 -  Size Editable? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 -  Contents
+.head 2 +  Contents
+.head 3 -  Background Text: Date
+.head 4 -  Resource Id: 29333
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.183"
+.head 5 -  Top: 0.179"
+.head 5 -  Width:  0.6"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Data Field: dfDate1
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Date/Time
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 0.883"
+.head 6 -  Top: 0.155"
+.head 6 -  Width:  1.3"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Left
+.head 5 -  Format: Date
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 +  Message Actions
+.head 5 +  On SAM_Create
+.head 6 -  Set MyValue = SalDateCurrent()
+.head 3 -  Background Text: Month
+.head 4 -  Resource Id: 29334
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.383"
+.head 5 -  Top: 0.179"
+.head 5 -  Width:  0.8"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Data Field: dfMonth
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Number
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 3.183"
+.head 6 -  Top: 0.155"
+.head 6 -  Width:  0.8"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Right
+.head 5 -  Format: Unformatted
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 +  Message Actions
+.head 5 +  On SAM_Create
+.head 6 -  Set MyValue = 5
+.head 3 +  Pushbutton: pbSalDateAddMonth
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: SalDateAddMonth
+.head 4 -  Window Location and Size
+.head 5 -  Left: 4.583"
+.head 5 -  Top: 0.155"
+.head 5 -  Width:  2.4"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.298"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Keyboard Accelerator: (none)
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Image Style: Single
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Set dfDate2 = SalDateAddMonth(dfDate1, dfMonth )
+.head 3 +  Data Field: dfDate2
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Date/Time
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 7.183"
+.head 6 -  Top: 0.155"
+.head 6 -  Width:  1.3"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Left
+.head 5 -  Format: Date
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 -  Message Actions
+.head 3 -  Background Text: Week
+.head 4 -  Resource Id: 29335
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.183"
+.head 5 -  Top: 0.595"
+.head 5 -  Width:  0.8"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Data Field: dfWeek
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Number
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 0.883"
+.head 6 -  Top: 0.571"
+.head 6 -  Width:  0.8"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Right
+.head 5 -  Format: Unformatted
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 +  Message Actions
+.head 5 +  On SAM_Create
+.head 6 -  Set MyValue = 5
+.head 3 -  Background Text: Year
+.head 4 -  Resource Id: 29336
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.383"
+.head 5 -  Top: 0.595"
+.head 5 -  Width:  0.8"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Data Field: dfYear
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Number
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 3.183"
+.head 6 -  Top: 0.571"
+.head 6 -  Width:  0.8"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Right
+.head 5 -  Format: Unformatted
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 +  Message Actions
+.head 5 +  On SAM_Create
+.head 6 -  Set MyValue = 2000
+.head 3 +  Pushbutton: pbSalDateMondayWeekNumber
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: SalDateMondayWeekNumber
+.head 4 -  Window Location and Size
+.head 5 -  Left: 4.583"
+.head 5 -  Top: 0.571"
+.head 5 -  Width:  2.4"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.298"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Keyboard Accelerator: (none)
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Image Style: Single
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Set dfDate10 = SalDateMondayWeekNumber(dfWeek, dfYear )
+.head 3 +  Data Field: dfDate10
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Date/Time
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 7.183"
+.head 6 -  Top: 0.571"
+.head 6 -  Width:  1.3"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Left
+.head 5 -  Format: Date
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 -  Message Actions
+.head 3 -  Background Text: Date
+.head 4 -  Resource Id: 29337
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.383"
+.head 5 -  Top: 1.012"
+.head 5 -  Width:  0.8"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Data Field: dfDate20
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Date/Time
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 3.183"
+.head 6 -  Top: 0.988"
+.head 6 -  Width:  1.3"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Left
+.head 5 -  Format: Date
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 +  Message Actions
+.head 5 +  On SAM_Create
+.head 6 -  Set MyValue = SalDateCurrent()
+.head 3 +  Pushbutton: pbSalDateMonthEnd
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: SalDateMonthEnd
+.head 4 -  Window Location and Size
+.head 5 -  Left: 4.583"
+.head 5 -  Top: 1.012"
+.head 5 -  Width:  2.4"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.298"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Keyboard Accelerator: (none)
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Image Style: Single
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Set dfDate21 = SalDateMonthEnd(dfDate20 )
+.head 3 +  Data Field: dfDate21
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Date/Time
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 7.183"
+.head 6 -  Top: 0.988"
+.head 6 -  Width:  1.3"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Left
+.head 5 -  Format: Date
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 -  Message Actions
+.head 3 -  Background Text: Date
+.head 4 -  Resource Id: 23377
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 1.65"
+.head 5 -  Top: 1.452"
+.head 5 -  Width:  0.8"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Data Field: dfDate30
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Date/Time
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 2.483"
+.head 6 -  Top: 1.429"
+.head 6 -  Width:  1.967"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Left
+.head 5 -  Format: DateTime
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 +  Message Actions
+.head 5 +  On SAM_Create
+.head 6 -  Set MyValue = SalDateCurrent()
+.head 3 +  Pushbutton: pbSalSetLocalTime
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: SalSetLocalTime
+.head 4 -  Window Location and Size
+.head 5 -  Left: 4.583"
+.head 5 -  Top: 1.405"
+.head 5 -  Width:  2.4"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.298"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Keyboard Accelerator: (none)
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Image Style: Single
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Call SalDateSetLocalTime(dfDate30 )
+.head 3 -  Background Text: Number
+.head 4 -  Resource Id: 29338
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.383"
+.head 5 -  Top: 1.845"
+.head 5 -  Width:  0.7"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Data Field: dfNumber1
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Number
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 3.183"
+.head 6 -  Top: 1.821"
+.head 6 -  Width:  0.8"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Right
+.head 5 -  Format: Unformatted
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 +  Message Actions
+.head 5 +  On SAM_Create
+.head 6 -  Set MyValue = 5
+.head 3 +  Pushbutton: pbSalNumberCeil
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: SalNumberCeil
+.head 4 -  Window Location and Size
+.head 5 -  Left: 4.583"
+.head 5 -  Top: 1.821"
+.head 5 -  Width:  2.4"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.298"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Keyboard Accelerator: (none)
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Image Style: Single
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Set dfNumber2 = SalNumberCeil(dfNumber1 )
+.head 3 +  Data Field: dfNumber2
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Number
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 7.183"
+.head 6 -  Top: 1.821"
+.head 6 -  Width:  0.8"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Right
+.head 5 -  Format: Unformatted
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 -  Message Actions
+.head 3 -  Background Text: Number
+.head 4 -  Resource Id: 29339
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.383"
+.head 5 -  Top: 2.262"
+.head 5 -  Width:  0.7"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Data Field: dfNumber11
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Number
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 3.183"
+.head 6 -  Top: 2.238"
+.head 6 -  Width:  0.8"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Right
+.head 5 -  Format: Unformatted
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 +  Message Actions
+.head 5 +  On SAM_Create
+.head 6 -  Set MyValue = 5
+.head 3 +  Pushbutton: pbSalNumberFloor
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: SalNumberFloor
+.head 4 -  Window Location and Size
+.head 5 -  Left: 4.583"
+.head 5 -  Top: 2.238"
+.head 5 -  Width:  2.4"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.298"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Keyboard Accelerator: (none)
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Image Style: Single
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Set dfNumber12 = SalNumberFloor(dfNumber11 )
+.head 3 +  Data Field: dfNumber12
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Number
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 7.183"
+.head 6 -  Top: 2.238"
+.head 6 -  Width:  0.8"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Right
+.head 5 -  Format: Unformatted
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 -  Message Actions
+.head 3 -  Background Text: Number
+.head 4 -  Resource Id: 29340
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.183"
+.head 5 -  Top: 2.679"
+.head 5 -  Width:  0.7"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Data Field: dfNumber21
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Number
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 0.883"
+.head 6 -  Top: 2.655"
+.head 6 -  Width:  0.8"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Right
+.head 5 -  Format: Unformatted
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 +  Message Actions
+.head 5 +  On SAM_Create
+.head 6 -  Set MyValue = -5
+.head 3 -  Background Text: Modulo
+.head 4 -  Resource Id: 29341
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.383"
+.head 5 -  Top: 2.679"
+.head 5 -  Width:  0.8"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Data Field: dfNumber22
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Number
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 3.183"
+.head 6 -  Top: 2.655"
+.head 6 -  Width:  0.8"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Left
+.head 5 -  Format: Unformatted
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 +  Message Actions
+.head 5 +  On SAM_Create
+.head 6 -  Set MyValue = 3
+.head 3 +  Pushbutton: pbSalNumberModulo
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: SalNumberModulo
+.head 4 -  Window Location and Size
+.head 5 -  Left: 4.583"
+.head 5 -  Top: 2.655"
+.head 5 -  Width:  2.4"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.298"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Keyboard Accelerator: (none)
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Image Style: Single
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Set dfNumber23 = SalNumberModulo(dfNumber21, dfNumber22 )
+.head 3 +  Data Field: dfNumber23
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Number
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 7.183"
+.head 6 -  Top: 2.655"
+.head 6 -  Width:  0.8"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Right
+.head 5 -  Format: Unformatted
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 -  Message Actions
+.head 3 +  Pushbutton: pbDisque
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: SalGetDriveInfo
+.head 4 -  Window Location and Size
+.head 5 -  Left: 4.583"
+.head 5 -  Top: 3.595"
+.head 5 -  Width:  2.4"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.298"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Keyboard Accelerator: (none)
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Image Style: Single
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Call SalModalDialog(dlgDisk, hWndForm)
+.head 3 +  Pushbutton: pbPrinter
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: SalGetPrinterInfo
+.head 4 -  Window Location and Size
+.head 5 -  Left: 4.583"
+.head 5 -  Top: 4.012"
+.head 5 -  Width:  2.4"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.298"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Keyboard Accelerator: (none)
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Image Style: Single
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Call SalModalDialog(dlgPrinter, hWndForm)
+.head 3 +  Radio Button: rbEnabled
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Disabled
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.283"
+.head 5 -  Top: 3.155"
+.head 5 -  Width:  1.1"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.25"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Set nFlag = MF_DISABLED | MF_GRAYED
+.head 3 +  Radio Button: rbGrayed
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Grayed
+.head 4 -  Window Location and Size
+.head 5 -  Left: 1.583"
+.head 5 -  Top: 3.155"
+.head 5 -  Width:  1.1"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.25"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Set nFlag = MF_GRAYED
+.head 3 +  Radio Button: rbDisabled
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Enabled
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.783"
+.head 5 -  Top: 3.155"
+.head 5 -  Width:  1.2"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.25"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Set nFlag = MF_ENABLED
+.head 3 +  Pushbutton: pbSystemMenu
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: SalMenuSystemEnable
+.head 4 -  Window Location and Size
+.head 5 -  Left: 4.583"
+.head 5 -  Top: 3.155"
+.head 5 -  Width:  2.4"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.298"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Keyboard Accelerator: (none)
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Image Style: Single
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Call SalMenuSystemEnable(hWndForm, SC_CLOSE, nFlag)
+.head 5 +  On SAM_Create
+.head 6 -  Set nFlag = MF_DISABLED | MF_GRAYED
+.head 3 +  Pushbutton: pbDisplaySettings
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: EnumDisplaySettings
+.head 4 -  Window Location and Size
+.head 5 -  Left: 4.583"
+.head 5 -  Top: 4.405"
+.head 5 -  Width:  2.4"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.298"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Keyboard Accelerator: (none)
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Image Style: Single
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Call SalModalDialog(dlgDisplay, hWndForm)
+.head 3 -  Line
+.head 4 -  Resource Id: 14237
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Coordinates
+.head 5 -  Begin X:  0.183"
+.head 5 -  Begin Y:  0.5"
+.head 5 -  End X:  8.483"
+.head 5 -  End Y:  0.5"
+.head 4 -  Visible? Yes
+.head 4 -  Line Style: Etched
+.head 4 -  Line Thickness: 1
+.head 4 -  Line Color: Default
+.head 3 -  Line
+.head 4 -  Resource Id: 14232
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Coordinates
+.head 5 -  Begin X:  0.183"
+.head 5 -  Begin Y:  0.952"
+.head 5 -  End X:  8.483"
+.head 5 -  End Y:  0.952"
+.head 4 -  Visible? Yes
+.head 4 -  Line Style: Etched
+.head 4 -  Line Thickness: 1
+.head 4 -  Line Color: Default
+.head 3 -  Line
+.head 4 -  Resource Id: 14241
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Coordinates
+.head 5 -  Begin X:  0.183"
+.head 5 -  Begin Y:  1.357"
+.head 5 -  End X:  8.483"
+.head 5 -  End Y:  1.357"
+.head 4 -  Visible? Yes
+.head 4 -  Line Style: Etched
+.head 4 -  Line Thickness: 1
+.head 4 -  Line Color: Default
+.head 3 -  Line
+.head 4 -  Resource Id: 14240
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Coordinates
+.head 5 -  Begin X:  0.183"
+.head 5 -  Begin Y:  1.75"
+.head 5 -  End X:  8.483"
+.head 5 -  End Y:  1.75"
+.head 4 -  Visible? Yes
+.head 4 -  Line Style: Etched
+.head 4 -  Line Thickness: 1
+.head 4 -  Line Color: Default
+.head 3 -  Line
+.head 4 -  Resource Id: 14239
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Coordinates
+.head 5 -  Begin X:  0.183"
+.head 5 -  Begin Y:  2.179"
+.head 5 -  End X:  8.483"
+.head 5 -  End Y:  2.179"
+.head 4 -  Visible? Yes
+.head 4 -  Line Style: Etched
+.head 4 -  Line Thickness: 1
+.head 4 -  Line Color: Default
+.head 3 -  Line
+.head 4 -  Resource Id: 14238
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Coordinates
+.head 5 -  Begin X:  0.183"
+.head 5 -  Begin Y:  2.583"
+.head 5 -  End X:  8.483"
+.head 5 -  End Y:  2.583"
+.head 4 -  Visible? Yes
+.head 4 -  Line Style: Etched
+.head 4 -  Line Thickness: 1
+.head 4 -  Line Color: Default
+.head 3 -  Line
+.head 4 -  Resource Id: 14236
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Coordinates
+.head 5 -  Begin X:  0.183"
+.head 5 -  Begin Y:  3.036"
+.head 5 -  End X:  8.483"
+.head 5 -  End Y:  3.036"
+.head 4 -  Visible? Yes
+.head 4 -  Line Style: Etched
+.head 4 -  Line Thickness: 1
+.head 4 -  Line Color: Default
+.head 3 -  Line
+.head 4 -  Resource Id: 14235
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Coordinates
+.head 5 -  Begin X:  0.15"
+.head 5 -  Begin Y:  3.524"
+.head 5 -  End X:  8.45"
+.head 5 -  End Y:  3.524"
+.head 4 -  Visible? Yes
+.head 4 -  Line Style: Etched
+.head 4 -  Line Thickness: 1
+.head 4 -  Line Color: Default
+.head 3 -  Line
+.head 4 -  Resource Id: 14234
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Coordinates
+.head 5 -  Begin X:  0.183"
+.head 5 -  Begin Y:  3.94"
+.head 5 -  End X:  8.483"
+.head 5 -  End Y:  3.94"
+.head 4 -  Visible? Yes
+.head 4 -  Line Style: Etched
+.head 4 -  Line Thickness: 1
+.head 4 -  Line Color: Default
+.head 3 -  Line
+.head 4 -  Resource Id: 14233
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Coordinates
+.head 5 -  Begin X:  0.183"
+.head 5 -  Begin Y:  4.357"
+.head 5 -  End X:  8.483"
+.head 5 -  End Y:  4.357"
+.head 4 -  Visible? Yes
+.head 4 -  Line Style: Etched
+.head 4 -  Line Thickness: 1
+.head 4 -  Line Color: Default
+.head 2 -  Functions
+.head 2 -  Window Parameters
+.head 2 +  Window Variables
+.head 3 -  Number: nFlag
+.head 2 -  Message Actions
+.head 1 +  Dialog Box: dlgDisplay
+.head 2 -  Class:
+.head 2 -  Property Template:
+.head 2 -  Class DLL Name:
+.head 2 -  Title: Display Settings
+.head 2 -  Accessories Enabled? No
+.head 2 -  Visible? Yes
+.head 2 -  Display Settings
+.head 3 -  Display Style? Default
+.head 3 -  Visible at Design time? Yes
+.head 3 -  Type of Dialog: Modal
+.head 3 -  Window Location and Size
+.head 4 -  Left: Default
+.head 4 -  Top: Default
+.head 4 -  Width:  8.217"
+.head 4 -  Width Editable? Yes
+.head 4 -  Height: 2.381"
+.head 4 -  Height Editable? Yes
+.head 3 -  Absolute Screen Location? Yes
+.head 3 -  Font Name: Default
+.head 3 -  Font Size: Default
+.head 3 -  Font Enhancement: Default
+.head 3 -  Text Color: Default
+.head 3 -  Background Color: Default
+.head 2 -  Description:
+.head 2 +  Tool Bar
+.head 3 -  Display Settings
+.head 4 -  Display Style? Default
+.head 4 -  Location? Top
+.head 4 -  Visible? Yes
+.head 4 -  Size: Default
+.head 4 -  Size Editable? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 -  Contents
+.head 2 +  Contents
+.head 3 +  Child Table: tblDisplay
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 0.383"
+.head 6 -  Top: 0.155"
+.head 6 -  Width:  7.0"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 1.5"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  View: Table
+.head 5 -  Allow Row Sizing? No
+.head 5 -  Lines Per Row: Default
+.head 4 -  Memory Settings
+.head 5 -  Maximum Rows in Memory: Default
+.head 5 -  Discardable? Yes
+.head 4 +  Contents
+.head 5 +  Column: colColour
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: Colour
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: String
+.head 6 -  Justify: Left
+.head 6 -  Width:  Default
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: Unformatted
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 5 +  Column: colResolution
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: Resolution
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: String
+.head 6 -  Justify: Left
+.head 6 -  Width:  Default
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: Unformatted
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 5 +  Column: colBitsPerPixel
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: BitsPerPixel
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: Number
+.head 6 -  Justify: Right
+.head 6 -  Width:  Default
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: #0
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 5 +  Column: colFrequency
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: Frequency
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: String
+.head 6 -  Justify: Left
+.head 6 -  Width:  Default
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: Unformatted
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 5 +  Column: colCurrent
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: Current ?
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: String
+.head 6 -  Justify: Left
+.head 6 -  Width:  Default
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: Unformatted
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 4 -  Functions
+.head 4 -  Window Variables
+.head 4 -  Message Actions
+.head 2 -  Functions
+.head 2 -  Window Parameters
+.head 2 +  Window Variables
+.head 3 -  Number: n
+.head 3 -  FunctionalVar: aDisplay[*]
+.head 4 -  Class: sDisplayInfo
+.head 2 +  Message Actions
+.head 3 +  On SAM_CreateComplete
+.head 4 -  Set n = SalSysGetDisplayInfo( aDisplay ) -1
+.head 4 -  Call SalTblReset(tblDisplay)
+.head 4 +  While n >= 0
+.head 5 -  Call SalTblInsertRow( tblDisplay, 0 )
+.head 5 -  Set tblDisplay.colResolution 	= SalNumberToStrX(aDisplay[n].nHorizontal, 0) || ' x ' || SalNumberToStrX(aDisplay[n].nVertical, 0)
+.head 5 +  If aDisplay[n].nFrequency = 0 OR aDisplay[n].nFrequency = 1
+.head 6 -  Set tblDisplay.colFrequency = "Hardware Default"
+.head 5 +  Else
+.head 6 -  Set tblDisplay.colFrequency	= SalNumberToStrX(aDisplay[n].nFrequency, 0) || ' Hz'
+.head 5 -  Set tblDisplay.colBitsPerPixel	= aDisplay[n].nBitsPerPixel
+.head 5 +  Select Case aDisplay[n].nBitsPerPixel
+.head 6 +  Case 4
+.head 7 -  Set tblDisplay.colColour = "16 Colours"
+.head 7 -  Break
+.head 6 +  Case 8
+.head 7 -  Set tblDisplay.colColour = "256 Colours"
+.head 7 -  Break
+.head 6 +  Case 16
+.head 7 -  Set tblDisplay.colColour = "High Colour"
+.head 7 -  Break
+.head 6 -  Case 24
+.head 6 +  Case 32
+.head 7 -  Set tblDisplay.colColour = "True Colours"
+.head 7 -  Break
+.head 6 +  Default
+.head 7 -  Set tblDisplay.colColour = "Other Colours"
+.head 5 +  If aDisplay[n].bCurrent
+.head 6 -  Set tblDisplay.colCurrent	= "Current"
+.head 5 -  Set n = n - 1
+.head 1 +  Dialog Box: dlgDisk
+.head 2 -  Class:
+.head 2 -  Property Template:
+.head 2 -  Class DLL Name:
+.head 2 -  Title: Disk Info
+.head 2 -  Accessories Enabled? No
+.head 2 -  Visible? Yes
+.head 2 -  Display Settings
+.head 3 -  Display Style? Default
+.head 3 -  Visible at Design time? Yes
+.head 3 -  Type of Dialog: Modal
+.head 3 -  Window Location and Size
+.head 4 -  Left: Default
+.head 4 -  Top: Default
+.head 4 -  Width:  9.583"
+.head 4 -  Width Editable? Yes
+.head 4 -  Height: 3.75"
+.head 4 -  Height Editable? Yes
+.head 3 -  Absolute Screen Location? Yes
+.head 3 -  Font Name: Default
+.head 3 -  Font Size: Default
+.head 3 -  Font Enhancement: Default
+.head 3 -  Text Color: Default
+.head 3 -  Background Color: Default
+.head 2 -  Description:
+.head 2 +  Tool Bar
+.head 3 -  Display Settings
+.head 4 -  Display Style? Default
+.head 4 -  Location? Top
+.head 4 -  Visible? Yes
+.head 4 -  Size: Default
+.head 4 -  Size Editable? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 -  Contents
+.head 2 +  Contents
+.head 3 +  Child Table: tblDisque
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 0.283"
+.head 6 -  Top: 0.155"
+.head 6 -  Width:  8.7"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 2.667"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  View: Table
+.head 5 -  Allow Row Sizing? No
+.head 5 -  Lines Per Row: Default
+.head 4 -  Memory Settings
+.head 5 -  Maximum Rows in Memory: Default
+.head 5 -  Discardable? Yes
+.head 4 +  Contents
+.head 5 +  Column: colName
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: Name
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: String
+.head 6 -  Justify: Left
+.head 6 -  Width:  Default
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: Unformatted
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 5 +  Column: colFileSystem
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: File System
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: String
+.head 6 -  Justify: Left
+.head 6 -  Width:  Default
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: Unformatted
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 5 +  Column: colType
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: Type
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: String
+.head 6 -  Justify: Left
+.head 6 -  Width:  1.083"
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: Unformatted
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 5 +  Column: colSize
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: Size
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: Number
+.head 6 -  Justify: Right
+.head 6 -  Width:  0.983"
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: ###000
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 5 +  Column: colFree
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: Free
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: Number
+.head 6 -  Justify: Right
+.head 6 -  Width:  1.017"
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: ###000
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 5 +  Column: colSerial
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: Serial
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: String
+.head 6 -  Justify: Left
+.head 6 -  Width:  1.0"
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: Unformatted
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 5 +  Column: colLength
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: FileName 
+Length
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: Number
+.head 6 -  Justify: Right
+.head 6 -  Width:  0.817"
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: #0
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 5 +  Column: colFlags
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: Flags
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: String
+.head 6 -  Justify: Right
+.head 6 -  Width:  0.683"
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: Unformatted
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 4 -  Functions
+.head 4 -  Window Variables
+.head 4 -  Message Actions
+.head 2 -  Functions
+.head 2 -  Window Parameters
+.head 2 +  Window Variables
+.head 3 -  Number: n
+.head 3 -  FunctionalVar: aDisk[*]
+.head 4 -  Class: sDriveInfo
+.head 2 +  Message Actions
+.head 3 +  On SAM_CreateComplete
+.head 4 -  Set n = SalSysGetDriveInfo( aDisk ) -1
+.head 4 -  Call SalTblReset(tblDisque)
+.head 4 +  While n >= 0
+.head 5 -  Call SalTblInsertRow( tblDisque, 0 )
+.head 5 -  Set tblDisque.colName 	= aDisk[n].sLetter || aDisk[n].sLabel 
+.head 5 -  Set tblDisque.colFileSystem 	= aDisk[n].sFileSystem
+.head 5 -  Set tblDisque.colType 	= aDisk[n].sDriveType
+.head 5 -  Set tblDisque.colSize 	= aDisk[n].nSize 
+.head 5 -  Set tblDisque.colFree 	= aDisk[n].nFree
+.head 5 -  Set tblDisque.colSerial 	= aDisk[n].sSerial
+.head 5 -  Set tblDisque.colLength 	= aDisk[n].nFileNameLength
+.head 5 -  Set tblDisque.colFlags 	= '0x' || aDisk[n].sFlags
+.head 5 -  Set n = n - 1
+.head 1 +  Dialog Box: dlgPrinter
+.head 2 -  Class:
+.head 2 -  Property Template:
+.head 2 -  Class DLL Name:
+.head 2 -  Title: Printer Info
+.head 2 -  Accessories Enabled? No
+.head 2 -  Visible? Yes
+.head 2 -  Display Settings
+.head 3 -  Display Style? Default
+.head 3 -  Visible at Design time? Yes
+.head 3 -  Type of Dialog: Modal
+.head 3 -  Window Location and Size
+.head 4 -  Left: Default
+.head 4 -  Top: Default
+.head 4 -  Width:  9.283"
+.head 4 -  Width Editable? Yes
+.head 4 -  Height: 3.036"
+.head 4 -  Height Editable? Yes
+.head 3 -  Absolute Screen Location? Yes
+.head 3 -  Font Name: Default
+.head 3 -  Font Size: Default
+.head 3 -  Font Enhancement: Default
+.head 3 -  Text Color: Default
+.head 3 -  Background Color: Default
+.head 2 -  Description:
+.head 2 +  Tool Bar
+.head 3 -  Display Settings
+.head 4 -  Display Style? Default
+.head 4 -  Location? Top
+.head 4 -  Visible? Yes
+.head 4 -  Size: Default
+.head 4 -  Size Editable? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 -  Contents
+.head 2 +  Contents
+.head 3 +  Child Table: tblPrinter
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 0.283"
+.head 6 -  Top: 0.071"
+.head 6 -  Width:  8.6"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 2.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  View: Table
+.head 5 -  Allow Row Sizing? No
+.head 5 -  Lines Per Row: Default
+.head 4 -  Memory Settings
+.head 5 -  Maximum Rows in Memory: Default
+.head 5 -  Discardable? Yes
+.head 4 +  Contents
+.head 5 +  Column: colName
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: Name
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: String
+.head 6 -  Justify: Left
+.head 6 -  Width:  3.667"
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: Unformatted
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 5 +  Column: colPort
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: Port
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: String
+.head 6 -  Justify: Left
+.head 6 -  Width:  Default
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: Unformatted
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 5 +  Column: colAttribute
+.head 6 -  Class Child Ref Key: 0
+.head 6 -  Class ChildKey: 0
+.head 6 -  Class:
+.head 6 -  Property Template:
+.head 6 -  Class DLL Name:
+.head 6 -  Title: Attribute
+.head 6 -  Visible? Yes
+.head 6 -  Editable? Yes
+.head 6 -  Maximum Data Length: Default
+.head 6 -  Data Type: String
+.head 6 -  Justify: Left
+.head 6 -  Width:  3.067"
+.head 6 -  Width Editable? Yes
+.head 6 -  Format: Unformatted
+.head 6 -  Country: Default
+.head 6 -  Input Mask: Unformatted
+.head 6 -  Cell Options
+.head 7 -  Cell Type? Standard
+.head 7 -  Multiline Cell? No
+.head 7 -  Cell DropDownList
+.head 8 -  Sorted? Yes
+.head 8 -  Vertical Scroll? Yes
+.head 8 -  Auto Drop Down? No
+.head 8 -  Allow Text Editing? Yes
+.head 7 -  Cell CheckBox
+.head 8 -  Check Value:
+.head 8 -  Uncheck Value:
+.head 8 -  Ignore Case? Yes
+.head 6 -  List Values
+.head 6 -  Message Actions
+.head 4 -  Functions
+.head 4 -  Window Variables
+.head 4 -  Message Actions
+.head 2 -  Functions
+.head 2 -  Window Parameters
+.head 2 +  Window Variables
+.head 3 -  Number: n
+.head 3 -  FunctionalVar: aPrint[*]
+.head 4 -  Class: sPrinterInfo
+.head 2 +  Message Actions
+.head 3 +  On SAM_CreateComplete
+.head 4 -  Set n = SalSysGetPrinterInfo( aPrint ) -1
+.head 4 -  Call SalTblReset(tblPrinter)
+.head 4 +  While n >= 0
+.head 5 -  Call SalTblInsertRow( tblPrinter, 0 )
+.head 5 -  Set tblPrinter.colName 	= aPrint[n].sPrinterName
+.head 5 -  Set tblPrinter.colPort 	= aPrint[n].sPort || aPrint[n].sServerName
+.head 5 -  Set tblPrinter.colAttribute 	= aPrint[n].sAttribute
+.head 5 -  Set n = n - 1

@@ -1,0 +1,593 @@
+.head 0 +  Application Description: Centura SQLWindows/32 Standard Application Template
+.head 1 -  Outline Version - 4.0.27
+.head 1 +  Design-time Settings
+.data VIEWINFO
+0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400010000
+0020: 0000000000990000 002C000000020000 0003000000FFFFFF FFFFFFFFFFFCFFFF
+0040: FFE9FFFFFFFFFFFF FF000000007C0200 004D010000010000 0001000000010000
+0060: 000F4170706C6963 6174696F6E497465 6D02000000075769 6E646F7773076672
+0080: 6D54657374
+.enddata
+.head 2 -  Outline Window State: Normal
+.head 2 +  Outline Window Location and Size
+.data VIEWINFO
+0000: 6600040003002D00 0000000000000000 0000B71E5D0E0500 1D00FFFF4D61696E
+0020: 0000000000000000 0000000000000000 0000003B00010000 00000000000000E9
+0040: 1E800A00008600FF FF496E7465726E61 6C2046756E637469 6F6E730000000000
+0060: 0000000000000000 0000000000003200 0100000000000000 0000E91E800A0000
+0080: DF00FFFF56617269 61626C6573000000 0000000000000000 0000000000000000
+00A0: 3000010000000000 00000000F51E100D 0000F400FFFF436C 6173736573000000
+00C0: 0000000000000000 0000000000000000
+.enddata
+.data VIEWSIZE
+0000: D000
+.enddata
+.head 3 -  Left: -0.013"
+.head 3 -  Top:    0.0"
+.head 3 -  Width:  8.013"
+.head 3 -  Height: 4.969"
+.head 2 +  Options Box Location
+.data VIEWINFO
+0000: D4180909B80B1A00
+.enddata
+.data VIEWSIZE
+0000: 0800
+.enddata
+.head 3 -  Visible? Yes
+.head 3 -  Left: 4.15"
+.head 3 -  Top:    1.885"
+.head 3 -  Width:  3.8"
+.head 3 -  Height: 2.073"
+.head 2 +  Class Editor Location
+.head 3 -  Visible? No
+.head 3 -  Left: 0.575"
+.head 3 -  Top:    0.094"
+.head 3 -  Width:  5.063"
+.head 3 -  Height: 2.719"
+.head 2 +  Tool Palette Location
+.head 3 -  Visible? No
+.head 3 -  Left: 6.388"
+.head 3 -  Top:    0.729"
+.head 2 -  Fully Qualified External References? Yes
+.head 2 -  Reject Multiple Window Instances? No
+.head 2 -  Enable Runtime Checks Of External References? Yes
+.head 2 -  Use Release 4.0 Scope Rules? No
+.head 1 +  Libraries
+.head 2 -  File Include: salextension.apl
+.head 1 +  Global Declarations
+.head 2 +  Window Defaults
+.head 3 +  Tool Bar
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Form Window
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Dialog Box
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Top Level Table Window
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Data Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Multiline Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Spin Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Background Text
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Pushbutton
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 3 +  Radio Button
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Check Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Option Button
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 3 +  Group Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Child Table Window
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  List Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Combo Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Line
+.head 4 -  Line Color: Use Parent
+.head 3 +  Frame
+.head 4 -  Border Color: Use Parent
+.head 4 -  Background Color: 3D Face Color
+.head 3 +  Picture
+.head 4 -  Border Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 2 +  Formats
+.head 3 -  Number: 0'%'
+.head 3 -  Number: #0
+.head 3 -  Number: ###000
+.head 3 -  Number: ###000;'($'###000')'
+.head 3 -  Date/Time: hh:mm:ss AMPM
+.head 3 -  Date/Time: M/d/yy
+.head 3 -  Date/Time: MM-dd-yy
+.head 3 -  Date/Time: dd-MMM-yyyy
+.head 3 -  Date/Time: MMM d, yyyy
+.head 3 -  Date/Time: MMM d, yyyy hh:mm AMPM
+.head 3 -  Date/Time: MMMM d, yyyy hh:mm AMPM
+.head 2 +  External Functions
+.head 2 +  Constants
+.data CCDATA
+0000: 3000000000000000 0000000000000000 00000000
+.enddata
+.data CCSIZE
+0000: 1400
+.enddata
+.head 3 +  System
+.head 3 +  User
+.head 2 +  Resources
+.head 3 +  Bitmap: bmpApply
+.head 4 -  File Name: apply.bmp
+.head 2 +  Variables
+.data RESOURCE 0 0 1 3421192222
+0000: A40100009F000000 0000000000000000 0200001000000044 000000E0010D0000
+0020: 00FF3F5100800000 0204000000FFFFE0 5500000001FE00FF 836200000002FB00
+0040: FF0F66000000EE01 00FF3F7300B80000 0100FFFFE0800000 0002FE00FF838400
+0060: 000001FB00FF0F91 000000EE0100FF3F 9E00B800000100FF FFE0AB00000001FE
+0080: 00FF83B800000001 FB00FF0FC5000000 EE0100FF3FD200B8 00000100FFFFE0DF
+00A0: 00000001FE00FF83 EC00000001FB00FF 0F
+.enddata
+.head 2 +  Internal Functions
+.head 3 +  Function: SalDynamicClearWindow
+.head 4 -  Description:
+.head 4 -  Returns
+.head 4 +  Parameters
+.head 5 -  Window Handle: phWndControl
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Static Variables
+.head 4 -  Local variables
+.head 4 +  Actions
+.head 5 +  Select Case SalDynamicGetType( phWndControl )
+.head 6 -  Case TYPE_DataField
+.head 6 +  Case TYPE_MultilineText
+.head 7 -  Call SalDynamicSetText( phWndControl, '' )
+.head 7 -  Break
+.head 6 -  !
+.head 6 -  Case TYPE_ListBox
+.head 6 +  Case TYPE_ComboBox
+.head 7 -  Call SalDynamicListSetSelect( phWndControl, - 1)
+.head 7 -  Break
+.head 6 -  !
+.head 6 -  Case TYPE_CheckBox
+.head 6 +  Case TYPE_RadioButton
+.head 7 -  Call SalDynamicCheckSetState( phWndControl, 0 )
+.head 7 -  Break
+.head 2 -  Named Menus
+.head 2 +  Class Definitions
+.data RESOURCE 0 0 1 951548253
+0000: 430700000C030000 0000000000000000 0200000A00FFFF01 00160000436C6173
+0020: 73566172004F7574 6C696E6552006567 496E666F1E003C00 000B630045786563
+0040: 536372690070745A 00000003003C0000 0204800000000100 00007F80F0010000
+0060: 004F040000E0010D 000000FF3F1100B8 00000100FFFF1001 800D000001000100
+0080: 0973506F72747C49 6E00F60100EC010D 00FF3F018000DD00 0000020000000810
+00A0: 6345706C6F720065 724C697374426FD0 78BE0100119E0001 0DFD00FF270D0000
+00C0: 01F700FF1F1A0000 DC000100FF7F2770 0000000100FFFFC1 3400000001FD00FF
+00E0: 074100000001F700 FF1F4E0000DC0001 00FF7F5B70000000 0100FFFFC1680000
+0100: 0001FD00FF077500 000001F700FF1F82 0000DC000100FF7F 8F700000000100FF
+0120: FFC19C00000001FD 00FF07A900000001 F700FF1FB60000DC 000100FF7FC37000
+0140: 00000100FFFFC1D0 00000001FD00FF07 01804500000C0003 00086341006E696D
+0160: 617465A000C00000 06000000B3010D00 FFFF860D00030400 FE00FF9B110001FB
+0180: 00FF4F1E0000EE01 00FF3F2B00B80000 0100FFFFE0380000 0001FE00FF630180
+01A0: 0D000604000F6344 61027454696D6550 6940636B65721E00 00F4010000EC010D
+01C0: 00FF3F0180048F00 0005000000060F65 736B746FF8704C69 082201000B000000
+01E0: CF010DFE00FF9B0D 0001FB00FF6F1A00 EE0100FFBF27B900 0100FFFFE6340001
+0200: FE00FF9B410001FB 00FF6F4E00EE0100 FFBF5BB9000100FF FFE6680001FE00FF
+0220: 9B750001FB00FF6F 8200EE0100FF3F01 80643400000600C0 0B634469724C0F6C
+0240: 000000F60400EC01 0D00FFBF0DB90001 00FFFFE61A0001FE 00FF9B270001FB00
+0260: FF0F018027008100 070000000F075472 65654C3E695200D0 0000030000B3010D
+0280: 00FFFFE60D0001FE 00FF9B1A0001FB00 FF0F01805B000100 080000000C63E046
+02A0: 696C654C07BA0000 00077B0001F60D00 FFDF0DDC000100FF 7F1A73000100FFFF
+02C0: CD270001FD00FF37 340001F700FFDF41 DC000100FF7F4E73 000100FFFF210180
+02E0: 4100000900000000 0D63526164F0696F 4C69C18600000005 9E00010DFD00FF27
+0300: 0D000001F700FFDF 1ADC000100FF7F27 73000100FFFFCD34 0001FD00FF07
+.enddata
+.head 2 +  Default Classes
+.head 3 -  MDI Window: cBaseMDI
+.head 3 -  Form Window:
+.head 3 -  Dialog Box:
+.head 3 -  Table Window:
+.head 3 -  Quest Window:
+.head 3 -  Data Field:
+.head 3 -  Spin Field:
+.head 3 -  Multiline Field:
+.head 3 -  Pushbutton:
+.head 3 -  Radio Button:
+.head 3 -  Option Button:
+.head 3 -  Check Box:
+.head 3 -  Child Table:
+.head 3 -  Quest Child Window: cQuickDatabase
+.head 3 -  List Box:
+.head 3 -  Combo Box:
+.head 3 -  Picture:
+.head 3 -  Vertical Scroll Bar:
+.head 3 -  Horizontal Scroll Bar:
+.head 3 -  Column:
+.head 3 -  Background Text:
+.head 3 -  Group Box:
+.head 3 -  Line:
+.head 3 -  Frame:
+.head 3 -  Custom Control:
+.head 3 -  ActiveX:
+.head 2 -  Application Actions
+.head 1 +  Form Window: frmTest
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 2 -  Class:
+.head 2 -  Property Template:
+.head 2 -  Class DLL Name:
+.head 2 -  Title:
+.head 2 -  Icon File:
+.head 2 -  Accesories Enabled? No
+.head 2 -  Visible? Yes
+.head 2 -  Display Settings
+.head 3 -  Display Style? Default
+.head 3 -  Visible at Design time? Yes
+.head 3 -  Automatically Created at Runtime? Yes
+.head 3 -  Initial State: Normal
+.head 3 -  Maximizable? Yes
+.head 3 -  Minimizable? Yes
+.head 3 -  System Menu? Yes
+.head 3 -  Resizable? Yes
+.head 3 -  Window Location and Size
+.head 4 -  Left: Default
+.head 4 -  Top:    Default
+.head 4 -  Width:  11.117"
+.head 4 -  Width Editable? Yes
+.head 4 -  Height: 5.702"
+.head 4 -  Height Editable? Yes
+.head 3 -  Form Size
+.head 4 -  Width:  Default
+.head 4 -  Height: Default
+.head 4 -  Number of Pages: Dynamic
+.head 3 -  Font Name: Default
+.head 3 -  Font Size: Default
+.head 3 -  Font Enhancement: Default
+.head 3 -  Text Color: Default
+.head 3 -  Background Color: Default
+.head 2 -  Description:
+.head 2 -  Named Menus
+.head 2 -  Menu
+.head 2 +  Tool Bar
+.head 3 -  Display Settings
+.head 4 -  Display Style? Default
+.head 4 -  Location? Top
+.head 4 -  Visible? Yes
+.head 4 -  Size: Default
+.head 4 -  Size Editable? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 -  Contents
+.head 2 +  Contents
+.head 3 +  Pushbutton: pbCreate
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Create Picture
+.head 4 -  Window Location and Size
+.head 5 -  Left: 8.633"
+.head 5 -  Top:    0.167"
+.head 5 -  Width:  1.783"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.298"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Keyboard Accelerator: (none)
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Image Style: Single
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 +  If hWndPicture = hWndNULL
+.head 7 -  Set hPictureCentura =  VisPicLoad( PIC_FormatBitmap | PIC_LoadSWinRes,'bmpApply','')
+.head 7 -  Set hPicture = VisPicGetHandle( hPictureCentura )
+.head 7 -  Set hWndPicture = SalDynamicCreatePicture(hWndForm,280,60,40,40, hPicture, PIC_FormatBitmap )
+.head 3 +  Pushbutton: pbDestroy
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Destroy Picture
+.head 4 -  Window Location and Size
+.head 5 -  Left: 8.65"
+.head 5 -  Top:    0.56"
+.head 5 -  Width:  1.783"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.298"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Keyboard Accelerator: (none)
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Image Style: Single
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Call SalDynamicDestroy( hWndPicture )
+.head 6 -  Set hWndPicture = hWndNULL
+.head 2 +  Functions
+.head 3 +  Function: __Clear
+.head 4 -  Description:
+.head 4 -  Returns
+.head 4 +  Parameters
+.head 5 -  Window Handle: phWndControl
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 -  Static Variables
+.head 4 -  Local variables
+.head 4 +  Actions
+.head 5 +  Select Case SalDynamicGetType( phWndControl )
+.head 6 -  Case TYPE_DataField
+.head 6 +  Case TYPE_MultilineText
+.head 7 -  Call SalDynamicSetText( phWndControl, '' )
+.head 7 -  Break
+.head 6 -  !
+.head 6 -  Case TYPE_ListBox
+.head 6 +  Case TYPE_ComboBox
+.head 7 -  Call SalDynamicListSetSelect( phWndControl, - 1)
+.head 7 -  Break
+.head 6 -  !
+.head 6 -  Case TYPE_CheckBox
+.head 6 +  Case TYPE_RadioButton
+.head 7 -  Call SalDynamicCheckSetState( phWndControl, 0 )
+.head 7 -  Break
+.head 3 +  Function: __Validate
+.head 4 -  Description:
+.head 4 -  Returns
+.head 4 +  Parameters
+.head 5 -  Window Handle: phWndControl
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 5 -  Number: pnMsg
+.head 4 -  Static Variables
+.head 4 -  Local variables
+.head 4 +  Actions
+.head 5 +  Select Case SalDynamicGetType( phWndControl )
+.head 6 -  Case TYPE_DataField
+.head 6 +  Case TYPE_MultilineText
+.head 7 -  Call SalMessageBox('Validierung' || SalDynamicGetText(phWndControl),SalNumberToStrX(pnMsg,0), MB_Ok )
+.head 7 -  Break
+.head 6 -  !
+.head 6 -  Case TYPE_ListBox
+.head 6 +  Case TYPE_ComboBox
+.head 7 -  Call SalMessageBox('Validierung' || SalDynamicGetText(phWndControl),'Info', MB_Ok )
+.head 7 -  Break
+.head 6 -  !
+.head 6 -  Case TYPE_CheckBox
+.head 6 +  Case TYPE_RadioButton
+.head 7 -  Call SalMessageBox('Validierung' || SalDynamicGetText(phWndControl),'Info', MB_Ok )
+.head 7 -  Break
+.head 2 -  Window Parameters
+.head 2 +  Window Variables
+.head 3 -  Number: hBrush
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 3 -  Window Handle: hWndControl[*]
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 3 -  Window Handle: hWndControlNotify
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 3 -  Number: nMsg
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 3 -  Number: nIdx
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 3 -  !
+.head 3 -  Number: hPicture
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 3 -  Number: hPictureCentura
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 3 -  Window Handle: hWndPicture
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 2 +  Message Actions
+.head 3 +  On SAM_Create
+.head 4 -  Set hBrush = CreateSolidBrush( SalColorFromRGB(255, 255 , 255) )
+.head 3 -  !
+.head 3 +  On SAM_CreateComplete
+.head 4 -  ! Datafield
+.head 4 -  Set hWndControl[0] = SalDynamicCreateDataField( hWndForm, 10,5,100,20 )
+.head 4 -  ! Multiline
+.head 4 -  Set hWndControl[1] = SalDynamicCreateBackground(hWndForm,10,35,200,20,'Title of the multiline')
+.head 4 -  Set hWndControl[2] = SalDynamicCreateMultiLine( hWndForm,10,50,200,60)
+.head 4 -  ! checkbox
+.head 4 -  Set hWndControl[3] = SalDynamicCreateCheckBox(hWndForm,10,120,150,20,'This is my title' )
+.head 4 -  ! ComboBox
+.head 4 -  Set hWndControl[4] = SalDynamicCreateComboBox(hWndForm,10,170,100,100 )
+.head 4 -  Call SalDynamicListAdd( hWndControl[4], 'Value 1' )
+.head 4 -  Call SalDynamicListAdd( hWndControl[4], 'Value 2' )
+.head 4 -  Call SalDynamicListAdd( hWndControl[4], 'Value 3' )
+.head 4 -  ! Button
+.head 4 -  Set hWndControl[5] = SalDynamicCreateButton(hWndForm,10,200,150,30,'Clear controls' )
+.head 4 -  Set hWndControl[6] = SalDynamicCreateButton(hWndForm,10,240,150,30,'Do Nothing' )
+.head 3 -  !
+.head 3 -  ! Notification of the child controls to the parent (hWndForm )
+.head 3 +  On WM_COMMAND
+.head 4 -  Call SalDynamicGetMsg( hWndControlNotify, nMsg )
+.head 4 -  ! select case by the types of controls
+.head 4 +  Select Case SalDynamicGetType( hWndControlNotify )
+.head 5 -  !
+.head 5 -  Case TYPE_MultilineText
+.head 5 +  Case TYPE_DataField
+.head 6 +  Select Case nMsg
+.head 7 +  Case EN_CHANGE
+.head 8 -  Break
+.head 7 +  Case EN_SETFOCUS
+.head 8 -  Break
+.head 7 +  Case EN_KILLFOCUS
+.head 8 -  Break
+.head 6 -  Break
+.head 5 -  !
+.head 5 +  Case TYPE_ListBox
+.head 6 +  Select Case nMsg
+.head 7 +  Case LBN_SELCHANGE
+.head 8 -  Break
+.head 7 +  Case LBN_DBLCLK
+.head 8 -  Break
+.head 7 +  Case LBN_SETFOCUS
+.head 8 -  Break
+.head 7 +  Case LBN_KILLFOCUS
+.head 8 -  Break
+.head 6 -  Break
+.head 5 -  !
+.head 5 +  Case TYPE_ComboBox
+.head 6 +  Select Case nMsg
+.head 7 +  Case CBN_SELCHANGE
+.head 8 -  Break
+.head 7 +  Case CBN_DBLCLK
+.head 8 -  Break
+.head 7 +  Case CBN_SETFOCUS
+.head 8 -  Call SalListAdd( hWndControl[4], 'asasssas')
+.head 8 -  Break
+.head 7 +  Case CBN_DROPDOWN
+.head 8 -  Break
+.head 7 +  Case CBN_SELCHANGE
+.head 8 -  Break
+.head 7 +  Case CBN_EDITCHANGE
+.head 8 -  Break
+.head 7 +  Case CBN_KILLFOCUS
+.head 8 -  Break
+.head 6 -  Break
+.head 5 -  !
+.head 5 -  Case TYPE_RadioButton
+.head 5 -  Case TYPE_CheckBox
+.head 5 +  Case TYPE_PushButton
+.head 6 +  Select Case nMsg
+.head 7 +  Case BN_CLICKED
+.head 8 +  If SalDynamicGetType( hWndControlNotify ) = TYPE_PushButton
+.head 9 -  Call SalMessageBox( SalDynamicGetText(hWndControlNotify) ||  ' clicked','Info', MB_Ok )
+.head 9 -  ! when clear button
+.head 9 +  If hWndControlNotify = hWndControl[5]
+.head 10 -  Set nIdx =0 
+.head 10 +  While nIdx < 6
+.head 11 -  Call __Clear( hWndControl[nIdx])
+.head 11 -  Set nIdx = nIdx + 1
+.head 9 -  ! when do nothing button
+.head 9 -  If hWndControlNotify = hWndControl[6]
+.head 8 -  Break
+.head 7 +  Case BN_DBLCLK
+.head 8 -  Break
+.head 7 +  Case BN_SETFOCUS
+.head 8 -  Break
+.head 7 +  Case BN_KILLFOCUS
+.head 8 -  Break
+.head 6 -  Break
+.head 5 -  !
+.head 5 +  Case TYPE_BkgdText
+.head 6 +  Select Case nMsg
+.head 7 +  Case STN_CLICKED
+.head 8 -  Break
+.head 7 +  Case STN_DBLCLK
+.head 8 -  Break
+.head 6 -  Break
+.head 5 -  !
+.head 3 -  !
+.head 3 +  On SAM_Destroy
+.head 4 -  Call DeleteObject(hBrush)
+.head 3 -  !
+.head 3 -  ! override the std windows paint handler and return user defined brush for own color
+.head 3 +  On WM_CTRCOLOREDIT
+.head 4 -  Call SetTextColor(wParam, SalColorFromRGB( 0,0,0 ) )
+.head 4 -  Call SetBkColor(wParam, SalColorFromRGB( 255,255,255 ) )
+.head 4 -  Return hBrush
+.head 3 +  On WM_CTRCOLORLISTBOX
+.head 4 -  Call SetTextColor(wParam, SalColorFromRGB( 0,0,0 ) )
+.head 4 -  Call SetBkColor(wParam, SalColorFromRGB( 255,255,255 ) )
+.head 4 -  Return hBrush

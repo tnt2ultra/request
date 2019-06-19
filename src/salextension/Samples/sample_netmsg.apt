@@ -1,0 +1,664 @@
+.head 0 +  Application Description: Send Message
+Andrew
+gupta@narod.ru
+http://gupta.narod.ru/ctd
+
+ (modified by TL for SalExtension.apl)
+.head 1 -  Outline Version - 4.0.27
+.head 1 +  Design-time Settings
+.data VIEWINFO
+0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400010000
+0020: 0000000000BF0000 002C000000020000 0003000000FFFFFF FFFFFFFFFFFCFFFF
+0040: FFE9FFFFFF000000 0000000000550300 006C020000010000 0001000000010000
+0060: 000F4170706C6963 6174696F6E497465 6D02000000075769 6E646F77730E646C
+0080: 6753656E644D6573 73616765
+.enddata
+.head 2 -  Outline Window State: Normal
+.head 2 +  Outline Window Location and Size
+.data VIEWINFO
+0000: 6600040003002D00 0000000000000000 0000B71E5D0E0500 1D00FFFF4D61696E
+0020: 0000000000000000 0000000000000000 0000003B00010000 00000000000000E9
+0040: 1E800A00008600FF FF496E7465726E61 6C2046756E637469 6F6E730000000000
+0060: 0000000000000000 0000000000003200 0100000000000000 0000E91E800A0000
+0080: DF00FFFF56617269 61626C6573000000 0000000000000000 0000000000000000
+00A0: 3000010000000000 00000000F51E100D 0000F400FFFF436C 6173736573000000
+00C0: 0000000000000000 0000000000000000
+.enddata
+.data VIEWSIZE
+0000: D000
+.enddata
+.head 3 -  Left: -0.013"
+.head 3 -  Top:    0.0"
+.head 3 -  Width:  8.013"
+.head 3 -  Height: 4.969"
+.head 2 +  Options Box Location
+.data VIEWINFO
+0000: D4180909B80B1A00
+.enddata
+.data VIEWSIZE
+0000: 0800
+.enddata
+.head 3 -  Visible? Yes
+.head 3 -  Left: 4.15"
+.head 3 -  Top:    1.885"
+.head 3 -  Width:  3.8"
+.head 3 -  Height: 2.073"
+.head 2 +  Class Editor Location
+.head 3 -  Visible? No
+.head 3 -  Left: 0.575"
+.head 3 -  Top:    0.094"
+.head 3 -  Width:  5.063"
+.head 3 -  Height: 2.719"
+.head 2 +  Tool Palette Location
+.head 3 -  Visible? No
+.head 3 -  Left: 6.388"
+.head 3 -  Top:    0.729"
+.head 2 -  Fully Qualified External References? Yes
+.head 2 -  Reject Multiple Window Instances? No
+.head 2 -  Enable Runtime Checks Of External References? Yes
+.head 2 -  Use Release 4.0 Scope Rules? No
+.head 1 +  Libraries
+.head 2 -  File Include: SalExtension.apl
+.head 1 +  Global Declarations
+.head 2 +  Window Defaults
+.head 3 +  Tool Bar
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Form Window
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Dialog Box
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Top Level Table Window
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Data Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Multiline Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Spin Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Background Text
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Pushbutton
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 3 +  Radio Button
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Check Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Option Button
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 3 +  Group Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Child Table Window
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  List Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Combo Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Line
+.head 4 -  Line Color: Use Parent
+.head 3 +  Frame
+.head 4 -  Border Color: Use Parent
+.head 4 -  Background Color: 3D Face Color
+.head 3 +  Picture
+.head 4 -  Border Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 2 +  Formats
+.head 3 -  Number: 0'%'
+.head 3 -  Number: #0
+.head 3 -  Number: ###000
+.head 3 -  Number: ###000;'($'###000')'
+.head 3 -  Date/Time: hh:mm:ss AMPM
+.head 3 -  Date/Time: M/d/yy
+.head 3 -  Date/Time: MM-dd-yy
+.head 3 -  Date/Time: dd-MMM-yyyy
+.head 3 -  Date/Time: MMM d, yyyy
+.head 3 -  Date/Time: MMM d, yyyy hh:mm AMPM
+.head 3 -  Date/Time: MMMM d, yyyy hh:mm AMPM
+.head 2 +  External Functions
+.head 2 +  Constants
+.data CCDATA
+0000: 3000000000000000 0000000000000000 00000000
+.enddata
+.data CCSIZE
+0000: 1400
+.enddata
+.head 3 +  System
+.head 3 +  User
+.head 2 +  Resources
+.head 2 +  Variables
+.data RESOURCE 0 0 1 3611198213
+0000: 920100009F000000 0000000000000000 0200000F000000BD 000000E0010D0000
+0020: 00FF3FCA00B80000 0100FFFFE0D70000 0001FE00FF83E400 000001FB00FF0FF1
+0040: 000000EE0100FF3F FE00B800000100FF FFE00B01000001FE 00FFA318010001A3
+0060: 000100000601000C 0000006601000100 860C001C0100EC01 0D00FF3F2901BA00
+0080: 0100FFFFE8360100 01FE00FF23430100 0204F8000000FF8F 470100EE0100FF3F
+00A0: 5401BA000100FFFF E861010002FE00FF 03
+.enddata
+.head 3 -  Number: nComHandle
+.head 3 -  String: strBuffer
+.head 2 +  Internal Functions
+.head 3 +  ! Function: VisDosNetMsg
+.head 4 -  Description: 
+.head 4 +  Returns 
+.head 5 -  Number: 
+.head 4 +  Parameters 
+.head 5 -  String: sFrom
+.head 5 -  String: sTo
+.head 5 -  String: sSendString
+.head 4 -  Static Variables 
+.head 4 +  Local variables 
+.head 5 -  Number: nLenSend
+.head 5 -  Boolean: bOk
+.head 5 -  Number: nLen
+.head 5 -  Number: nOffSet
+.head 5 -  String: strSendString
+.head 5 -  Boolean: lbOK
+.head 5 -  Number: nComHandle
+.head 5 -  String: sPort
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 4 +  Actions 
+.head 5 -  Set sPort= "\\\\" || sTo || "\\mailslot\\messngr"
+.head 5 -  ! open port
+.head 5 -  Set nComHandle = CreateFileA( sPort, GENERIC_WRITE, FILE_SHARE_READ, 0, 
+OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, 0 )
+.head 5 -  ! check if error
+.head 5 +  If nComHandle = INVALID_HANDLE_VALUE
+.head 6 -  Return FALSE
+.head 5 -  !
+.head 5 -  ! Send
+.head 5 -  Call SalStrSetBufferLength( strBuffer, 1000 )
+.head 5 -  Set nOffSet = 0
+.head 5 -  Set nLen = SalStrLength( sFrom )
+.head 5 +  If NOT CStructPutString( strBuffer, nOffSet, nLen, sFrom )
+.head 6 -  Return FALSE
+.head 5 -  Set nOffSet = nOffSet + nLen
+.head 5 +  If NOT CStructPutByte( strBuffer, nOffSet, 0 )
+.head 6 -  Return FALSE
+.head 5 -  Set nOffSet = nOffSet + 1
+.head 5 -  Set nLen = SalStrLength( sTo )
+.head 5 +  If NOT CStructPutString( strBuffer, nOffSet, nLen, sTo )
+.head 6 -  Return FALSE
+.head 5 -  Set nOffSet = nOffSet + nLen
+.head 5 +  If NOT CStructPutByte( strBuffer, nOffSet, 0 )
+.head 6 -  Return FALSE
+.head 5 -  Set nOffSet = nOffSet + 1
+.head 5 -  Set nLen = SalStrLength( sSendString )
+.head 5 -  Call SalStrSetBufferLength( strSendString, nLen )
+.head 5 -  ! For russian language
+.head 5 -  Call CharToOemBuffA ( sSendString, strSendString, nLen )
+.head 5 +  If NOT CStructPutString( strBuffer, nOffSet, nLen, strSendString )
+.head 6 -  Return FALSE
+.head 5 -  Set nOffSet = nOffSet + nLen
+.head 5 +  If NOT CStructPutByte( strBuffer, nOffSet, 0 )
+.head 6 -  Return FALSE
+.head 5 -  Set nLen = nOffSet + 1
+.head 5 -  ! send data
+.head 5 -  Set bOk = WriteFile( nComHandle, strBuffer, nLen, nLenSend, 0 )
+.head 5 +  If nLenSend = nLen
+.head 6 -  Set lbOK = TRUE
+.head 5 -  ! close handle (serial port)
+.head 5 -  Call CloseHandle( nComHandle )
+.head 5 -  Set nComHandle = INVALID_HANDLE_VALUE
+.head 5 -  Return lbOK
+.head 3 +  ! Function: GetComputerName
+.head 4 -  Description: 
+.head 4 +  Returns 
+.head 5 -  String: 
+.head 4 -  Parameters 
+.head 4 -  Static Variables 
+.head 4 +  Local variables 
+.head 5 -  Number: nSize
+.head 5 -  String: sComputerName
+.head 4 +  Actions 
+.head 5 -  Set nSize = 250
+.head 5 -  Call SalStrSetBufferLength( sComputerName, nSize + 1 )
+.head 5 -  Call GetComputerNameA( sComputerName, nSize )
+.head 5 -  Set sComputerName = SalStrLeftX( sComputerName, nSize )
+.head 5 -  Return sComputerName
+.head 3 +  ! Function: VisDosNetEnumHosts
+.head 4 -  Description: author: ??? (taken from vtexplor.apl), Neil ??
+date:
+version:	1.0 - function integrated
+
+desc:
+Returns all hosts of the network in an array
+
+example:
+Set lnCount = VisNetEnumHosts( lsHosts )
+.head 4 +  Returns 
+.head 5 -  Number: 
+.head 4 +  Parameters 
+.head 5 -  Receive String: rsHosts[*]
+.head 4 -  Static Variables 
+.head 4 +  Local variables 
+.head 5 -  Number: nLVHandleEnum
+.head 5 -  Number: nLVResource
+.head 5 -  Number: nLVCount
+.head 5 -  Number: nLVSize
+.head 5 -  String: sLVName
+.head 5 -  Number: nLVArrayResources [*]
+.head 5 -  Number: nLVIndexResources
+.head 5 -  Number: lnIdx
+.head 4 +  Actions 
+.head 5 -  Set nLVHandleEnum = VisNetOpenEnum (0)
+.head 5 +  If nLVHandleEnum
+.head 6 -  Set nLVResource = VisNetEnumResource (nLVHandleEnum)
+.head 6 -  Set lnIdx = 0
+.head 6 +  While nLVResource
+.head 7 +  If VisNetGetResourceInt (nLVResource, RESOURCEITEM_Usage) & RESOURCE_Usage_Container
+and VisNetGetResourceInt (nLVResource, RESOURCEITEM_DisplayType) = RESOURCE_DisplayType_Server
+.head 8 -  Set nLVSize = VisNetGetResourceSize (nLVResource, RESOURCEITEM_RemoteName)
+.head 8 +  If nLVSize
+.head 9 -  Set sLVName = ''
+.head 9 -  Call SalStrSetBufferLength (sLVName, nLVSize)
+.head 9 -  Call VisNetGetResourceStr (nLVResource, RESOURCEITEM_RemoteName, sLVName, nLVSize)
+.head 9 +  If SalStrLeftX (sLVName, 2) = '\\\\'
+.head 10 -  Set sLVName = SalStrReplaceX (sLVName, 0, 2, '')
+.head 9 -  Set rsHosts[lnIdx] = sLVName
+.head 9 -  Set lnIdx = lnIdx + 1
+.head 7 -  Call VisNetFreeResource (nLVResource)
+.head 7 -  Set nLVResource = VisNetEnumResource (nLVHandleEnum)
+.head 6 -  Call VisNetCloseEnum (nLVHandleEnum)
+.head 6 -  Return lnIdx
+.head 2 -  Named Menus
+.head 2 +  Class Definitions
+.data RESOURCE 0 0 1 2570514003
+0000: 1B0600007C020000 0000000000000000 0200000700FFFF01 00160000436C6173
+0020: 73566172004F7574 6C696E6552006567 496E666F1E003C00 000C660063457865
+0040: 6353637200697074 5A00000003780000 0002000400000001 000000FFE0800100
+0060: 00009F0400C00001 0D000000FF7F1170 0000000100FFFF01 0180DD0000000142
+0080: 000010634570006C 6F7265724C697380 74426F78BE0100F6 1100EC010D00FF3F
+00A0: 0D00B9000100FFFF E01A00000001FE00 FF832700000001FB 00FF0F34000000EE
+00C0: 0100FF3F4100B800 000100FFFFE04E00 000001FE00FF835B 00000001FB00FF0F
+00E0: 68000000EE0100FF 3F7500B800000100 FFFFE08200000001 FE00FF838F000000
+0100: 01FB00FF0F9C0000 00EE0100FF3FA900 B800000100FFFFE0 B600000001FE00FF
+0120: 83C300000001FB00 FF0FD0000000EE01 00FF3F0180048F00 0002000000000F63
+0140: 4465736B746FF870 4C69082201000B00 0000CF010DFE00FF 9B0D0001FB00FF6F
+0160: 1A00EE0100FFBF27 B9000100FFFFE634 0001FE00FF9B4100 01FB00FF6F4E00EE
+0180: 0100FFBF5BB90001 00FFFFE6680001FE 00FF9B750001FB00 FF6F8200EE0100FF
+01A0: 3F01806434000003 00C00B634469724C 0F6C000000F60400 EC010D00FFBF0DB9
+01C0: 000100FFFFE61A00 01FE00FF9B270001 FB00FF0F01802700 990004000F075472
+01E0: 65654C3E695200D8 00000300B3010D00 FFFFE60D0001FE00 FF9B1A0001FB00FF
+0200: 0F01805B00010005 0000000C63E04669 6C654C07BA000000 0779000001F60D00
+0220: FFDF0DDC000100FF 7F1A73000100FFFF CD270001FD00FF37 340001F700FFDF41
+0240: DC000100FF7F4E73 000100FFFF210180 4100000600000000 0D63526164F0696F
+0260: 4C69C18600000005 9E00010DFD00FF27 0D000001F700FFDF 1ADC000100FF7F27
+0280: 73000100FFFFCD34 0001FD00FF07
+.enddata
+.head 2 +  Default Classes
+.head 3 -  MDI Window: cBaseMDI
+.head 3 -  Form Window:
+.head 3 -  Dialog Box:
+.head 3 -  Table Window:
+.head 3 -  Quest Window:
+.head 3 -  Data Field:
+.head 3 -  Spin Field:
+.head 3 -  Multiline Field:
+.head 3 -  Pushbutton:
+.head 3 -  Radio Button:
+.head 3 -  Option Button:
+.head 3 -  Check Box:
+.head 3 -  Child Table:
+.head 3 -  Quest Child Window: cQuickDatabase
+.head 3 -  List Box:
+.head 3 -  Combo Box:
+.head 3 -  Picture:
+.head 3 -  Vertical Scroll Bar:
+.head 3 -  Horizontal Scroll Bar:
+.head 3 -  Column:
+.head 3 -  Background Text:
+.head 3 -  Group Box:
+.head 3 -  Line:
+.head 3 -  Frame:
+.head 3 -  Custom Control:
+.head 3 -  ActiveX:
+.head 2 +  Application Actions
+.head 3 +  On SAM_AppStartup
+.head 4 -  Call SalModalDialog( dlgSendMessage, hWndNULL )
+.head 1 +  Dialog Box: dlgSendMessage
+.head 2 -  Class:
+.head 2 -  Property Template:
+.head 2 -  Class DLL Name:
+.head 2 -  Title: Net message bomber
+.head 2 -  Accesories Enabled? No
+.head 2 -  Visible? Yes
+.head 2 -  Display Settings
+.head 3 -  Display Style? Default
+.head 3 -  Visible at Design time? Yes
+.head 3 -  Type of Dialog: Modal
+.head 3 -  Window Location and Size
+.head 4 -  Left: Default
+.head 4 -  Top:    Default
+.head 4 -  Width:  4.233"
+.head 4 -  Width Editable? Yes
+.head 4 -  Height: 3.286"
+.head 4 -  Height Editable? Yes
+.head 3 -  Absolute Screen Location? Yes
+.head 3 -  Font Name: Default
+.head 3 -  Font Size: Default
+.head 3 -  Font Enhancement: Default
+.head 3 -  Text Color: Default
+.head 3 -  Background Color: Default
+.head 2 -  Description: Send Message
+Andrew
+gupta@narod.ru
+http://gupta.narod.ru/ctd
+
+ (modified by TL for SalExtension.apl)
+.head 2 +  Tool Bar
+.head 3 -  Display Settings
+.head 4 -  Display Style? Default
+.head 4 -  Location? Top
+.head 4 -  Visible? Yes
+.head 4 -  Size: Default
+.head 4 -  Size Editable? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 -  Contents
+.head 2 +  Contents
+.head 3 -  Background Text: From
+.head 4 -  Resource Id: 43497
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.083"
+.head 5 -  Top:    0.095"
+.head 5 -  Width:  0.65"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 -  Background Text: To
+.head 4 -  Resource Id: 9631
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.083"
+.head 5 -  Top:    0.357"
+.head 5 -  Width:  0.65"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.214"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Multiline Field: mlMessage
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: 255
+.head 5 -  String Type: String
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Border? Yes
+.head 5 -  Word Wrap? Yes
+.head 5 -  Vertical Scroll? Yes
+.head 5 -  Window Location and Size
+.head 6 -  Left: 0.033"
+.head 6 -  Top:    0.75"
+.head 6 -  Width:  4.0"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 1.833"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 4 -  Message Actions
+.head 3 -  Background Text: Message
+.head 4 -  Resource Id: 43498
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.083"
+.head 5 -  Top:    0.583"
+.head 5 -  Width:  0.883"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 +  Pushbutton: pbSend
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Title: Send
+.head 4 -  Window Location and Size
+.head 5 -  Left: 2.833"
+.head 5 -  Top:    2.631"
+.head 5 -  Width:  1.2"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.298"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Keyboard Accelerator: Enter
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Picture File Name:
+.head 4 -  Picture Transparent Color: None
+.head 4 -  Image Style: Single
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 +  Message Actions
+.head 5 +  On SAM_Click
+.head 6 -  Set wnIdx = 0
+.head 6 +  While wnIdx < dfCount
+.head 7 -  Call VisNetMsg( cmbFROM, cmbTO, mlMessage )
+.head 7 -  Set wnIdx = wnIdx + 1
+.head 3 +  Combo Box: cmbFROM
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 1.133"
+.head 5 -  Top:    0.06"
+.head 5 -  Width:  2.867"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 2.75"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Editable? Yes
+.head 4 -  String Type: String
+.head 4 -  Maximum Data Length: Default
+.head 4 -  Sorted? Yes
+.head 4 -  Always Show List? No
+.head 4 -  Vertical Scroll? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 -  Input Mask: Unformatted
+.head 4 -  List Initialization
+.head 4 +  Message Actions
+.head 5 +  On SAM_Create
+.head 6 -  Call VisListArrayPopulate( hWndItem, sHosts )
+.head 6 -  Call SalListSelectString(hWndItem,-1, SalSysGetComputerName ())
+.head 3 +  Combo Box: cmbTO
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 1.133"
+.head 5 -  Top:    0.345"
+.head 5 -  Width:  2.867"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 2.595"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Editable? Yes
+.head 4 -  String Type: String
+.head 4 -  Maximum Data Length: Default
+.head 4 -  Sorted? Yes
+.head 4 -  Always Show List? No
+.head 4 -  Vertical Scroll? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 4 -  Input Mask: Unformatted
+.head 4 -  List Initialization
+.head 4 +  Message Actions
+.head 5 +  On SAM_Create
+.head 6 -  Call VisListArrayPopulate( hWndItem, sHosts )
+.head 3 +  Data Field: dfCount
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Property Template:
+.head 4 -  Class DLL Name:
+.head 4 -  Data
+.head 5 -  Maximum Data Length: Default
+.head 5 -  Data Type: Number
+.head 5 -  Editable? Yes
+.head 4 -  Display Settings
+.head 5 -  Window Location and Size
+.head 6 -  Left: 1.833"
+.head 6 -  Top:    2.631"
+.head 6 -  Width:  0.833"
+.head 6 -  Width Editable? Yes
+.head 6 -  Height: 0.25"
+.head 6 -  Height Editable? Yes
+.head 5 -  Visible? Yes
+.head 5 -  Border? Yes
+.head 5 -  Justify: Left
+.head 5 -  Format: Unformatted
+.head 5 -  Country: Default
+.head 5 -  Font Name: Default
+.head 5 -  Font Size: Default
+.head 5 -  Font Enhancement: Default
+.head 5 -  Text Color: Default
+.head 5 -  Background Color: Default
+.head 5 -  Input Mask: Unformatted
+.head 4 +  Message Actions
+.head 5 +  On SAM_Create
+.head 6 -  Set MyValue = 1
+.head 3 -  Background Text: Number of messages
+.head 4 -  Resource Id: 9632
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.1"
+.head 5 -  Top:    2.667"
+.head 5 -  Width:  1.717"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.167"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 2 -  Functions
+.head 2 -  Window Parameters
+.head 2 +  Window Variables
+.head 3 -  String: sHosts[*]
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 3 -  Number: wnIdx
+.head 2 +  Message Actions
+.head 3 +  On SAM_Create
+.head 4 -  Call SalCenterWindow(hWndForm)
+.head 4 -  Call VisDosNetEnumHosts( sHosts )

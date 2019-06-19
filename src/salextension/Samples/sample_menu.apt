@@ -1,0 +1,476 @@
+.head 0 +  Application Description: Centura SQLWindows/32 Standard Application Template
+.head 1 -  Outline Version - 4.0.27
+.head 1 +  Design-time Settings
+.data VIEWINFO
+0000: 6F00000001000000 FFFF01000D004347 5458566965775374 6174650400010000
+0020: 0000000000E90000 002C000000020000 0003000000FFFFFF FFFFFFFFFFFCFFFF
+0040: FFE9FFFFFFFFFFFF FF000000007C0200 004D010000010000 0001000000010000
+0060: 000F4170706C6963 6174696F6E497465 6D02000000075769 6E646F7773076672
+0080: 6D4D61696E
+.enddata
+.head 2 -  Outline Window State: Normal
+.head 2 +  Outline Window Location and Size
+.data VIEWINFO
+0000: 6600040003002D00 0000000000000000 0000B71E5D0E0500 1D00FFFF4D61696E
+0020: 0000000000000000 0000000000000000 0000003B00010000 00000000000000E9
+0040: 1E800A00008600FF FF496E7465726E61 6C2046756E637469 6F6E730000000000
+0060: 0000000000000000 0000000000003200 0100000000000000 0000E91E800A0000
+0080: DF00FFFF56617269 61626C6573000000 0000000000000000 0000000000000000
+00A0: 3000010000000000 00000000F51E100D 0000F400FFFF436C 6173736573000000
+00C0: 0000000000000000 0000000000000000
+.enddata
+.data VIEWSIZE
+0000: D000
+.enddata
+.head 3 -  Left: -0.013"
+.head 3 -  Top:    0.0"
+.head 3 -  Width:  8.013"
+.head 3 -  Height: 4.969"
+.head 2 +  Options Box Location
+.data VIEWINFO
+0000: D4180909B80B1A00
+.enddata
+.data VIEWSIZE
+0000: 0800
+.enddata
+.head 3 -  Visible? No
+.head 3 -  Left: 4.15"
+.head 3 -  Top:    1.885"
+.head 3 -  Width:  3.8"
+.head 3 -  Height: 2.073"
+.head 2 +  Class Editor Location
+.head 3 -  Visible? No
+.head 3 -  Left: 0.575"
+.head 3 -  Top:    0.094"
+.head 3 -  Width:  5.063"
+.head 3 -  Height: 2.719"
+.head 2 +  Tool Palette Location
+.head 3 -  Visible? No
+.head 3 -  Left: 6.388"
+.head 3 -  Top:    0.729"
+.head 2 -  Fully Qualified External References? Yes
+.head 2 -  Reject Multiple Window Instances? No
+.head 2 -  Enable Runtime Checks Of External References? Yes
+.head 2 -  Use Release 4.0 Scope Rules? No
+.head 1 +  Libraries
+.head 2 -  File Include: SalExtension.apl
+.head 1 +  Global Declarations
+.head 2 +  Window Defaults
+.head 3 +  Tool Bar
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Form Window
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Dialog Box
+.head 4 -  Display Style? Etched
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Top Level Table Window
+.head 4 -  Font Name: MS Sans Serif
+.head 4 -  Font Size: 8
+.head 4 -  Font Enhancement: System Default
+.head 4 -  Text Color: System Default
+.head 4 -  Background Color: System Default
+.head 3 +  Data Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Multiline Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Spin Field
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Background Text
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Pushbutton
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 3 +  Radio Button
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Check Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Option Button
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 3 +  Group Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Child Table Window
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  List Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Combo Box
+.head 4 -  Font Name: Use Parent
+.head 4 -  Font Size: Use Parent
+.head 4 -  Font Enhancement: Use Parent
+.head 4 -  Text Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 3 +  Line
+.head 4 -  Line Color: Use Parent
+.head 3 +  Frame
+.head 4 -  Border Color: Use Parent
+.head 4 -  Background Color: 3D Face Color
+.head 3 +  Picture
+.head 4 -  Border Color: Use Parent
+.head 4 -  Background Color: Use Parent
+.head 2 +  Formats
+.head 3 -  Number: 0'%'
+.head 3 -  Number: #0
+.head 3 -  Number: ###000
+.head 3 -  Number: ###000;'($'###000')'
+.head 3 -  Date/Time: hh:mm:ss AMPM
+.head 3 -  Date/Time: M/d/yy
+.head 3 -  Date/Time: MM-dd-yy
+.head 3 -  Date/Time: dd-MMM-yyyy
+.head 3 -  Date/Time: MMM d, yyyy
+.head 3 -  Date/Time: MMM d, yyyy hh:mm AMPM
+.head 3 -  Date/Time: MMMM d, yyyy hh:mm AMPM
+.head 2 +  External Functions
+.head 3 +  ! Library name: gdi32.dll
+.head 4 +  Function: SetPixelV
+.head 5 -  Description: 
+.head 5 -  Export Ordinal: 0
+.head 5 +  Returns 
+.head 6 -  Boolean: BOOL
+.head 5 +  Parameters 
+.head 6 -  Number: HANDLE
+.head 6 -  Number: INT
+.head 6 -  Number: INT
+.head 6 -  Number: LONG
+.head 4 +  Function: SetROP2
+.head 5 -  Description: 
+.head 5 -  Export Ordinal: 0
+.head 5 +  Returns 
+.head 6 -  Number: INT
+.head 5 +  Parameters 
+.head 6 -  Number: LONG
+.head 6 -  Number: INT
+.head 4 +  Function: GetPixel
+.head 5 -  Description: 
+.head 5 -  Export Ordinal: 0
+.head 5 +  Returns 
+.head 6 -  Number: LONG
+.head 5 +  Parameters 
+.head 6 -  Number: HANDLE
+.head 6 -  Number: INT
+.head 6 -  Number: INT
+.head 2 +  Constants
+.data CCDATA
+0000: 3000000000000000 0000000000000000 00000000
+.enddata
+.data CCSIZE
+0000: 1400
+.enddata
+.head 3 +  System
+.head 3 +  User
+.head 2 +  Resources
+.head 3 +  Bitmap: bmpDelRec
+.head 4 -  File Name: DelRec.bmp
+.head 3 +  Bitmap: bmpNewRec
+.head 4 -  File Name: NewRec.bmp
+.head 3 +  Bitmap: bmpSave
+.head 4 -  File Name: Save.bmp
+.head 3 +  Bitmap: bmpApply
+.head 4 -  File Name: Apply.bmp
+.head 3 +  Bitmap: bmpDiscard
+.head 4 -  File Name: Discard.bmp
+.head 3 +  Bitmap: bmpDelete
+.head 4 -  File Name: delete16.bmp
+.head 2 +  Variables
+.data RESOURCE 0 0 1 2445982963
+0000: 700100008B000000 0000000000000000 0200000E00000044 000000E0010D0000
+0020: 00FF3F5100800000 0204000000FFFFE0 5500000001FE00FF 836200000001FB00
+0040: FF0F6F000000EE02 00FF3F7300B80000 0100FFFFE0800000 0001FE00FF8B8D00
+0060: 0001FB00FF0F9A00 0000EE0100FF3FA7 00B800000100FFFF E0B400000001FE00
+0080: FF83C100000001FB 00FF0FCE000000EE 0100FF3FDB00B800 000100FFFF
+.enddata
+.head 2 +  Internal Functions
+.head 2 -  Named Menus
+.head 2 +  Class Definitions
+.data RESOURCE 0 0 1 3389512041
+0000: 5006000097020000 0000000000000000 0200000800FFFF01 00160000436C6173
+0020: 73566172004F7574 6C696E6552006567 496E666F1E003C00 000B630045786563
+0040: 536372690070745A 00000003003C0000 0204800000000100 00007F80F0010000
+0060: 004F040000E0010D 000000FF3F1100B8 00000100FFFF1001 800D000001000100
+0080: 0973506F72747C49 6E00F60100EC010D 00FF3F018000DD00 0000020000000810
+00A0: 6345706C6F720065 724C697374426FD0 78BE0100119E0001 0DFD00FF270D0000
+00C0: 01F700FF1F1A0000 DC000100FF7F2770 0000000100FFFFC1 3400000001FD00FF
+00E0: 074100000001F700 FF1F4E0000DC0001 00FF7F5B70000000 0100FFFFC1680000
+0100: 0001FD00FF077500 000001F700FF1F82 0000DC000100FF7F 8F700000000100FF
+0120: FFC19C00000001FD 00FF07A900000001 F700FF1FB60000DC 000100FF7FC37000
+0140: 00000100FFFFC1D0 00000001FD00FF87 01808F000C000300 0F63440065736B74
+0160: 6F704C691F220100 E10B000000D9010D 00FF7F0D73000100 FFFFCD1A0001FD00
+0180: FF37270001F700FF DF34DC000100FF7F 4173000100FFFFCD 4E0001FD00FF375B
+01A0: 0001F700FFDF68DC 000100FF7F757300 0100FFFFCD820001 FD00FF8701803400
+01C0: 0C0004000B6344F8 69724CC16C000000 049E00010DFD00FF 370D0001F700FFDF
+01E0: 1ADC000100FF7F27 73000100FFFF2101 8027000005F00000 000FC0547265654C
+0200: 690752000000037B 0001F60D00FFDF0D DC000100FF7F1A73 000100FFFF210180
+0220: 5B00000600000000 0C6346696CFC654C 00BA000000070000 00CF010DFE00FF9B
+0240: 0D0001FB00FF6F1A 00EE0100FFBF27B9 000100FFFFE63400 01FE00FF9B410001
+0260: FB00FF6F4E00EE01 00FF3F0180644100 000700000D635261 64696F4C3E698600
+0280: D800000500B3010D 00FFFFE40D000001 FE00FF9B1A0001FB 00FF6F2700EE0100
+02A0: FFBF34B9000100FF FF
+.enddata
+.head 2 +  Default Classes
+.head 3 -  MDI Window: cBaseMDI
+.head 3 -  Form Window:
+.head 3 -  Dialog Box:
+.head 3 -  Table Window:
+.head 3 -  Quest Window:
+.head 3 -  Data Field:
+.head 3 -  Spin Field:
+.head 3 -  Multiline Field:
+.head 3 -  Pushbutton:
+.head 3 -  Radio Button:
+.head 3 -  Option Button:
+.head 3 -  Check Box:
+.head 3 -  Child Table:
+.head 3 -  Quest Child Window: cQuickDatabase
+.head 3 -  List Box:
+.head 3 -  Combo Box:
+.head 3 -  Picture:
+.head 3 -  Vertical Scroll Bar:
+.head 3 -  Horizontal Scroll Bar:
+.head 3 -  Column:
+.head 3 -  Background Text:
+.head 3 -  Group Box:
+.head 3 -  Line:
+.head 3 -  Frame:
+.head 3 -  Custom Control:
+.head 3 -  ActiveX:
+.head 2 -  Application Actions
+.head 1 +  Form Window: frmMain
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 2 -  Class:
+.head 2 -  Property Template:
+.head 2 -  Class DLL Name:
+.head 2 -  Title:
+.head 2 -  Icon File:
+.head 2 -  Accesories Enabled? No
+.head 2 -  Visible? Yes
+.head 2 -  Display Settings
+.head 3 -  Display Style? Default
+.head 3 -  Visible at Design time? Yes
+.head 3 -  Automatically Created at Runtime? Yes
+.head 3 -  Initial State: Normal
+.head 3 -  Maximizable? Yes
+.head 3 -  Minimizable? Yes
+.head 3 -  System Menu? Yes
+.head 3 -  Resizable? Yes
+.head 3 -  Window Location and Size
+.head 4 -  Left: Default
+.head 4 -  Top:    Default
+.head 4 -  Width:  6.6"
+.head 4 -  Width Editable? Yes
+.head 4 -  Height: 2.905"
+.head 4 -  Height Editable? Yes
+.head 3 -  Form Size
+.head 4 -  Width:  Default
+.head 4 -  Height: Default
+.head 4 -  Number of Pages: Dynamic
+.head 3 -  Font Name: Default
+.head 3 -  Font Size: Default
+.head 3 -  Font Enhancement: Default
+.head 3 -  Text Color: Default
+.head 3 -  Background Color: Default
+.head 2 -  Description:
+.head 2 -  Named Menus
+.head 2 +  Menu
+.head 3 +  Popup Menu: File
+.head 4 -  Resource Id: 9655
+.head 4 -  Enabled when:
+.head 4 -  Status Text:
+.head 4 -  Menu Item Name:
+.head 4 +  Menu Item: New
+.head 5 -  Resource Id: 9656
+.head 5 -  Keyboard Accelerator: Ctrl+N
+.head 5 -  Status Text:
+.head 5 +  Menu Settings
+.head 6 -  Enabled when:
+.head 6 -  Checked when:
+.head 5 -  Menu Actions
+.head 5 -  Menu Item Name:
+.head 4 +  Menu Item: Save
+.head 5 -  Resource Id: 9657
+.head 5 -  Keyboard Accelerator: Ctrl+S
+.head 5 -  Status Text:
+.head 5 +  Menu Settings
+.head 6 -  Enabled when:
+.head 6 -  Checked when:
+.head 5 -  Menu Actions
+.head 5 -  Menu Item Name:
+.head 4 +  Menu Item: Delete
+.head 5 -  Resource Id: 9658
+.head 5 -  Keyboard Accelerator: Ctrl+D
+.head 5 -  Status Text:
+.head 5 +  Menu Settings
+.head 6 -  Enabled when:
+.head 6 -  Checked when:
+.head 5 -  Menu Actions
+.head 5 -  Menu Item Name:
+.head 3 +  Popup Menu: Edit
+.head 4 -  Resource Id: 9659
+.head 4 -  Enabled when:
+.head 4 -  Status Text:
+.head 4 -  Menu Item Name:
+.head 4 +  Menu Item: Apply
+.head 5 -  Resource Id: 9661
+.head 5 -  Keyboard Accelerator: (none)
+.head 5 -  Status Text:
+.head 5 +  Menu Settings
+.head 6 -  Enabled when:
+.head 6 -  Checked when:
+.head 5 -  Menu Actions
+.head 5 -  Menu Item Name:
+.head 4 +  Menu Item: Discard
+.head 5 -  Resource Id: 9660
+.head 5 -  Keyboard Accelerator: (none)
+.head 5 -  Status Text:
+.head 5 +  Menu Settings
+.head 6 -  Enabled when:
+.head 6 -  Checked when:
+.head 5 -  Menu Actions
+.head 5 -  Menu Item Name:
+.head 3 +  Popup Menu: ?
+.head 4 -  Resource Id: 19942
+.head 4 -  Enabled when:
+.head 4 -  Status Text:
+.head 4 -  Menu Item Name:
+.head 4 +  Menu Item: Help
+.head 5 -  Resource Id: 19944
+.head 5 -  Keyboard Accelerator: F1
+.head 5 -  Status Text:
+.head 5 +  Menu Settings
+.head 6 -  Enabled when:
+.head 6 -  Checked when:
+.head 5 -  Menu Actions
+.head 5 -  Menu Item Name:
+.head 4 +  Menu Item: Info
+.head 5 -  Resource Id: 19943
+.head 5 -  Keyboard Accelerator: (none)
+.head 5 -  Status Text:
+.head 5 +  Menu Settings
+.head 6 -  Enabled when:
+.head 6 -  Checked when:
+.head 5 -  Menu Actions
+.head 5 -  Menu Item Name:
+.head 2 +  Tool Bar
+.head 3 -  Display Settings
+.head 4 -  Display Style? Default
+.head 4 -  Location? Top
+.head 4 -  Visible? Yes
+.head 4 -  Size: Default
+.head 4 -  Size Editable? Yes
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 3 -  Contents
+.head 2 +  Contents
+.head 3 -  Background Text: Right click for context menu !!
+.head 4 -  Resource Id: 53607
+.head 4 -  Class Child Ref Key: 0
+.head 4 -  Class ChildKey: 0
+.head 4 -  Class:
+.head 4 -  Window Location and Size
+.head 5 -  Left: 0.567"
+.head 5 -  Top:    0.238"
+.head 5 -  Width:  3.0"
+.head 5 -  Width Editable? Yes
+.head 5 -  Height: 0.226"
+.head 5 -  Height Editable? Yes
+.head 4 -  Visible? Yes
+.head 4 -  Justify: Left
+.head 4 -  Font Name: Default
+.head 4 -  Font Size: Default
+.head 4 -  Font Enhancement: Default
+.head 4 -  Text Color: Default
+.head 4 -  Background Color: Default
+.head 2 -  Functions
+.head 2 -  Window Parameters
+.head 2 +  Window Variables
+.head 3 -  String: wsEntries[*]
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 3 -  String: wsPic[*]
+.head 3 -  Number: wnColTrans
+.data INHERITPROPS
+0000: 0100
+.enddata
+.head 2 +  Message Actions
+.head 3 +  On SAM_Create
+.head 4 -  Call SalCenterWindow(hWndForm)
+.head 4 -  Set wnColTrans = SalColorFromRGB(198,198,198)
+.head 4 -  ! File
+.head 4 -  Call VisMenuAddPictureRessource(hWndForm,'File>New',TRUE,'bmpNewRec',wnColTrans,NUMBER_Null)
+.head 4 -  Call VisMenuAddPictureRessource(hWndForm,'File>Save',TRUE,'bmpSave',wnColTrans,NUMBER_Null)
+.head 4 -  Call VisMenuAddPictureRessource(hWndForm,'File>Delete',TRUE,'bmpDelete',wnColTrans,NUMBER_Null)
+.head 4 -  ! Edit
+.head 4 -  Call VisMenuAddPictureRessource(hWndForm,'Edit>Apply',TRUE,'bmpApply',wnColTrans,NUMBER_Null)
+.head 4 -  Call VisMenuAddPictureRessource(hWndForm,'Edit>Discard',TRUE,'bmpDiscard',wnColTrans,NUMBER_Null)
+.head 4 -  ! ?
+.head 4 -  Call VisMenuAddPictureRessource(hWndForm,'?>Help',TRUE,'bmpApply',wnColTrans,NUMBER_Null)
+.head 4 -  Call VisMenuAddPictureRessource(hWndForm,'?>Info',TRUE,'bmpDiscard',wnColTrans,NUMBER_Null)
+.head 3 +  On VTM_RightClick
+.head 4 -  Set wsEntries[0] ='New'
+.head 4 -  Set wsPic[0] = 'bmpNewRec'
+.head 4 -  Set wsEntries[1] ='Save'
+.head 4 -  Set wsPic[1] = 'bmpSave'
+.head 4 -  Set wsEntries[2] ='Delete'
+.head 4 -  Set wsPic[2] = 'bmpDelete'
+.head 4 -  Set wsEntries[3] ='---'
+.head 4 -  Set wsEntries[4] ='Apply'
+.head 4 -  Set wsPic[4] = 'bmpApply'
+.head 4 -  Set wsEntries[5] ='Discard'
+.head 4 -  Set wsPic[5] = 'bmpDiscard'
+.head 4 -  Call VisMenuPopupPictureRessource( wsEntries,wsPic ,TPM_CursorX, TPM_CursorY,wnColTrans,NUMBER_Null )
